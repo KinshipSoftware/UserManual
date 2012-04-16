@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<book>
+  <title>KinOath, web version</title>
+  <subtitle>Manual</subtitle>
+  <bookinfo>
+    <releaseinfo>April 2012</releaseinfo>
+    <releaseinfo>The latest version can be downloaded from <ulink
+        url="www.lat-mpi.eu/tools/browser/">www.lat-mpi.eu/tools/browser/</ulink></releaseinfo>
+    <author>
+      <surname>N. Wood (<ulink url="mailto:nick.wood@mpi.nl">nick.wood@mpi.nl</ulink>) and F.Bechis
+          (<ulink url="mailto:Francesca.Bechis@mpi.nl">Francesca.Bechis@mpi.nl</ulink>)</surname>
+    </author>
+  </bookinfo>
+  <preface id="Pre_Introduction">
+    <title>Introduction</title>
+    <para>
+      <informaltable id="portal-columns">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">KinOath is a kinship application with the primary goal of
+              connecting kinship data with archived data, such as audio, video or written resources
+              while also being closely integrated with the archive software such as Arbil. Beyond
+              this primary goal it is designed to be flexible and culturally nonspecific, such that
+              culturally different social structures can equally be represented. Kin type strings
+              are used throughout the application for constructing and searching data sets. The
+              representation of kin terms is also integrated into the application allowing
+              comparative diagrams of kin terms. Graphical representation of the data is an
+              important part of the application and the diagrams produced are intended to very
+              flexible and of publishable quality.</td>
+          </tr>
+        </tbody>
+      </informaltable>
+    </para>
+  </preface>
+  <chapter id="Ch_Navigating_the_IMDI_Browser_web_version">
+    <title>Navigating KinOath</title>
+    <para>KinOath is part of the Language Archiving Technology suite. You will find a link to the
+      program on the LAT web page <ulink url="http://www.lat-mpi.eu/tools/browser/"
+        >http://www.lat-mpi.eu/tools/kinoath/</ulink> . <figure
+        id="Fig_LAT_page_Link_to_IMDI_web_Browser_A">
+        <title>LAT page: Link to KinOath (A)</title>
+        <screenshot>
+          <screeninfo/>
+          <mediaobject>
+            <imageobject>
+              <imagedata contentdepth="100%" fileref="images/latFrontPage.png" scalefit="1"
+                width="100%"/>
+            </imageobject>
+          </mediaobject>
+        </screenshot>
+      </figure></para>
+    <para>Since KinOath is an online tool, it does not need to be installed, but you will need Java
+      installed on your machine for it to run. For more information on Java and how to install it
+        <ulink url="http://java.com/en/">http://java.com/en/</ulink>.</para>
+    <para/>
+    <section>
+      <title/>
+    </section>
+  </chapter>
+</book>
