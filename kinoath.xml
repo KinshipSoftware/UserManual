@@ -9,8 +9,8 @@
     <releaseinfo>The latest version can be downloaded from <ulink
         url="www.lat-mpi.eu/tools/browser/">www.lat-mpi.eu/tools/browser/</ulink></releaseinfo>
     <author>
-      <surname>N. Wood (<ulink url="mailto:nick.wood@mpi.nl">nick.wood@mpi.nl</ulink>) and F.Bechis
-          (<ulink url="mailto:Francesca.Bechis@mpi.nl">Francesca.Bechis@mpi.nl</ulink>)</surname>
+      <surname>F.Bechis (<ulink url="mailto:Francesca.Bechis@mpi.nl"
+        >Francesca.Bechis@mpi.nl</ulink>)</surname>
     </author>
   </bookinfo>
   <preface id="Pre_Introduction">
@@ -38,24 +38,391 @@
     <title>Navigating KinOath</title>
     <para>KinOath is part of the Language Archiving Technology suite. You will find a link to the
       program on the LAT web page <ulink url="http://www.lat-mpi.eu/tools/browser/"
-        >http://www.lat-mpi.eu/tools/kinoath/</ulink> . <figure
-        id="Fig_LAT_page_Link_to_IMDI_web_Browser_A">
-        <title>LAT page: Link to KinOath (A)</title>
-        <screenshot>
-          <screeninfo/>
-          <mediaobject>
-            <imageobject>
-              <imagedata contentdepth="100%" fileref="images/latFrontPage.png" scalefit="1"
-                width="100%"/>
-            </imageobject>
-          </mediaobject>
-        </screenshot>
-      </figure></para>
-    <para>Since KinOath is an online tool, it does not need to be installed, but you will need Java
-      installed on your machine for it to run. For more information on Java and how to install it
-        <ulink url="http://java.com/en/">http://java.com/en/</ulink>.</para>
+        >http://www.lat-mpi.eu/tools/kinoath/</ulink> . KinOath is an online tool, it does not need
+      to be installed, but you will need Java installed on your machine for it to run. For more
+      information on Java and how to install it <ulink url="http://java.com/en/"
+        >http://java.com/en/</ulink>. </para>
+  </chapter>
+  <chapter>
+    <title>Menus</title>
+    <para>Once KinOath has been opened, the various diagrams and their relative options can be
+      accessed through a number of menus collocated at the top of the page. </para>
     <section>
-      <title/>
+      <title>File menu</title>
+      <para>The first one is the <emphasis role="bold">File</emphasis> menu, which includes the
+        following options:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">New (default diagram)</emphasis>: this option allows you to
+              open a new diagram. It says 'default' because the type of diagram which is opened is
+              the same as the one which was previously set as default diagram (see option 'Set
+              Default Diagram as' below). </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">New Diagram of Type</emphasis>: this option allows you to
+              open a new diagram choosing among the different types given (see section
+              2.1.1.)</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Open</emphasis>: this option allows you to open a new
+              diagram file from a directory in your computer. </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Open Recent Diagram</emphasis>: through this option you can
+              select and re-open one of the diagrams which were previously opened. If you want to
+              delete the list you can select <emphasis role="bold">Clear list</emphasis>  (at the
+              end of the list). </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Open Sample Diagram</emphasis>: KinOath includes a number of
+              sample diagrams through which you can observe how the program works. You can see them
+              by selecting this option. (See section 2.1.2.)</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Import Gedcom / CSV File</emphasis>: this option allows you
+              to import in KinOath files in either Gedcom or CSV format. </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Import Sample Data</emphasis>: the <emphasis role="bold"
+                >Query Diagram</emphasis> requires data to be imported. A list of sample data is
+              accessible via this option.</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Entity Upload</emphasis>: <emphasis role="italic">this
+                option is not available at the moment. It will be functioning for the next release
+                of KinOath</emphasis>. </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Save as</emphasis>: when selecting this option you will be
+              asked to choose a directory and enter a file name in order to save the file. </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Export as PDF</emphasis>: this option allows you to export
+              the file to a directory in PDF format.</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Export to R / SPSS</emphasis>: this option allows you to
+              export a KinOath diagram to either R or SPSS, two programs for statistical computing.
+            </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Close</emphasis>: clicking on this option will close the
+              program.</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Set Default Diagram as</emphasis>: through this option you
+              can choose a particular type of diagram and set it as the default diagram, so that
+              when you open KinOath again, this will show you the specific diagram type you
+              chose.</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Exit</emphasis>:  as with 'Close', clicking on this option
+              will close the program.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <section>
+        <title>Diagram Types</title>
+        <para>Through the option 'New Diagram of Type' a number of different diagrams can be opened: </para>
+        <para>
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">Standard Diagram (database driven)</emphasis>: when
+                selecting this type, a new page of KinOath will open, with a main, blank panel and a
+                smaller panel on the left called <emphasis role="bold">Diagram Tree</emphasis>. You
+                can create a new diagram from scratch using the several options of the menu that
+                comes out when right clicking in the main panel:<orderedlist>
+                  <listitem>
+                    <para><emphasis role="bold">Add</emphasis>: you may decide to add an <emphasis
+                        role="bold">Individual</emphasis> or a <emphasis role="bold"
+                        >Chromosome_Example</emphasis> to your diagram. In both cases, a new entity
+                      will appear under the form of a small square, representing an unspecified ego.
+                      If you select that entity you will see, at the bottom of the page, a table
+                      with information to fill in: 'Name', 'Date of Birth', 'Date of Death',
+                      'Gender' (in the case of the chromosome example you will also see the voice
+                      'Chromosome'). Once the data regarding an ego have been entered you can save
+                      them either by clicking on the ego itself, or by choosing - from the right
+                      click menu - the option <emphasis role="bold">Save All Data
+                      Changes</emphasis>.</para>
+                  </listitem>
+                  <listitem>
+                    <para><emphasis role="bold">Add Geometry</emphasis>: its sub-options are:
+                        <emphasis role="bold">Add Label</emphasis>, <emphasis role="bold">Add
+                        Circle</emphasis>, <emphasis role="bold">Add Square</emphasis>, <emphasis
+                        role="bold"><emphasis role="italic"><emphasis role="underline">Add
+                            Polyline</emphasis></emphasis></emphasis>, and <emphasis role="bold">Add
+                        Ellipse</emphasis>. The first (label) allows you to enter a label for your
+                      diagram, and you can do it by entering the text into a small window opening at
+                      the bottom of the page when the option is selected. The other four are graphic
+                      options you can use to create different kin groups (circle, square, ellipse)
+                      or to link the entities with more than one single line (polyline).</para>
+                  </listitem>
+                  <listitem>
+                    <para><emphasis role="bold">Delete</emphasis>: this option allows you to delete
+                      the entity/ies you created from the diagram but also from the database.
+                    </para>
+                  </listitem>
+                  <listitem>
+                    <para><emphasis role="bold">Merge Selected Entities</emphasis>: you can use this
+                      option when, for example, you have two separate entities including different
+                      data but you discover that they are the same individual, and therefore you
+                      want to make them merge into a single one. </para>
+                  </listitem>
+                  <listitem>
+                    <para><emphasis role="bold">Duplicate Selected Entities</emphasis>: when
+                      choosing this option, the entity/ies previously selected will be doubled.
+                    </para>
+                  </listitem>
+                  <listitem>
+                    <para><emphasis role="bold">Add Relations</emphasis>: once several, single
+                      entities have been created you may want to create relations between them. To
+                      this purpose, select how many entities you need (by clicking on them while
+                      holding down the SHIFT button on the keyboard) and right click. You can choose
+                      between: <emphasis role="bold">sibling</emphasis>, <emphasis role="bold"
+                        >ancestor</emphasis>, <emphasis role="bold">descendant</emphasis>, <emphasis
+                        role="bold">union</emphasis>, <emphasis role="bold">kinterm</emphasis>,
+                        <emphasis role="bold">other</emphasis>. In addition, if you want to add only
+                      a 'descendant' or 'ancestor' relation, you can simply select one entity and
+                      drag the blue line to the other. </para>
+                  </listitem>
+                  <listitem>
+                    <para><emphasis role="bold">Remove Relations</emphasis>: you may also want to
+                      change some of the relations created. To do so, select the necessary entities,
+                      right click, and choose 'Remove Relations' - <emphasis role="bold">Remove
+                        relations between selected</emphasis>.</para>
+                  </listitem>
+                  <listitem>
+                    <para><emphasis role="bold">Set as ego (replacing list)</emphasis>: in the
+                      diagram tree panel on the left you see three lists, <emphasis role="bold"
+                        >Ego</emphasis>, <emphasis role="bold">Required</emphasis>, and <emphasis
+                        role="bold">Implied</emphasis>. When you create new entities they
+                      automatically go under the 'Required' list or, depending on the relations that
+                      have been created, under the 'Implied' list. However, if you want to create an
+                      egocentric diagram you can select one of the entities and - through 'Set as
+                      ego' - transfer it to the 'Ego' list. This will highlighted in black. You can
+                      also create socialcentric diagrams, in which no particular ego is highlighted.
+                    </para>
+                  </listitem>
+                  <listitem>
+                    <para><emphasis role="bold">Add to ego list</emphasis>: this option is similar
+                      to the previous one. You can select entities and add them to the 'Ego' list on
+                      the left.</para>
+                  </listitem>
+                  <listitem>
+                    <para><emphasis role="bold">Remove from ego list</emphasis>: through this option
+                      you can move entities from the 'Ego' list back to the 'Required' list. </para>
+                  </listitem>
+                  <listitem>
+                    <para><emphasis role="bold">Keep on diagram</emphasis>: with this option you
+                      decide to keep the selected entity/ies onto the digram.</para>
+                  </listitem>
+                  <listitem>
+                    <para><emphasis role="bold">Release from the diagram</emphasis>: with this
+                      option you remove the selected entity/ies from the diagram, but in this case
+                      it/they remain(s) in the database, unlike with the option 'Delete'.</para>
+                  </listitem>
+                  <listitem>
+                    <para><emphasis role="bold">Reset Zoom</emphasis>: when selecting this option
+                      the layout of the diagram returns back to its default size.</para>
+                  </listitem>
+                  <listitem>
+                    <para><emphasis role="bold">Reset Layout</emphasis>: it can happen, when you
+                      select many entities at a time (see 'Archive Data Linker' diagram below) that
+                      they overlap in the diagram so you cannot see them clearly. By resetting the
+                      layout such entities are distanced from each other. </para>
+                  </listitem>
+                  <listitem>
+                    <para><emphasis role="bold">Search Entity Service</emphasis>:  <emphasis
+                        role="italic"><emphasis role="underline">chiedi a Peter di
+                          rispiegartelo</emphasis></emphasis></para>
+                  </listitem>
+                  <listitem>
+                    <para><emphasis role="bold">Save All Data Changes</emphasis>: see point 1.
+                      above. </para>
+                  </listitem>
+                </orderedlist></para>
+            </listitem>
+            <listitem>
+              <para><emphasis role="bold">Freeform diagram (transient)</emphasis>: when selecting
+                this type, a new page of KinOath will open, with a main, blank panel and a smaller
+                panel on the top called <emphasis role="bold">Kin Type Strings</emphasis>. Also here
+                you can create diagrams from scratch but the difference with the previous case is
+                that you need to enter strings in the panel on the top of the page, using precise
+                kin types definitions. Hereinafter there is a list of the principal ones (which can
+                be found also via 'Panels' > 'Diagram Settings' > 'Kin Type Definitions'):</para>
+              <para>E = ego; Ef = ego female; Em = ego male; x = undefied</para>
+              <para>F or Fa = father; M or Mo = mother; P or Pa = parent</para>
+              <para>B or Br = brother; Z or Si = sister; Sb = sibling</para>
+              <para>S or So = son; D or Da = daughter; C or Ch = child</para>
+              <para>H or Hu = husband; W or Wi = wife; Sp = spouse</para>
+              <para>* = any relation</para>
+            </listitem>
+          </itemizedlist>
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">Kin Terms Diagram</emphasis>: this type of diagram is
+                useful when you want to observe how social relations are named within a given
+                language and culture (see figure below). When you choose this diagram a new page of
+                KinOath opens, with a main, blank panel, and a smaller panel on the right called
+                  <emphasis role="bold">Kin Term Group</emphasis>. In the latter, you can see a
+                table that you have to fill in to create your diagram: in the first space (<emphasis
+                  role="bold">Kin Term</emphasis>) you need to enter the kin terms that will
+                represent also the labels of the diagram; in the second (<emphasis role="bold"
+                  >Referent Kin Type Strings</emphasis>) you need to enter, for each kin term, its
+                corresponding definition following the ones listed in the Freeform Diagram; in the
+                fourth (Description) you can add, for example, an English gloss if the kin terms
+                entered are in another language. In addition, you can decide to show the kin terms
+                on the diagram, or to hide them, by checking or unckecking the option <emphasis
+                  role="bold">Show on graph</emphasis>, above the table.</para>
+            </listitem>
+          </itemizedlist>
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">Query Diagram</emphasis>: When you choose this diagram a
+                new page of KinOath opens, with a main, blank panel, the <emphasis role="bold"
+                  >Diagram Tree</emphasis> panel on the left, and the <emphasis role="bold">Kin Type
+                  Strings</emphasis> panel on the top. This type allows you to search for entities
+                within an already constructed diagram. A list of sample data is accessible through
+                File menu > Import Sample Data. Once you have imported such data you can make a
+                query using basically the definitions listed in the Freeform Diagram, plus other
+                constraints such as names, dates, etc. (see figure below). The entities you have
+                searched for appear both in the tree on the left and in the main panel. </para>
+            </listitem>
+          </itemizedlist>
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">Entity Search</emphasis>: this diagram functions in, more
+                or less, the same way as the query diagram. When you choose it a new page of KinOath
+                opens, with a main, blank panel, the <emphasis role="bold">Diagram Tree</emphasis>
+                panel on the left, and another small panel on the right called <emphasis role="bold"
+                  >Search Entities</emphasis>. Here again the search is made on an already existent
+                diagram, and therefore you need to import some data first. Once the data have been
+                imported you make your search by entering a name in the <emphasis role="bold"
+                  >Search</emphasis> space of the right panel. The latter contains an option called
+                  <emphasis role="bold">Expand selection by kin type string</emphasis>. If you check
+                it and you enter a kin definition, the corresponding entities will appear on the
+                diagram and in the diagram tree in the implied list. </para>
+            </listitem>
+          </itemizedlist>
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">Archive Data Linker</emphasis>: When you choose this
+                diagram a new page of KinOath opens, with a main, blank panel, the <emphasis
+                  role="bold">Diagram Tree</emphasis> panel on the left, and another panel on the
+                right called <emphasis role="bold">Archive Linker</emphasis>. The latter contains
+                the IMDI corpora tree. From a session node of the tree you can take a group of, or
+                the single, actors, and drag them to the main panel. Under each of them you will see
+                the reference to the archive and, at the bottom of the page, a table containing
+                information about them and the corresponding session node of the IMDI tree. You can
+                then link the selected entities by creating relations and/or add, for example, media
+                files, by taking and drag them to the diagram tree on the left under the entity you
+                want them to belong to. </para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+      <section>
+        <title>Sample Diagrams</title>
+        <para>Apart from the possibility to work on new diagrams, KinOath includes also a list of
+          sample diagrams which you can observe to get to know the program and its functionalities,
+          and which you can reach through the option 'Open Sample Diagram' from the File menu. These
+          are: Freeform Diagram Syntax, Query Diagram Syntax, Hawaiian Kin Terms, Japanese Kin
+          Terms, Swedish Kin Terms, Named Transient Entities, Matrimonial Ring Examples, Charles II
+          of Spain, and Imported Data Query Example (ANTONIO DE PAULA PESSOA DE /FIGUEIREDO/).
+        </para>
+      </section>
+    </section>
+    <section>
+      <title>Edit menu</title>
+      <para>This menu contains some options linked to the modification of a diagram: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">Select All</emphasis>: by clicking on this option all the
+              entities belonging to the all the diagrams present in the main panel will be
+              highlighted.</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Select Related</emphasis>:  if you select one entity and
+              then choose this option, all the entities related to the one selected will be
+              hightlighted.</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Expand Selection</emphasis>: if you select one entity and
+              then choose this option, only the entities immediately related to the one selected
+              will be highlighted. </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Deselect All</emphasis>: this option is for deselecting the
+              entities previously selected. </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Recalculate the Diagram</emphasis>: this option allows you
+              to partially modify, or totally recreate, the diagram. Once selected you are allowed
+              to add entities (in the standard diagram), constraints to these (freeform, query, and
+              entity search diagrams), or kin terms and kin groups (kin terms diagram).</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <title>Diagram Options menu</title>
+      <para>This menu contains options regarding the layout of the diagram which only have to
+        checked or unchecked acoording to the needs. </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">Snap To Grid</emphasis>: if checked, this option allows you
+              to move the entity in all directions. If not, you can move the entity just on the
+              sides (see figure below).</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Highlight Selected Relations</emphasis>: if checked, when
+              you select one entity, the relations that this has with other,  immediately close
+              entities will be highlighted in blue. </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Show Diagram Border</emphasis>: if checked, you can see the
+              border of the diagram (a grey line).</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Show Sanguin Lines</emphasis>: if unchecked, the lines
+              connecting one entity to the other disappear.</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Show Labels</emphasis>: if unchecked, the labels added to
+              the individuals (names for example) when creating the diagram disappear. </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Show Kin Type Labels</emphasis>: if unchecked, the kin type
+              definitions disappear.</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Show Id Labels</emphasis>: an Id is added when the same kin
+              type definition is used for different entities, in order to be able to distinguish
+              them; it is represented by a #-sign followed by a number. So for example if you have
+              two male egos, one will be simply Em, and the other Em + #1. If this option is
+              unchecked, you are not able to see Ids.</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Show Date Labels</emphasis>: when you create individuals you
+              can also enter a date of birth and of death but, unlike with name and gender, you can
+              decide whether or not to show such dates; if you want them hidden you have to leave
+              this option unchecked.  </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Show Archive Links</emphasis>: this option is valid only for
+              the diagram type 'Archive Data Linker' where, when you drag entities from the archive
+              into a diagram, you can see also a label of the type: 'archive ref.: 1'. Such label
+              disappears if the option 'Show Archive Links' is unchecked. </para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <title>Kin Terms menu</title>
+      <para>The whole menu is availlable </para>
     </section>
   </chapter>
 </book>
