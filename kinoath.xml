@@ -396,13 +396,13 @@
           </listitem>
           <listitem>
             <para><emphasis role="bold">Show Kin Type Labels</emphasis>: if unchecked, the kin type
-              definitions disappear.</para>
+              definitions next to the to the labels disappear.</para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Show Id Labels</emphasis>: an Id is added when the same kin
               type definition is used for different entities, in order to be able to distinguish
               them; it is represented by a #-sign followed by a number. So for example if you have
-              two male egos, one will be simply Em, and the other Em + #1. If this option is
+              two male egos, one will be simply Em, and the other Em - #1. If this option is
               unchecked, you are not able to see Ids.</para>
           </listitem>
           <listitem>
@@ -422,7 +422,132 @@
     </section>
     <section>
       <title>Kin Terms menu</title>
-      <para>The whole menu is availlable </para>
+      <para>The whole menu is available only for the Kin Terms Diagram, whereas in the other cases
+        only the option <emphasis role="bold">New Kin Term Group</emphasis> can be accessed. This
+        menu includes the following options:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">Show</emphasis>: this option allows you to see the kin terms
+              panel on the right. If you uncheck it, the panel disappears and all the other menu
+              options (see below) are not available anymore. </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">New Kin Term Group</emphasis>: this is the only option from
+              this menu to be available for all the digram types. By selecting it, a new tab will
+              open in the panel on the right in order to add a new group of kin terms. You can
+              choose another colour for this new group by clicking on the bar next to <emphasis
+                role="bold">Graph Colour</emphasis> (see figure below). The new kin terms will
+              appear in the diagram next to the previous ones. </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Import</emphasis>: instead of creating a new kin terms group
+              from scratch you may decide to import one already existent from a file directory in
+              your computer. To do so, click on the 'Import' option and choose the file you want to
+              import. The kin terms imported will be added to the ones in the table in the right
+              panel and in the diagram also.</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Export</emphasis>: with this option you can save (export)
+              the kin terms group created to a directory outside KinOath. By selecting this option a
+              window will open asking you to choose a directory where to place the file, and a file
+              name. </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Delete</emphasis>: ???</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <title>Archive Linker menu</title>
+      <para><emphasis role="italic">This menu is not fully functional at the moment, but it will be
+          from the next version of KinOath, by which time a better and more detailed explanation
+          will be included in this manual</emphasis>. </para>
+    </section>
+    <section>
+      <title>Panels menu</title>
+      <para>This menu contains a list of all the panels that can be opened while working on a
+        diagram (some of them have already been mentioned when describing the diagram types). You
+        can choose which ones you want to open simply by checking them.  </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">Archive Linker</emphasis>: by choosing this option a panel
+              will open on the right of the page displaying the IMDI corpora as in the 'Archive Data
+              Linker' diagram. </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Diagram Settings</emphasis>: by choosing this option a panel
+              will open on the top of the page with six tabs:</para>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para><emphasis role="bold">Entity Profiles</emphasis>: this tab includes a list
+                    of profiles which can be added or removed when creating a diagram ('Individual'
+                    and 'Chromosome_Example' seen in section 2.1.1. in the standard diagram are two
+                    examples of profiles). They just need to be checked and unchecked.</para>
+                </listitem>
+                <listitem>
+                  <para><emphasis role="bold">Kin Type Definitions</emphasis>: this tab includes a
+                    list of the main kin type strings with their corresponding definitions (which
+                    have also been reported in this manual in section 2.1.1., freeform diagram).
+                    .........</para>
+                </listitem>
+                <listitem>
+                  <para><emphasis role="bold">Kin Type Strings</emphasis>: this is the panel the
+                    opens up when creating a freeform diagram (see section 2.1.1.), in which you
+                    have to enter some strings in order to create individuals, hence
+                    diagrams.</para>
+                </listitem>
+                <listitem>
+                  <para><emphasis role="bold">Label Fields</emphasis>: ???</para>
+                </listitem>
+                <listitem>
+                  <para><emphasis role="bold">Relation Type Definitions</emphasis>: when selecting
+                    this tab a sub-table opens. The options of this sub-table displayed here are not
+                    mandatory, but if used they may prove useful to simplify the diagram layout. The
+                    ones that are used most are <emphasis role="bold">Relation Type</emphasis> and
+                      <emphasis role="bold">Line Colour</emphasis>; as their names already say, they
+                    serve for attributing a specific colour (chosen in the table on the right) to a
+                    specific relation (see figure below).</para>
+                </listitem>
+                <listitem>
+                  <para><emphasis role="bold">Symbol Fields</emphasis>: according to the features
+                    that are attributed to the entities, these get different shapes, for example a
+                    female ego is a circle, whereas a male ego is a triangle. Such shapes, however,
+                    can be modified by choosing among the possibilities included in the drop down
+                    list on the right of the panel. I may want, for instance, circles for male egos
+                    and triangles for female egos. </para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Diagram Tree</emphasis>: this panel opens up on the left of
+              the page, and it is available for ...... . It displays three possible lists: Ego,
+              Required, Implied. When .......</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Export Data</emphasis>: ???</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Kin Terms</emphasis>: this panel opens up automatically when
+              working on a Kin Terms Diagram (see section 2.4), since it contains the table with kin
+              terms, kin type strings, descriptions, etc.</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Kin Type Strings</emphasis>: this panel opens up
+              automatically in case of a freeform or a query diagram. In it you type the strings
+              necessary to create new individuals (freeform) or to look for them (query). </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Search Entities</emphasis>: with this option you can look
+              for determined individuals into an already existent diagram which you have to import
+              first. </para>
+          </listitem>
+        </itemizedlist>
+      </para>
     </section>
   </chapter>
 </book>
