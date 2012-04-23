@@ -267,14 +267,17 @@
                 KinOath opens, with a main, blank panel, and a smaller panel on the right called
                   <emphasis role="bold">Kin Term Group</emphasis>. In the latter, you can see a
                 table that you have to fill in to create your diagram: in the first space (<emphasis
-                  role="bold">Kin Term</emphasis>) you need to enter the kin terms that will
-                represent also the labels of the diagram; in the second (<emphasis role="bold"
-                  >Referent Kin Type Strings</emphasis>) you need to enter, for each kin term, its
-                corresponding definition following the ones listed in the Freeform Diagram; in the
-                fourth (Description) you can add, for example, an English gloss if the kin terms
-                entered are in another language. In addition, you can decide to show the kin terms
-                on the diagram, or to hide them, by checking or unckecking the option <emphasis
-                  role="bold">Show on graph</emphasis>, above the table.</para>
+                  role="bold">Kin Term</emphasis>) you have to enter the kin terms that represent
+                also the labels of the diagram; in the second (<emphasis role="bold">Referent Kin
+                  Type Strings</emphasis>) you have to enter, for each kin term, its corresponding
+                definition following the ones listed in the Freeform Diagram; in the fourth
+                  (<emphasis role="bold">Description</emphasis>) you can add, for example, an
+                English gloss if the kin terms entered are in another language. In addition, you can
+                decide to: a) show the kin terms on the diagram, or to hide them, by checking or
+                unckecking the option <emphasis role="bold">Show on graph</emphasis>, above the
+                table; b) delete some of the kin terms entered in the table by checking them and
+                then clicking on <emphasis role="bold">Delete Selected</emphasis>, or delete the
+                entire group by simply clicking on <emphasis role="bold">Delete Group</emphasis>. </para>
             </listitem>
           </itemizedlist>
           <itemizedlist>
@@ -491,8 +494,9 @@
                 <listitem>
                   <para><emphasis role="bold">Kin Type Definitions</emphasis>: this tab includes a
                     list of the main kin type strings with their corresponding definitions (which
-                    have also been reported in this manual in section 2.1.1., freeform diagram).
-                    .........</para>
+                    have also been reported in this manual in section 2.1.1., freeform diagram). You
+                    can delete elements of the list by checking them and then clicking on <emphasis
+                      role="bold">Delete Delected </emphasis>on the right.</para>
                 </listitem>
                 <listitem>
                   <para><emphasis role="bold">Kin Type Strings</emphasis>: this is the panel the
@@ -501,32 +505,78 @@
                     diagrams.</para>
                 </listitem>
                 <listitem>
-                  <para><emphasis role="bold">Label Fields</emphasis>: ???</para>
+                  <para><emphasis role="bold">Label Fields</emphasis>: this tab contains some
+                    information about the entities created by the user (we are referring to the
+                    standard diagram type), i.e. name, date of birth, etc. You can delete such
+                    pieces of information by clicking on the small squares on the right of the tab.
+                    However, they still remain in the table at the bottom of the page (the one
+                    filled in when cretaing individuals, so if you want to add them back to the
+                    panel on the top you just need to select them (one at a time) and drag them. </para>
                 </listitem>
                 <listitem>
                   <para><emphasis role="bold">Relation Type Definitions</emphasis>: when selecting
                     this tab a sub-table opens. The options of this sub-table displayed here are not
-                    mandatory, but if used they may prove useful to simplify the diagram layout. The
-                    ones that are used most are <emphasis role="bold">Relation Type</emphasis> and
-                      <emphasis role="bold">Line Colour</emphasis>; as their names already say, they
-                    serve for attributing a specific colour (chosen in the table on the right) to a
-                    specific relation (see figure below).</para>
+                    mandatory, but if used they may prove useful to simplify the diagram layout.
+                    These options are: </para>
+                  <para>
+                    <itemizedlist>
+                      <listitem>
+                        <para><emphasis role="bold">Display Name</emphasis>: in this column you can
+                          enter the name that you want to give to a particular relation.</para>
+                      </listitem>
+                      <listitem>
+                        <para><emphasis role="bold">Data Category</emphasis>: in this column you can
+                          enter an URL which redirects you to a page containing some additional
+                          information about the relation types.</para>
+                      </listitem>
+                      <listitem>
+                        <para><emphasis role="bold">Relation Type</emphasis>: as the name says, in
+                          this column you can select a type of relation (sibling, union, etc.),
+                          choosing among the various possibilities present in the drop down menu. If
+                          you do not want to do it manually, you can select <emphasis role="bold"
+                            >Scan For Types</emphasis> under the color table on the right. It will
+                          automatically find all the relation types of your diagram and enter them
+                          directly in the column Relation Type. </para>
+                      </listitem>
+                      <listitem>
+                        <para><emphasis role="bold">Line Colour</emphasis>: you can choose a
+                          different color (from the table on the right) for each of the relation
+                          types present in your diagram.</para>
+                      </listitem>
+                      <listitem>
+                        <para><emphasis role="bold">Line Width</emphasis>: ???</para>
+                      </listitem>
+                      <listitem>
+                        <para><emphasis role="bold">Line/Dash</emphasis>: ???</para>
+                      </listitem>
+                      <listitem>
+                        <para><emphasis role="bold">Line Orientation</emphasis>: </para>
+                      </listitem>
+                    </itemizedlist>
+                  </para>
                 </listitem>
                 <listitem>
                   <para><emphasis role="bold">Symbol Fields</emphasis>: according to the features
                     that are attributed to the entities, these get different shapes, for example a
                     female ego is a circle, whereas a male ego is a triangle. Such shapes, however,
                     can be modified by choosing among the possibilities included in the drop down
-                    list on the right of the panel. I may want, for instance, circles for male egos
-                    and triangles for female egos. </para>
+                    lists on the right of the panel. For instance, you may want circles for male
+                    egos and triangles for female egos. </para>
                 </listitem>
               </itemizedlist>
             </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Diagram Tree</emphasis>: this panel opens up on the left of
-              the page, and it is available for ...... . It displays three possible lists: Ego,
-              Required, Implied. When .......</para>
+              the page. It displays three possible lists: <emphasis role="bold">Ego</emphasis>,
+                <emphasis role="bold">Required</emphasis>, <emphasis role="bold">Implied</emphasis>.
+              Let's take the standard diagram type as an example: when you create new individuals,
+              they automatically go under the Required list. If you want an egocentric diagram you
+              have to add an ego, or several egos, depending on how many diagrams you want to
+              create, to the Ego list. The ego/s added to the list go black and represent the
+              reference point of your diagram (see figure below). In addition, <emphasis
+                role="italic"><emphasis role="underline">..... manca
+              implied</emphasis></emphasis></para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Export Data</emphasis>: ???</para>
@@ -539,12 +589,44 @@
           <listitem>
             <para><emphasis role="bold">Kin Type Strings</emphasis>: this panel opens up
               automatically in case of a freeform or a query diagram. In it you type the strings
-              necessary to create new individuals (freeform) or to look for them (query). </para>
+              necessary to create new individuals (freeform diagram) or to look for them (query
+              diagram). </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Search Entities</emphasis>: with this option you can look
               for determined individuals into an already existent diagram which you have to import
               first. </para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <title>Window menu</title>
+      <para>The options of this menu vary according to how many windows of KinOath have been opened.
+        Indeed, it simply consists of a list of the options that have been selected and opened:
+        sample diagrams, new diagrams, etc. Each window has its corresponding menu option checked
+        (see figure below). </para>
+    </section>
+    <section>
+      <title>Help menu</title>
+      <para>This menu includes some additional information about the program:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">About</emphasis>:</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Help</emphasis>:</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">KinOath Forum (Website)</emphasis>: selecting this option
+              will redirect you to this page: http://www.lat-mpi.eu/tools/kinoath/kinoath-forum/, a
+              discussion board where you can start discussions about topics relevant to KinOath.
+            </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">View Error Log</emphasis>: selecting this option will open a
+              page in NotePad.......</para>
           </listitem>
         </itemizedlist>
       </para>
