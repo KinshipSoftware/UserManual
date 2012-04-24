@@ -38,26 +38,64 @@
     <title>Navigating KinOath</title>
     <para>KinOath is part of the Language Archiving Technology suite. You will find a link to the
       program on the LAT web page <ulink url="http://www.lat-mpi.eu/tools/browser/"
-        >http://www.lat-mpi.eu/tools/kinoath/</ulink> . KinOath is an online tool, it does not need
-      to be installed, but you will need Java installed on your machine for it to run. For more
-      information on Java and how to install it <ulink url="http://java.com/en/"
-        >http://java.com/en/</ulink>. </para>
+        >http://www.lat-mpi.eu/tools/kinoath/</ulink> (<emphasis role="bold">Run via
+        webstart</emphasis>). KinOath is an online tool, it does not need to be installed, but you
+      will need Java installed on your machine for it to run. For more information on Java and how
+      to install it <ulink url="http://java.com/en/">http://java.com/en/</ulink>. </para>
+    <para>
+      <figure>
+        <title>Navigating KinOath</title>
+        <screenshot>
+          <screeninfo/>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/navigatingKinoath.png" contentdepth="" scalefit=""
+                width="100%"/>
+            </imageobject>
+          </mediaobject>
+        </screenshot>
+      </figure>
+    </para>
   </chapter>
   <chapter>
     <title>Menus</title>
-    <para>Once KinOath has been opened, the various diagrams and their relative options can be
-      accessed through a number of menus collocated at the top of the page. </para>
+    <para>Once KinOath has been opened, the several diagrams available and their relative options
+      can be accessed through a number of menus located on the top of the page. </para>
+    <para>
+      <figure>
+        <title>KinOath menus</title>
+        <screenshot>
+          <screeninfo/>
+          <mediaobject>
+            <imageobject>
+              <imagedata contentdepth="" fileref="images/kinoathMenus.png" scalefit="" width=""/>
+            </imageobject>
+          </mediaobject>
+        </screenshot>
+      </figure>
+    </para>
     <section>
       <title>File menu</title>
+      <figure>
+        <title>File menu</title>
+        <screenshot>
+          <screeninfo/>
+          <mediaobject>
+            <imageobject>
+              <imagedata contentwidth="" fileref="images/fileMenu.png" scalefit="" width=""/>
+            </imageobject>
+          </mediaobject>
+        </screenshot>
+      </figure>
       <para>The first one is the <emphasis role="bold">File</emphasis> menu, which includes the
         following options:</para>
       <para>
         <itemizedlist>
           <listitem>
             <para><emphasis role="bold">New (default diagram)</emphasis>: this option allows you to
-              open a new diagram. It says 'default' because the type of diagram which is opened is
-              the same as the one which was previously set as default diagram (see option 'Set
-              Default Diagram as' below). </para>
+              open a new diagram. It says 'default diagram' because the program opens showing the
+              diagram that was previously set as default diagram through the option 'Set Default
+              Diagram as' (see below). </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">New Diagram of Type</emphasis>: this option allows you to
@@ -65,19 +103,19 @@
               2.1.1.)</para>
           </listitem>
           <listitem>
-            <para><emphasis role="bold">Open</emphasis>: this option allows you to open a new
-              diagram file from a directory in your computer. </para>
+            <para><emphasis role="bold">Open Diagram</emphasis>: this option allows you to open a
+              new diagram file from a directory in your computer. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Open Recent Diagram</emphasis>: through this option you can
               select and re-open one of the diagrams which were previously opened. If you want to
-              delete the list you can select <emphasis role="bold">Clear list</emphasis>  (at the
-              end of the list). </para>
+              delete the list of diagrams you can select, at the bottom of it,<emphasis role="bold"
+                >Clear list</emphasis>. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Open Sample Diagram</emphasis>: KinOath includes a number of
-              sample diagrams through which you can observe how the program works. You can see them
-              by selecting this option. (See section 2.1.2.)</para>
+              sample diagrams through which you can observe how the program works (see section
+              2.1.2.). You can open and see them by selecting this option. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Import Gedcom / CSV File</emphasis>: this option allows you
@@ -85,12 +123,12 @@
           </listitem>
           <listitem>
             <para><emphasis role="bold">Import Sample Data</emphasis>: the <emphasis role="bold"
-                >Query Diagram</emphasis> requires data to be imported. A list of sample data is
-              accessible via this option.</para>
+                >Query Diagram</emphasis> (see section 2.1.1.) requires data to be imported. A list
+              of sample data is accessible via this option.</para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Entity Upload</emphasis>: <emphasis role="italic">this
-                option is not available at the moment. It will be functioning for the next release
+                option is not available at the moment. It will be functioning for the next version
                 of KinOath</emphasis>. </para>
           </listitem>
           <listitem>
@@ -98,13 +136,14 @@
               asked to choose a directory and enter a file name in order to save the file. </para>
           </listitem>
           <listitem>
-            <para><emphasis role="bold">Export as PDF</emphasis>: this option allows you to export
-              the file to a directory in PDF format.</para>
+            <para><emphasis role="bold">Export as PDF/JPEG/PNG/TIFF</emphasis>: this option allows
+              you to export PDF, JPEG, PNG and TIFF files to a directory. As in the previous option,
+              'Save as', when selecting 'Export as ...' you will be asked to choose a directory and
+              a file name. </para>
           </listitem>
           <listitem>
-            <para><emphasis role="bold">Export to R / SPSS</emphasis>: this option allows you to
-              export a KinOath diagram to either R or SPSS, two programs for statistical computing.
-            </para>
+            <para><emphasis role="bold">Export for R / SPSS</emphasis>: this option allows you to
+              export a KinOath diagram to either R or SPSS, two programs for statistical computing. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Close</emphasis>: clicking on this option will close the
@@ -113,7 +152,7 @@
           <listitem>
             <para><emphasis role="bold">Set Default Diagram as</emphasis>: through this option you
               can choose a particular type of diagram and set it as the default diagram, so that
-              when you open KinOath again, this will show you the specific diagram type you
+              when you start KinOath again, this will open showing the specific diagram type you
               chose.</para>
           </listitem>
           <listitem>
@@ -338,17 +377,28 @@
     </section>
     <section>
       <title>Edit menu</title>
-      <para>This menu contains some options linked to the modification of a diagram: </para>
+      <figure>
+        <title>Edit menu</title>
+        <screenshot>
+          <screeninfo/>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/editMenu.png"/>
+            </imageobject>
+          </mediaobject>
+        </screenshot>
+      </figure>
+      <para>This menu contains options related to the modification of a diagram: </para>
       <para>
         <itemizedlist>
           <listitem>
             <para><emphasis role="bold">Select All</emphasis>: by clicking on this option all the
-              entities belonging to the all the diagrams present in the main panel will be
-              highlighted.</para>
+              entities belonging to all the diagrams present in the main panel will be highlighted
+              (i.e. they will be sorrounded by a blue, dotted line).</para>
           </listitem>
           <listitem>
-            <para><emphasis role="bold">Select Related</emphasis>:  if you select one entity and
-              then choose this option, all the entities related to the one selected will be
+            <para><emphasis role="bold">Select Related</emphasis>: if you select one entity and then
+              choose this option, all the entities somehow related to the one selected will be
               hightlighted.</para>
           </listitem>
           <listitem>
@@ -358,31 +408,43 @@
           </listitem>
           <listitem>
             <para><emphasis role="bold">Deselect All</emphasis>: this option is for deselecting the
-              entities previously selected. </para>
+              entities/relations previously selected. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Recalculate the Diagram</emphasis>: this option allows you
-              to partially modify, or totally recreate, the diagram. Once selected you are allowed
-              to add entities (in the standard diagram), constraints to these (freeform, query, and
-              entity search diagrams), or kin terms and kin groups (kin terms diagram).</para>
+              to partially modify, or totally recreate, a diagram. Once selected you are allowed to
+              add: new entities (in the standard diagram), new constraints to new or already
+              existing entities (freeform, query, and entity search diagrams), new kin terms and kin
+              groups (kin terms diagram).</para>
           </listitem>
         </itemizedlist>
       </para>
     </section>
     <section>
       <title>Diagram Options menu</title>
-      <para>This menu contains options regarding the layout of the diagram which only have to
-        checked or unchecked acoording to the needs. </para>
+      <figure>
+        <title>Diagram Options menu</title>
+        <screenshot>
+          <screeninfo/>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/diagramOptionsMenu.png"/>
+            </imageobject>
+          </mediaobject>
+        </screenshot>
+      </figure>
+      <para>This menu contains options related to the layout of a diagram which only have to be
+        checked or unchecked according to the needs. </para>
       <para>
         <itemizedlist>
           <listitem>
             <para><emphasis role="bold">Snap To Grid</emphasis>: if checked, this option allows you
-              to move the entity in all directions. If not, you can move the entity just on the
-              sides (see figure below).</para>
+              to move the entities, hence the sanguin lines, in all directions. If not, you can move
+              the entities just on the sides.</para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Highlight Selected Relations</emphasis>: if checked, when
-              you select one entity, the relations that this has with other,  immediately close
+              you select one entity, the relations that this one has with other, immediately close,
               entities will be highlighted in blue. </para>
           </listitem>
           <listitem>
@@ -394,17 +456,17 @@
               connecting one entity to the other disappear.</para>
           </listitem>
           <listitem>
-            <para><emphasis role="bold">Show Labels</emphasis>: if unchecked, the labels added to
-              the individuals (names for example) when creating the diagram disappear. </para>
+            <para><emphasis role="bold">Show Labels</emphasis>: if unchecked, the labels (names for
+              example) added to the individuals when creating the diagram disappear. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Show Kin Type Labels</emphasis>: if unchecked, the kin type
-              definitions next to the to the labels disappear.</para>
+              definitions next to the labels ('EfM' for example) disappear.</para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Show Id Labels</emphasis>: an Id is added when the same kin
               type definition is used for different entities, in order to be able to distinguish
-              them; it is represented by a #-sign followed by a number. So for example if you have
+              them; it is represented by a #-sign followed by a number. So, for example, if you have
               two male egos, one will be simply Em, and the other Em - #1. If this option is
               unchecked, you are not able to see Ids.</para>
           </listitem>
@@ -417,7 +479,7 @@
           <listitem>
             <para><emphasis role="bold">Show Archive Links</emphasis>: this option is valid only for
               the diagram type 'Archive Data Linker' where, when you drag entities from the archive
-              into a diagram, you can see also a label of the type: 'archive ref.: 1'. Such label
+              into the diagram, you can see also a label of the type: 'archive ref.: 1'. Such label
               disappears if the option 'Show Archive Links' is unchecked. </para>
           </listitem>
         </itemizedlist>
@@ -425,6 +487,16 @@
     </section>
     <section>
       <title>Kin Terms menu</title>
+      <figure>
+        <title>Kin Terms menu</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/kinTermsMenu.png"/>
+            </imageobject>
+          </mediaobject>
+        </screenshot>
+      </figure>
       <para>The whole menu is available only for the Kin Terms Diagram, whereas in the other cases
         only the option <emphasis role="bold">New Kin Term Group</emphasis> can be accessed. This
         menu includes the following options:</para>
@@ -433,7 +505,7 @@
           <listitem>
             <para><emphasis role="bold">Show</emphasis>: this option allows you to see the kin terms
               panel on the right. If you uncheck it, the panel disappears and all the other menu
-              options (see below) are not available anymore. </para>
+              options are not available anymore. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">New Kin Term Group</emphasis>: this is the only option from
@@ -442,67 +514,144 @@
               choose another colour for this new group by clicking on the bar next to <emphasis
                 role="bold">Graph Colour</emphasis> (see figure below). The new kin terms will
               appear in the diagram next to the previous ones. </para>
+            <para>
+              <figure>
+                <title>New Kin Term Group</title>
+                <screenshot>
+                  <screeninfo/>
+                  <mediaobject>
+                    <imageobject>
+                      <imagedata fileref="images/newKinTermGroup.png" width="100%"/>
+                    </imageobject>
+                  </mediaobject>
+                </screenshot>
+              </figure>
+            </para>
           </listitem>
           <listitem>
-            <para><emphasis role="bold">Import</emphasis>: instead of creating a new kin terms group
+            <para><emphasis role="bold">Import</emphasis>: instead of creating a new kin term group
               from scratch you may decide to import one already existent from a file directory in
               your computer. To do so, click on the 'Import' option and choose the file you want to
               import. The kin terms imported will be added to the ones in the table in the right
-              panel and in the diagram also.</para>
+              panel and also in the diagram.</para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Export</emphasis>: with this option you can save (export)
-              the kin terms group created to a directory outside KinOath. By selecting this option a
+              the kin term group created to a directory outside KinOath. By selecting this option a
               window will open asking you to choose a directory where to place the file, and a file
               name. </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Delete</emphasis>: ???</para>
           </listitem>
         </itemizedlist>
       </para>
     </section>
     <section>
       <title>Archive Linker menu</title>
-      <para><emphasis role="italic">This menu is not fully functional at the moment, but it will be
-          from the next version of KinOath, by which time a better and more detailed explanation
-          will be included in this manual</emphasis>. </para>
+      <para><emphasis role="italic">This menu is not functional at the moment, but it will be for
+          the next version of KinOath, by which time a better and more detailed explanation will be
+          included in this manual</emphasis>. </para>
     </section>
     <section>
       <title>Panels menu</title>
+      <figure>
+        <title>Panels menu</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/panelsMenu.png"/>
+            </imageobject>
+          </mediaobject>
+        </screenshot>
+      </figure>
       <para>This menu contains a list of all the panels that can be opened while working on a
         diagram (some of them have already been mentioned when describing the diagram types). You
-        can choose which ones you want to open simply by checking them.  </para>
+        can choose which ones you want to open simply by checking them. </para>
       <para>
         <itemizedlist>
           <listitem>
             <para><emphasis role="bold">Archive Linker</emphasis>: by choosing this option a panel
               will open on the right of the page displaying the IMDI corpora as in the 'Archive Data
               Linker' diagram. </para>
+            <para>
+              <figure>
+                <title>Archive Linker panel</title>
+                <screenshot>
+                  <mediaobject>
+                    <imageobject>
+                      <imagedata fileref="images/archiveLinker.png"/>
+                    </imageobject>
+                  </mediaobject>
+                </screenshot>
+              </figure>
+            </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Diagram Settings</emphasis>: by choosing this option a panel
               will open on the top of the page with six tabs:</para>
+            <para>
+              <figure>
+                <title>Diagram Settings panel</title>
+                <screenshot>
+                  <mediaobject>
+                    <imageobject>
+                      <imagedata fileref="images/diagramSettings.png" width="100%"/>
+                    </imageobject>
+                  </mediaobject>
+                </screenshot>
+              </figure>
+            </para>
             <para>
               <itemizedlist>
                 <listitem>
                   <para><emphasis role="bold">Entity Profiles</emphasis>: this tab includes a list
                     of profiles which can be added or removed when creating a diagram ('Individual'
                     and 'Chromosome_Example' seen in section 2.1.1. in the standard diagram are two
-                    examples of profiles). They just need to be checked and unchecked.</para>
+                    examples of profiles). They just need to be checked and/or unchecked.</para>
+                  <para>
+                    <figure>
+                      <title>Entity Profiles tab</title>
+                      <screenshot>
+                        <mediaobject>
+                          <imageobject>
+                            <imagedata fileref="images/entityProfiles.png" width="150%" scalefit=""
+                              contentwidth="100%"/>
+                          </imageobject>
+                        </mediaobject>
+                      </screenshot>
+                    </figure>
+                  </para>
                 </listitem>
                 <listitem>
                   <para><emphasis role="bold">Kin Type Definitions</emphasis>: this tab includes a
                     list of the main kin type strings with their corresponding definitions (which
                     have also been reported in this manual in section 2.1.1., freeform diagram). You
                     can delete elements of the list by checking them and then clicking on <emphasis
-                      role="bold">Delete Delected </emphasis>on the right.</para>
+                      role="bold">Delete Selected </emphasis>on the right.</para>
+                  <para>
+                    <figure>
+                      <title>Kin Type Definitions tab</title>
+                      <screenshot>
+                        <mediaobject>
+                          <imageobject>
+                            <imagedata fileref="images/kinTypeDefinitions.png" width="100%"/>
+                          </imageobject>
+                        </mediaobject>
+                      </screenshot>
+                    </figure>
+                  </para>
                 </listitem>
                 <listitem>
                   <para><emphasis role="bold">Kin Type Strings</emphasis>: this is the panel the
-                    opens up when creating a freeform diagram (see section 2.1.1.), in which you
-                    have to enter some strings in order to create individuals, hence
-                    diagrams.</para>
+                    opens up when creating a freeform diagram (see section 2.1.1.), where you have
+                    to enter some strings in order to create individuals, hence diagrams.<figure>
+                      <title>Kin Type Strings tab</title>
+                      <screenshot>
+                        <mediaobject>
+                          <imageobject>
+                            <imagedata fileref="images/kinTypeStrings.png" width="100%"/>
+                          </imageobject>
+                        </mediaobject>
+                      </screenshot>
+                    </figure></para>
                 </listitem>
                 <listitem>
                   <para><emphasis role="bold">Label Fields</emphasis>: this tab contains some
@@ -510,12 +659,21 @@
                     standard diagram type), i.e. name, date of birth, etc. You can delete such
                     pieces of information by clicking on the small squares on the right of the tab.
                     However, they still remain in the table at the bottom of the page (the one
-                    filled in when cretaing individuals, so if you want to add them back to the
-                    panel on the top you just need to select them (one at a time) and drag them. </para>
+                    filled in when cretaing individuals), so if you want to add them back to the
+                    panel on the top you just need to select them, one at a time, and drag them. <figure>
+                      <title>Label Fields tab</title>
+                      <screenshot>
+                        <mediaobject>
+                          <imageobject>
+                            <imagedata fileref="images/labelFields.png" width="100%"/>
+                          </imageobject>
+                        </mediaobject>
+                      </screenshot>
+                    </figure></para>
                 </listitem>
                 <listitem>
                   <para><emphasis role="bold">Relation Type Definitions</emphasis>: when selecting
-                    this tab a sub-table opens. The options of this sub-table displayed here are not
+                    this tab a sub-table opens. The options of this sub-table displayed are not
                     mandatory, but if used they may prove useful to simplify the diagram layout.
                     These options are: </para>
                   <para>
@@ -536,7 +694,7 @@
                           you do not want to do it manually, you can select <emphasis role="bold"
                             >Scan For Types</emphasis> under the color table on the right. It will
                           automatically find all the relation types of your diagram and enter them
-                          directly in the column Relation Type. </para>
+                          directly in the column 'Relation Type'. </para>
                       </listitem>
                       <listitem>
                         <para><emphasis role="bold">Line Colour</emphasis>: you can choose a
@@ -551,6 +709,20 @@
                       </listitem>
                       <listitem>
                         <para><emphasis role="bold">Line Orientation</emphasis>: </para>
+                        <para>
+                          <figure>
+                            <title>Relation Type Definitions tab</title>
+                            <screenshot>
+                              <screeninfo/>
+                              <mediaobject>
+                                <imageobject>
+                                  <imagedata fileref="images/relationTypeDefinitions.png"
+                                    width="100%"/>
+                                </imageobject>
+                              </mediaobject>
+                            </screenshot>
+                          </figure>
+                        </para>
                       </listitem>
                     </itemizedlist>
                   </para>
@@ -562,6 +734,19 @@
                     can be modified by choosing among the possibilities included in the drop down
                     lists on the right of the panel. For instance, you may want circles for male
                     egos and triangles for female egos. </para>
+                  <para>
+                    <figure>
+                      <title>Symbol Fields tab</title>
+                      <screenshot>
+                        <screeninfo/>
+                        <mediaobject>
+                          <imageobject>
+                            <imagedata fileref="images/symbolFields.png" width="100%"/>
+                          </imageobject>
+                        </mediaobject>
+                      </screenshot>
+                    </figure>
+                  </para>
                 </listitem>
               </itemizedlist>
             </para>
@@ -571,10 +756,10 @@
               the page. It displays three possible lists: <emphasis role="bold">Ego</emphasis>,
                 <emphasis role="bold">Required</emphasis>, <emphasis role="bold">Implied</emphasis>.
               Let's take the standard diagram type as an example: when you create new individuals,
-              they automatically go under the Required list. If you want an egocentric diagram you
+              they automatically go under the 'Required' list. If you want an egocentric diagram you
               have to add an ego, or several egos, depending on how many diagrams you want to
               create, to the Ego list. The ego/s added to the list go black and represent the
-              reference point of your diagram (see figure below). In addition, <emphasis
+              reference points of your diagram (see figure below). In addition, <emphasis
                 role="italic"><emphasis role="underline">..... manca
               implied</emphasis></emphasis></para>
           </listitem>
@@ -585,30 +770,81 @@
             <para><emphasis role="bold">Kin Terms</emphasis>: this panel opens up automatically when
               working on a Kin Terms Diagram (see section 2.4), since it contains the table with kin
               terms, kin type strings, descriptions, etc.</para>
+            <para>
+              <figure>
+                <title>Kin Terms panel</title>
+                <screenshot>
+                  <screeninfo/>
+                  <mediaobject>
+                    <imageobject>
+                      <imagedata fileref="images/kinTermsPanel.png"/>
+                    </imageobject>
+                  </mediaobject>
+                </screenshot>
+              </figure>
+            </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Kin Type Strings</emphasis>: this panel opens up
               automatically in case of a freeform or a query diagram. In it you type the strings
               necessary to create new individuals (freeform diagram) or to look for them (query
-              diagram). </para>
+              diagram). (see figure <emphasis role="italic">Kin Type String</emphasis> Tab)</para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Search Entities</emphasis>: with this option you can look
               for determined individuals into an already existent diagram which you have to import
               first. </para>
+            <para>
+              <figure>
+                <title>Search Entities panel</title>
+                <screenshot>
+                  <screeninfo/>
+                </screenshot>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata/>
+                  </imageobject>
+                </mediaobject>
+              </figure>
+            </para>
           </listitem>
         </itemizedlist>
       </para>
     </section>
     <section>
       <title>Window menu</title>
+      <para>
+        <figure>
+          <title>Window menu</title>
+          <screenshot>
+            <screeninfo/>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/windowMenu.png"/>
+              </imageobject>
+            </mediaobject>
+          </screenshot>
+        </figure>
+      </para>
       <para>The options of this menu vary according to how many windows of KinOath have been opened.
         Indeed, it simply consists of a list of the options that have been selected and opened:
-        sample diagrams, new diagrams, etc. Each window has its corresponding menu option checked
-        (see figure below). </para>
+        sample diagrams, new diagrams, etc. Each window has its corresponding menu option checked. </para>
     </section>
     <section>
       <title>Help menu</title>
+      <para>
+        <figure>
+          <title>Help menu</title>
+          <screenshot>
+            <screeninfo/>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/helpMenu.png"/>
+              </imageobject>
+            </mediaobject>
+          </screenshot>
+        </figure>
+      </para>
       <para>This menu includes some additional information about the program:</para>
       <para>
         <itemizedlist>
@@ -620,9 +856,10 @@
           </listitem>
           <listitem>
             <para><emphasis role="bold">KinOath Forum (Website)</emphasis>: selecting this option
-              will redirect you to this page: http://www.lat-mpi.eu/tools/kinoath/kinoath-forum/, a
-              discussion board where you can start discussions about topics relevant to KinOath.
-            </para>
+              will redirect you to this page: <ulink
+                url="www.lat-mpi.eu/tools/kinoath/kinoath-forum/"
+                >www.lat-mpi.eu/tools/kinoath/kinoath-forum/</ulink>, a discussion board where you
+              can start discussions about topics relevant to KinOath. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">View Error Log</emphasis>: selecting this option will open a
