@@ -34,8 +34,8 @@
   <chapter id="Ch_Navigating_the_IMDI_Browser_web_version">
     <title>Navigating KinOath</title>
     <para>KinOath is part of the Language Archiving Technology suite. You will find a link to the
-      program on the LAT web page <ulink url="http://www.lat-mpi.eu/tools/browser/"
-        >http://www.lat-mpi.eu/tools/kinoath/</ulink> (<emphasis role="bold">Run via
+      program on the LAT web page <ulink url="http://www.tla.mpi.nl/tools/kinoath"
+        >http://www.tla.mpi.nl/tools/kinoath/</ulink> (<emphasis role="bold">Run via
         webstart</emphasis>). KinOath is an online tool, it does not need to be installed, but you
       will need Java installed on your machine for it to run. For more information on Java and how
       to install it go to <ulink url="http://java.com/en/">http://java.com/en/</ulink>. </para>
@@ -261,8 +261,8 @@
                       go black. [You can also create socialcentric diagrams, in which no particular
                       entity is set as starting point of the diagram.] The option contains the words
                       "list will be cleared", which means that through this command, only one entity
-                      can be set as ego; to add more you need to use "Add to ego list" (see
-                      below).</para>
+                      can be set as the reference-ego in one diagram; to add more you need to use
+                      "Add to ego list" (see below).</para>
                   </listitem>
                   <listitem>
                     <para><emphasis role="bold">Add to ego list</emphasis>: this option is similar
@@ -374,7 +374,11 @@
                 on Graph"; c) delete some of the kin terms entered in the table by checking them and
                 then clicking on <emphasis role="bold">Delete Selected</emphasis>, or delete the
                 entire group by simply clicking on <emphasis role="bold">Delete Group</emphasis>, on
-                the left of "Delete Selected".</para>
+                the left of "Delete Selected". [Note: a further option is available: <emphasis
+                  role="bold">Propositus Kin Type Strings</emphasis>, which has to do with the fact
+                that in some cultures, and therefore in some languages, A talks with B about C with
+                different terms, according to the relation existing between B and C. Anyway, for
+                this first version of KinOath this option will be hidden]</para>
               <para>
                 <figure>
                   <title>Kin Terms Diagram</title>
@@ -421,29 +425,9 @@
           </itemizedlist>
           <itemizedlist>
             <listitem>
-              <para><emphasis role="bold">Archive Data Linker</emphasis>: When you choose this
-                diagram a new page of KinOath opens, with a main, blank panel, the <emphasis
-                  role="bold">Diagram Tree</emphasis> panel on the left, and another panel on the
-                right called <emphasis role="bold">Archive Linker</emphasis>. The latter contains
-                the IMDI corpora tree. From a session node of the tree you can take a group of, or
-                the single, actors, and drag them to the main panel. Under each of them you will see
-                the reference to the archive and, at the bottom of the page, a table containing
-                information about them and the corresponding session node of the IMDI tree. You can
-                then link the selected entities by creating relations and/or add, for example, media
-                files, by taking and drag them to the diagram tree on the left under the entity you
-                want them to belong to. </para>
-              <para>
-                <figure>
-                  <title>Archive Data Linker Diagram</title>
-                  <screenshot>
-                    <screeninfo/>
-                    <mediaobject>
-                      <imageobject>
-                        <imagedata fileref="images/archiveLinkerDiagram.png" width="100%"/>
-                      </imageobject>
-                    </mediaobject>
-                  </screenshot>
-                </figure>
+              <para><emphasis role="bold">Archive Data Linker</emphasis>: <emphasis role="italic"
+                  >this diagram type is hidden, hence unavailable, for the moment. It will probably
+                  be implemented in the next versions of the program.</emphasis>
               </para>
             </listitem>
           </itemizedlist>
@@ -681,7 +665,7 @@
                 <screenshot>
                   <mediaobject>
                     <imageobject>
-                      <imagedata fileref="images/diagramSettings.png" width="100%"/>
+                      <imagedata fileref="images/diagramSettings2.png" width="100%"/>
                     </imageobject>
                   </mediaobject>
                 </screenshot>
@@ -691,16 +675,17 @@
               <itemizedlist>
                 <listitem>
                   <para><emphasis role="bold">Entity Profiles</emphasis>: this tab includes a list
-                    of profiles which can be added or removed when creating a diagram ('Individual'
-                    and 'Chromosome_Example' seen in section 2.1.1. in the standard diagram are two
-                    examples of profiles). They just need to be checked and/or unchecked.</para>
+                    of profiles which can be added or removed when creating a diagram ("Individual"
+                    and "Chromosome_Example" seen in section 2.1.1. in the standard diagram
+                    paragraph are two examples of profiles). They just need to be checked and/or
+                    unchecked.</para>
                   <para>
                     <figure>
                       <title>Entity Profiles tab</title>
                       <screenshot>
                         <mediaobject>
                           <imageobject>
-                            <imagedata fileref="images/entityProfiles.png" width="150%" scalefit=""
+                            <imagedata fileref="images/entityProfiles2.png" width="150%" scalefit=""
                               contentwidth="100%"/>
                           </imageobject>
                         </mediaobject>
@@ -713,15 +698,15 @@
                     list of the main kin type strings with their corresponding definitions (which
                     have also been reported in this manual in section 2.1.1., Freeform Diagram
                     paragraph). You can delete elements of the list by checking them and then
-                    clicking on <emphasis role="bold">Delete Selected </emphasis>on the
-                    right.</para>
+                    clicking on the option <emphasis role="bold">Delete Selected </emphasis>on the
+                    right of the page.</para>
                   <para>
                     <figure>
                       <title>Kin Type Definitions tab</title>
                       <screenshot>
                         <mediaobject>
                           <imageobject>
-                            <imagedata fileref="images/kinTypeDefinitions.png" width="100%"/>
+                            <imagedata fileref="images/kinTypeDefinitions2.png" width="100%"/>
                           </imageobject>
                         </mediaobject>
                       </screenshot>
@@ -729,27 +714,14 @@
                   </para>
                 </listitem>
                 <listitem>
-                  <para><emphasis role="bold">Kin Type Strings</emphasis>: this is the panel the
-                    opens up when creating a freeform diagram (see section 2.1.1.), where you have
-                    to enter some strings in order to create individuals, hence diagrams.<figure>
-                      <title>Kin Type Strings tab</title>
-                      <screenshot>
-                        <mediaobject>
-                          <imageobject>
-                            <imagedata fileref="images/kinTypeStrings.png" width="100%"/>
-                          </imageobject>
-                        </mediaobject>
-                      </screenshot>
-                    </figure></para>
-                </listitem>
-                <listitem>
                   <para><emphasis role="bold">Label Fields</emphasis>: this tab contains some
                     information about the entities created by the user (we are referring to the
                     standard diagram type), i.e. name, date of birth, etc. You can delete such
-                    pieces of information by clicking on the small squares on the right of the tab.
-                    However, they still remain in the table at the bottom of the page (the one
-                    filled in when cretaing individuals), so if you want to add them back to the
-                    panel on the top you just need to select them, one at a time, and drag them. <figure>
+                    pieces of information by clicking on the small squares on the right of the tab
+                    [see red arrow]. However, they still remain in the table at the bottom of the
+                    page (the one filled in when cretaing individuals), so if you want to add them
+                    back to the panel on the top you just need to take them, one at a time, and drag
+                    them to the Label Fields panel. <figure>
                       <title>Label Fields tab</title>
                       <screenshot>
                         <mediaobject>
@@ -812,7 +784,7 @@
                               <screeninfo/>
                               <mediaobject>
                                 <imageobject>
-                                  <imagedata fileref="images/relationTypeDefinitions.png"
+                                  <imagedata fileref="images/relationTypeDefinitions2.png"
                                     width="100%"/>
                                 </imageobject>
                               </mediaobject>
@@ -837,12 +809,16 @@
                         <screeninfo/>
                         <mediaobject>
                           <imageobject>
-                            <imagedata fileref="images/symbolFields.png" width="100%"/>
+                            <imagedata fileref="images/symbolFields2.png" width="100%"/>
                           </imageobject>
                         </mediaobject>
                       </screenshot>
                     </figure>
                   </para>
+                  <para>However, note that not all of the options just explained are available for
+                    all the diagram types. Indeed, the standard, database driven diagram has the
+                    five tabs, but the others have just two or three, because not all of them are
+                    necessary for the diagram purposes. </para>
                 </listitem>
               </itemizedlist>
             </para>
@@ -903,9 +879,9 @@
               Tab</emphasis>)</para>
           </listitem>
           <listitem>
-            <para><emphasis role="bold">Search Entities</emphasis>: with this option you can look
-              for determined individuals into an already existent diagram which you have to import
-              first. </para>
+            <para><emphasis role="bold">Search Entities</emphasis>: this option is available only
+              for the standard and the query diagram, which are both database driven. Indeed, its
+              function is to search for specific entities in the database.  </para>
           </listitem>
         </itemizedlist>
       </para>
