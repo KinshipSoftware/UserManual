@@ -22,7 +22,7 @@ all:	html pdf
 
 html: $(HTMLDIR)index.html
 
-pdf: $(PDFDIR)/kinoath.pdf
+pdf: $(PDFDIR)/manual-kinoath.pdf
 
 clean:
 # using "rm -f" so make does not interrupt if the pdf does not exist
