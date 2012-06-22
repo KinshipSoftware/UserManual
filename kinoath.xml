@@ -446,7 +446,8 @@
                     <screeninfo/>
                     <mediaobject>
                       <imageobject>
-                        <imagedata fileref="images/queryDiagram.png" width="100%"/>
+                        <imagedata fileref="images/queryDiagram.png" width="100%" contentwidth=""
+                          scalefit="1" contentdepth="100%"/>
                       </imageobject>
                     </mediaobject>
                   </screenshot>
@@ -688,7 +689,8 @@
         <itemizedlist>
           <listitem>
             <para><emphasis role="bold">Archive Linker</emphasis>: by choosing this option a panel
-              will open on the right of the page displaying the entire IMDI corpora. </para>
+              will open on the right of the page displaying the entire IMDI corpora. [Note: at the
+              moment this panel is not available]</para>
             <para>
               <figure>
                 <title>Archive Linker panel</title>
@@ -731,8 +733,8 @@
                       <screenshot>
                         <mediaobject>
                           <imageobject>
-                            <imagedata fileref="images/entityProfiles2.png" width="150%" scalefit=""
-                              contentwidth="100%"/>
+                            <imagedata fileref="images/entityProfiles2.png" width="100%"
+                              scalefit="1" contentwidth="" contentdepth="100%"/>
                           </imageobject>
                         </mediaobject>
                       </screenshot>
@@ -885,8 +887,8 @@
                   <screeninfo/>
                   <mediaobject>
                     <imageobject>
-                      <imagedata fileref="images/diagramTreePanel.png" scale="" scalefit=""
-                        width="100%"/>
+                      <imagedata fileref="images/diagramTreePanel.png" scale="" scalefit="1"
+                        width="100%" contentwidth="" contentdepth="100%"/>
                     </imageobject>
                   </mediaobject>
                 </screenshot>
