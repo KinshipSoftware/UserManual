@@ -38,13 +38,12 @@
     <para>KinOath Kinship Archiver is part of the Language Archiving Technology suite. You will find
       a link to the program on the TLA web page <ulink
         url="http://tla.mpi.nl/tools/tla-tools/kinoath"
-        >http://tla.mpi.nl/tools/tla-tools/kinoath</ulink> (or also on <ulink
-        url="http://www.lat-mpi.eu/tools/kinoath/">http://www.lat-mpi.eu/tools/kinoath/</ulink>).
-      You can either start it - with no installation needed - through the option <emphasis
-        role="bold">Run via webstart</emphasis>, or you can install it on your computer by selecting
-      one of the installers provided next to "Run via webstart". In both cases you will need Java
-      installed on your machine for the application to run. For more information on Java and how to
-      install it go to <ulink url="http://java.com/en/">http://java.com/en/</ulink>.</para>
+        >http://tla.mpi.nl/tools/tla-tools/kinoath</ulink>. You can either start it - with no
+      installation needed - through the option <emphasis role="bold">Run via webstart</emphasis>, or
+      you can install it on your computer by selecting one of the installers provided next to "Run
+      via webstart". In both cases you will need Java installed on your machine for the application
+      to run. For more information on Java and how to install it go to <ulink
+        url="http://java.com/en/">http://java.com/en/</ulink>.</para>
     <para>
       <figure>
         <title>Navigating KinOath</title>
@@ -446,8 +445,8 @@
                     <screeninfo/>
                     <mediaobject>
                       <imageobject>
-                        <imagedata fileref="images/queryDiagram.png" width="100%" contentwidth=""
-                          scalefit="1" contentdepth="100%"/>
+                        <imagedata fileref="images/queryDiagram.png" contentdepth="100%"
+                          scalefit="1" width="100%"/>
                       </imageobject>
                     </mediaobject>
                   </screenshot>
@@ -731,10 +730,11 @@
                     <figure>
                       <title>Entity Profiles tab</title>
                       <screenshot>
+                        <screeninfo/>
                         <mediaobject>
                           <imageobject>
-                            <imagedata fileref="images/entityProfiles2.png" width="100%"
-                              scalefit="1" contentwidth="" contentdepth="100%"/>
+                            <imagedata fileref="images/entityProfiles.png" contentdepth="100%"
+                              scalefit="1" width="100%"/>
                           </imageobject>
                         </mediaobject>
                       </screenshot>
@@ -887,8 +887,8 @@
                   <screeninfo/>
                   <mediaobject>
                     <imageobject>
-                      <imagedata fileref="images/diagramTreePanel.png" scale="" scalefit="1"
-                        width="100%" contentwidth="" contentdepth="100%"/>
+                      <imagedata fileref="images/diagramTreePanel.png" contentdepth="100%"
+                        scalefit="1" width="100%"/>
                     </imageobject>
                   </mediaobject>
                 </screenshot>
@@ -996,11 +996,9 @@
               online version of this manual, which you can consult in case of doubts. </para>
           </listitem>
           <listitem>
-            <para><emphasis role="bold">KinOath Forum (Website)</emphasis>: at the moment - since
-              the link will soon change -  by selecting this option you will be redirected to this
-              page: <ulink url="www.lat-mpi.eu/tools/kinoath/kinoath-forum/"
-                >www.lat-mpi.eu/tools/kinoath/kinoath-forum/</ulink>, a discussion board where you
-              can start discussions about topics relevant to KinOath. </para>
+            <para><emphasis role="bold">KinOath Forum (Website)</emphasis>: by selecting this option
+              you will be redirected to a discussion board page where you can start discussions
+              about topics relevant to KinOath. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">View Error Log</emphasis>: by selecting this option a page
