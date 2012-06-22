@@ -997,8 +997,10 @@
           </listitem>
           <listitem>
             <para><emphasis role="bold">KinOath Forum (Website)</emphasis>: by selecting this option
-              you will be redirected to a discussion board page where you can start discussions
-              about topics relevant to KinOath. </para>
+              you will be redirected to the following page: <ulink
+                url="http://tla.mpi.nl/forums/software/kinoath"
+                >http://tla.mpi.nl/forums/software/kinoath</ulink>, a discussion board page where
+              you can start discussions about topics relevant to KinOath Kinship Archiver. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">View Error Log</emphasis>: by selecting this option a page
