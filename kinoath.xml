@@ -168,7 +168,7 @@
               there (e.g. relation type: sibling, line colour: pink, line width: 5). Set it as
               default diagram. Open a new default diagram and create two individuals: if you select
               one of them, it will already show you the sibling relation, represented by a spot of
-              the colour you previously chose for that relation type. See picture below. </para>
+              the colour you previously chose for that relation type. See the picture below. </para>
             <para>
               <figure>
                 <title>Set Default Diagram</title>
@@ -747,7 +747,7 @@
                     have also been described in this manual in section 2.1.1., "Freeform Diagram"
                     paragraph). You can delete elements of the list by checking them and then
                     clicking on the option <emphasis role="bold">Delete Selected </emphasis>on the
-                    right of the page.</para>
+                    right of the page. </para>
                   <para>
                     <figure>
                       <title>Kin Type Definitions tab</title>
@@ -760,6 +760,23 @@
                       </screenshot>
                     </figure>
                   </para>
+                  <para>Besides, you may want to add new kin types to the list. Mind that a new kin
+                    type added to a standard diagram behaves differently from a new kin type added
+                    to a freeform diagram. Let's make an example: </para>
+                  <para>Kin Type String: Q</para>
+                  <para>Relation Type: sibling</para>
+                  <para>Symbol Type: triangle, circle</para>
+                  <para>As far as a standard diagram is concerned, the new kin type represents a
+                    filter, which means that when I look up an entity, e.g. Albert_Iof_Monaco, and
+                    use the 'Q' kin type, in the central panel I will see the entity searched for,
+                    plus all those other individuals (both male and female given the previously set
+                    symbol types) carrying a sibling-relation type with it. To put it simply, I will
+                    see Albert_Iof_Monaco and his, possibly existing, brother/s and sister/s.</para>
+                  <para>By contrast, in the case of a freeform diagram, what the new kin type does
+                    is create new entities from scratch. In other words, if in the Kin Type Strings
+                    panel I type, for example, 'EfQ', in the central panel I will see a female ego
+                    which is the - so to speak - reference point of my diagram, together with a
+                    brother (sibling relation + triangle) and a sister (sibling relation + circle).  </para>
                 </listitem>
                 <listitem>
                   <para><emphasis role="bold">Label Fields</emphasis>: this tab contains some
@@ -817,14 +834,17 @@
                           depending on the millimetres you choose.</para>
                       </listitem>
                       <listitem>
-                        <para><emphasis role="bold">Line/Dash</emphasis>: <emphasis role="italic"
-                            >this option is not implemented yet, but it will be in the later
-                            versions of KinOath. </emphasis></para>
+                        <para><emphasis role="bold">Line/Dash</emphasis>: through this option you
+                          can change the sanguine line to a dashed line, and you can also enlarge or
+                          reduce the size of the dashes. </para>
                       </listitem>
                       <listitem>
-                        <para><emphasis role="bold">Line Orientation</emphasis>: <emphasis
-                            role="italic">this option is not implemented yet, but it will be in the
-                            later versions of KinOath.</emphasis></para>
+                        <para><emphasis role="bold">Line Orientation</emphasis>: this option is
+                          available when the relation type selected is 'other'. You can choose
+                          between the sub-options 'horizontal' and 'vertical'. In both cases you get
+                          a wave-like line linking two entities, the only difference being that in
+                          the former case the line starts from a horizontal position, whereas in the
+                          latter case the line starts from a vertical position. </para>
                         <para>
                           <figure>
                             <title>Relation Type Definitions tab</title>
@@ -992,8 +1012,19 @@
               will open, briefly describing the program. </para>
           </listitem>
           <listitem>
-            <para><emphasis role="bold">Help</emphasis>: this option will redirects you to the
-              online version of this manual, which you can consult in case of doubts. </para>
+            <para><emphasis role="bold">Internal help</emphasis>: <emphasis role="italic">this
+                option is not implemented at the moment.</emphasis></para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">KinOath Website</emphasis>: it redirects you to the web page
+              of the application (<ulink url="http://tla.mpi.nl/tools/tla-tools/kinoath"
+                >http://tla.mpi.nl/tools/tla-tools/kinoath</ulink>).</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">KinOath Online Manual</emphasis>:  it links you to the
+              online version of the manual (<ulink
+                url="http://www.mpi.nl/corpus/html/kinoath/index.html"
+                >http://www.mpi.nl/corpus/html/kinoath/index.html</ulink>)</para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">KinOath Forum (Website)</emphasis>: by selecting this option
@@ -1010,6 +1041,124 @@
           <listitem>
             <para><emphasis role="bold">Check for Updates</emphasis>: this option allows you to
               search for more recent versions of KinOath Kinship Archiver.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+  </chapter>
+  <chapter>
+    <title>How to...?</title>
+    <para>This chapter is aimed at summarizing in a practical way the main content of the manual. To
+      say it differently, here you will find straightforward instructions that will help you become
+      a bit more familiar with the application. Links to more detailed sections of the manual will
+      also be made. </para>
+    <section>
+      <title>...add entities via right click menu</title>
+      <para>There exist two possible ways of adding new entities to your - standard type - diagram.
+        The first one is the following: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>From the <emphasis role="bold">File</emphasis> menu select <emphasis role="bold"
+                >New Diagram of Type</emphasis> and then <emphasis role="bold">Standard Diagram
+                (database driven)</emphasis>;</para>
+          </listitem>
+          <listitem>
+            <para>Point the mouse inside the main, white panel and right click. Select the first
+              item of the menu: <emphasis role="bold">Add</emphasis>, and then one of the three
+              items that come up: <emphasis role="bold">Individual</emphasis>, <emphasis role="bold"
+                >Chromosome_Example</emphasis>, <emphasis role="bold">Clan_Example</emphasis>.
+              Regardless of which one you choose, an entity represented by a small square will
+              appear in the main panel. </para>
+          </listitem>
+          <listitem>
+            <para>Select the just mentioned item; a table at the bottom of the page will open with
+              several fields to fill in. The fields vary for the different entity profiles mentioned
+              in the previous point. Once you have entered the required information click again on
+              the entity, it will change accordingly (e.g. depending on its gender the square will
+              turn into a circle or a triangle).</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <title>...add/remove relations</title>
+      <para>After creating a certain amount of entities you may want to create also relations
+        between them. To do so:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>Select the two, or more, entities you need (shift button held down); right click;
+              choose the menu item <emphasis role="bold">Add relation</emphasis>, and then select
+              the type of relation you want. The entities will be linked accordingly.</para>
+          </listitem>
+          <listitem>
+            <para>As for the relation types <emphasis role="bold">ancestor</emphasis> and <emphasis
+                role="bold">descendant</emphasis>, remember that: if you select first the ancestor,
+              and then the descendant, you have to choose an ancestor relation type. By comparison,
+              if you do it the other way round, i.e. first descendant and then ancestor, you have to
+              choose a descendant relation type. In other words, you have to choose the relation
+              type keeping in mind the family role of the first entity selected. </para>
+          </listitem>
+          <listitem>
+            <para>If you decide to remove some of the relations just created, select again how many
+              entities you need (shift button held down) and right click; choose the menu item
+                <emphasis role="bold">Remove Relations</emphasis> and then <emphasis role="bold"
+                >Remove relations between selected</emphasis>. The line linking the entities will go
+              away.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <title>...release VS delete entities</title>
+      <para>There are two options through which you can remove entities from your diagram:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">Delete</emphasis>: the delete option will remove an entity
+              from all the diagrams, and also from the database. Once you select it (select the
+              entity/ies you want to remove and right click) a message will pop up telling you that
+              a number of entities will be deleted from the database.</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Release from diagram</emphasis>: this option (select the
+              needed entity/ies > right click) will simply remove an entity from the diagram, but
+              unlike 'delete' it will <emphasis role="underline">not</emphasis> remove it from the
+              database. </para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <title>...add entities via search tab</title>
+      <para>The second way to add entities to your diagram is through the Search Entities
+        tab:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>Follow the same steps explained in section 3.1, i.e. File menu > New Diagram of
+              Type > Standard diagram (database driven). </para>
+          </listitem>
+          <listitem>
+            <para>On the left of the page select the tab <emphasis role="bold">Search
+                Entities</emphasis>. In the white field under <emphasis role="bold">Search Entity
+                Names</emphasis> type the name of an entity that you know is present in the
+              database; then click <emphasis role="bold">Search</emphasis>. In the white column
+              under 'Search' you will see a list of all teh entities (partially) matching your
+              query. </para>
+          </listitem>
+          <listitem>
+            <para>The option <emphasis role="bold">Graph selection</emphasis> (below the 'Search
+              Entity Names' white field) is checked by default; this means that when you select an
+              entity from the list given to you after your query, this will automatically appear in
+              the main panel. If you uncheck this option, you will have to manually drag the
+              selected entity to the main panel. </para>
+          </listitem>
+          <listitem>
+            <para>Another option that may turn useful is <emphasis role="bold">Expand selection by
+                kin type string</emphasis> (below 'Graph selection'). If you check it, and then
+              enter some kin types in the white field below it</para>
           </listitem>
         </itemizedlist>
       </para>
