@@ -131,12 +131,7 @@
               data to be imported before starting to work on them. A list of sample data is
               accessible via this option. Once the import is complete a new panel will appear
               containing all the entities imported (<emphasis role="bold">Imported
-                Entities</emphasis>).</para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Entity Upload</emphasis>: <emphasis role="italic">this
-                option is not implemented yet. It will be functioning for later versions of KinOath
-                Kinship Archiver</emphasis>. </para>
+                Entities</emphasis>). </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Save as</emphasis>: when selecting this option you will be
@@ -225,14 +220,12 @@
                   <listitem>
                     <para><emphasis role="bold">Add Geometry</emphasis>: its sub-options are:
                         <emphasis role="bold">Add Label</emphasis>, <emphasis role="bold">Add
-                        Circle</emphasis>, <emphasis role="bold">Add Square</emphasis>, <emphasis
-                        role="bold">Add Polyline</emphasis>, and <emphasis role="bold">Add
-                        Ellipse</emphasis>. The first (label) allows you to enter a label for your
-                      diagram, and you can do it by entering the text into a small window opening at
-                      the bottom of the page when the option is selected. The other four are graphic
-                      options you can use to differentiate kin groups (circle, square, ellipse) or
-                      to link the entities with more than one single line (polyline) [Note: polyline
-                      is not an available option at the moment]. </para>
+                        Circle</emphasis>, <emphasis role="bold">Add Square</emphasis>, and
+                        <emphasis role="bold">Add Ellipse</emphasis>. The first (label) allows you
+                      to enter a label for your diagram, and you can do it by entering the text into
+                      a small window opening at the bottom of the page when the option is selected.
+                      The other three are graphic options you can use to differentiate kin groups
+                      (circle, square, ellipse).</para>
                   </listitem>
                   <listitem>
                     <para><emphasis role="bold">Delete</emphasis>: this option allows you to delete
@@ -322,11 +315,6 @@
                       distanced from each other. </para>
                   </listitem>
                   <listitem>
-                    <para><emphasis role="bold">Search Entity Service</emphasis>: <emphasis
-                        role="italic">this option is not implemented yet, but it will be for later
-                        versions of KinOath Kinship Archiver</emphasis>. </para>
-                  </listitem>
-                  <listitem>
                     <para><emphasis role="bold">Save All Data Changes</emphasis>: see point 1.
                       above. </para>
                     <para>
@@ -404,11 +392,7 @@
                 is the option <emphasis role="bold">Generate Example Entities</emphasis>; it is
                 checked by default and, if you uncheck it, the diagram will not be created. However,
                 you can still create a diagram through the kin type strings panel from the panel
-                menu. [Note: a further option is available, <emphasis role="bold">Propositus Kin
-                  Type Strings</emphasis>, which has to do with the fact that in some cultures, and
-                therefore in some languages, A talks with B about C with different terms, according
-                to the relation existing between B and C. Anyway, for this first version of KinOath
-                this option will be hidden.]</para>
+                menu. </para>
               <para>
                 <figure>
                   <title>Kin Terms Diagram</title>
@@ -451,14 +435,6 @@
                     </mediaobject>
                   </screenshot>
                 </figure>
-              </para>
-            </listitem>
-          </itemizedlist>
-          <itemizedlist>
-            <listitem>
-              <para><emphasis role="bold">Archive Data Linker</emphasis>: <emphasis role="italic"
-                  >this diagram type is hidden, therefore unavailable, for the moment. It will
-                  probably be implemented in the later versions of the program.</emphasis>
               </para>
             </listitem>
           </itemizedlist>
@@ -583,8 +559,7 @@
               diagram type "Archive Data Linker" and for the Gedcom imports that have resources. In
               both cases, the entities that are placed into the diagram will carry a label of the
               type: "archive ref.: 1, 2, etc." (see figure below). Such label disappears if this
-              option is unchecked. [Note: the "Archive Data Linker" diagram is not implemented
-              yet.]</para>
+              option is unchecked. </para>
             <para>
               <figure>
                 <title>Archive Links</title>
@@ -664,12 +639,6 @@
       </para>
     </section>
     <section>
-      <title>Archive Linker menu</title>
-      <para><emphasis role="italic">This menu is not implemented yet, but it will be for later
-          versions of KinOath, by which time a better and more detailed explanation will be included
-          in this manual</emphasis>. </para>
-    </section>
-    <section>
       <title>Panels menu</title>
       <figure>
         <title>Panels menu</title>
@@ -689,7 +658,7 @@
           <listitem>
             <para><emphasis role="bold">Archive Linker</emphasis>: by choosing this option a panel
               will open on the right of the page displaying the entire IMDI corpora. [Note: at the
-              moment this panel is not available]</para>
+              moment this panel is not available. See appendix below]</para>
             <para>
               <figure>
                 <title>Archive Linker panel</title>
@@ -833,33 +802,6 @@
                           change the width of the sanguine lines, which will get thicker or thinner
                           depending on the millimetres you choose.</para>
                       </listitem>
-                      <listitem>
-                        <para><emphasis role="bold">Line/Dash</emphasis>: through this option you
-                          can change the sanguine line to a dashed line, and you can also enlarge or
-                          reduce the size of the dashes. </para>
-                      </listitem>
-                      <listitem>
-                        <para><emphasis role="bold">Line Orientation</emphasis>: this option is
-                          available when the relation type selected is 'other'. You can choose
-                          between the sub-options 'horizontal' and 'vertical'. In both cases you get
-                          a wave-like line linking two entities, the only difference being that in
-                          the former case the line starts from a horizontal position, whereas in the
-                          latter case the line starts from a vertical position. </para>
-                        <para>
-                          <figure>
-                            <title>Relation Type Definitions tab</title>
-                            <screenshot>
-                              <screeninfo/>
-                              <mediaobject>
-                                <imageobject>
-                                  <imagedata fileref="images/relationTypeDefinitions2.png"
-                                    width="100%"/>
-                                </imageobject>
-                              </mediaobject>
-                            </screenshot>
-                          </figure>
-                        </para>
-                      </listitem>
                     </itemizedlist>
                   </para>
                 </listitem>
@@ -914,11 +856,6 @@
                 </screenshot>
               </figure>
             </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Export Data</emphasis>: <emphasis role="italic">this option
-                is not implemented yet, but it will be in the later versions of
-              KinOath.</emphasis></para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Kin Terms</emphasis>: this panel opens up automatically when
@@ -998,7 +935,7 @@
             <screeninfo/>
             <mediaobject>
               <imageobject>
-                <imagedata fileref="images/helpMenu.png"/>
+                <imagedata fileref="images/helpMenu.jpg"/>
               </imageobject>
             </mediaobject>
           </screenshot>
@@ -1010,10 +947,6 @@
           <listitem>
             <para><emphasis role="bold">About</emphasis>: by selecting this option a dialog window
               will open, briefly describing the program. </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Internal help</emphasis>: <emphasis role="italic">this
-                option is not implemented at the moment.</emphasis></para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">KinOath Website</emphasis>: it redirects you to the web page
@@ -1050,8 +983,7 @@
     <title>How to...?</title>
     <para>This chapter is aimed at summarizing in a practical way the main content of the manual. To
       say it differently, here you will find straightforward instructions that will help you become
-      a bit more familiar with the application. Links to more detailed sections of the manual will
-      also be made. </para>
+      a bit more familiar with the application. </para>
     <section>
       <title>...add entities via right click menu</title>
       <para>There exist two possible ways of adding new entities to your - standard type - diagram.
@@ -1059,9 +991,10 @@
       <para>
         <itemizedlist>
           <listitem>
-            <para>From the <emphasis role="bold">File</emphasis> menu select <emphasis role="bold"
-                >New Diagram of Type</emphasis> and then <emphasis role="bold">Standard Diagram
-                (database driven)</emphasis>;</para>
+            <para>[If you do not already have a project-based diagram open (see section 2.1 above -
+              option 'Open Diagram')] From the <emphasis role="bold">File</emphasis> menu select
+                <emphasis role="bold">New Diagram of Type</emphasis> and then <emphasis role="bold"
+                >Standard Diagram (database driven)</emphasis>;</para>
           </listitem>
           <listitem>
             <para>Point the mouse inside the main, white panel and right click. Select the first
@@ -1137,15 +1070,16 @@
       <para>
         <itemizedlist>
           <listitem>
-            <para>Follow the same steps explained in section 3.1, i.e. File menu > New Diagram of
-              Type > Standard diagram (database driven). </para>
+            <para>Follow the same steps explained in section 3.1, i.e. [If you do not already have a
+              project-based diagram open (see section 2.1 above - option 'Open Diagram')] File menu
+              > New Diagram of Type > Standard diagram (database driven). </para>
           </listitem>
           <listitem>
             <para>On the left of the page select the tab <emphasis role="bold">Search
                 Entities</emphasis>. In the white field under <emphasis role="bold">Search Entity
                 Names</emphasis> type the name of an entity that you know is present in the
               database; then click <emphasis role="bold">Search</emphasis>. In the white column
-              under 'Search' you will see a list of all teh entities (partially) matching your
+              under 'Search' you will see a list of all the entities (partially) matching your
               query. </para>
           </listitem>
           <listitem>
@@ -1158,10 +1092,184 @@
           <listitem>
             <para>Another option that may turn useful is <emphasis role="bold">Expand selection by
                 kin type string</emphasis> (below 'Graph selection'). If you check it, and then
-              enter some kin types in the white field below it</para>
+              enter some kin types in the white field below it, you will see the previously selected
+              entity change accordingly. E.g. type 'Albert' and then click 'Search'. Select one of
+              the entities that appear in the list: it will appear also in the main panel. Then
+              check the field 'Expand selection...' and type '*'. All (if any) first-degree
+              relatives related to the entity selected will appear on the diagram as well. </para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <title>...create a freeform diagram</title>
+      <para>The instructions given above applied to the diagram type standard - database driven.
+        This section, by comparison, is about another diagram type: the freeform diagram. Here is
+        how it works:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>[If you do not already have a project-based diagram open (see section 2.1 above -
+              option 'Open Diagram')] From the File menu select New Diagram of Type and <emphasis
+                role="bold">Freeform Diagram (transient)</emphasis>. </para>
+          </listitem>
+          <listitem>
+            <para>In the tab on top of the page - <emphasis role="bold">Kin Type Strings</emphasis>
+              - type the strings with which you want to create your diagram. A list of the main kin
+              types is given in section 2.1.1 above. </para>
+          </listitem>
+          <listitem>
+            <para>To the kin types you can attach some labels, namely names, dates, etc. To do so,
+              enter a colon after the kin type, then separate each of the label with a semi-colon,
+              and finally enter another colon between the last label and the next kin type. The
+              labels have to be entered with a precise order: (Id) [mind that the Id is normally
+              used when you have two entities with the same name], name, date of birth - date of
+              death. E.g. Ef:Jane;1950-2010:M:Carla;1925-2000:.....</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <title>...create a query diagram</title>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>[If you do not already have a project-based diagram open (see section 2.1 above -
+              option 'Open Diagram')] From the File menu, select New Diagram of Type and <emphasis
+                role="bold">Query Diagram</emphasis>. As the name says, this diagram is mainly used
+              when you want to search for entities within the ones present in the database.</para>
+          </listitem>
+          <listitem>
+            <para>What you can do here is either type something for yourself, or directly use the
+              entities in the tab <emphasis role="bold">Project Tree</emphasis> on the left of the
+              page.</para>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para>In the former case, you can type something like 'x[Albert_I]' in the tab Kin
+                    Type Strings on top of the page: in the main panel you will see all the entities
+                    named Albert_I and/or containing Albert_I in their names. Besides, you can add
+                    futher kin types like 'x[Albert_I]*', in which case you will see all the
+                    possibly existing first-degree relatives of all the entities present in the main
+                    panel.</para>
+                </listitem>
+                <listitem>
+                  <para>In the latter case, by comparison, you can select an entity in particular
+                    and drag it to the Kin Type Strings tab on top of the page, preceded either by E
+                    or x ( which stand for any, unspecified entity). E.g.
+                    x[Entity.Identifier=7bd7bff7-ff5e-4424-a9c9-d1283e0df145]; in the main panel you
+                    will see only that entity in particular. As in the previous case, you can also
+                    add further kin types, and the diagram in the main panel will change
+                    accordingly. </para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <title>...create a kin terms diagram</title>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>[If you do not already have a project-based diagram open (see section 2.1 above -
+              option 'Open Diagram')] From the File menu, select New Diagram of Type and <emphasis
+                role="bold">Kin Terms Diagram</emphasis>. </para>
+          </listitem>
+          <listitem>
+            <para>In the tab on the right of the page, fill in the table (for the moment you can
+              skip <emphasis role="bold">Propositus Kin Type Strings</emphasis>). The header
+                <emphasis role="bold">Kin Term</emphasis> is quite straightforward: enter the kin
+              terms; under the header <emphasis role="bold">Referent Kin Type Strings</emphasis>
+              enter the kin types corresponding to the kin terms previously written; under <emphasis
+                role="bold">Description</emphasis> you can put, for example, the English gloss of
+              the kin terms (if these are in a different language). </para>
+            <para>E.g.: Italian kin terms</para>
+            <para>Kin Term - padre; Referent Kin Type Strings - EF; Description: father</para>
+            <para>K.T. - madre; R.K.T.S. - EM; D. - mother</para>
+            <para>K.T. - fratello; R.K.T.S. - EB; D. - brother</para>
+            <para>K.T. - sorella; R.K.T.S. - EZ; D. - sister</para>
+            <para>etcetera. The diagram will grow as you add kin terms.</para>
+          </listitem>
+          <listitem>
+            <para>If you want to create a new kin term group [take Japanese Kin Terms sample diagram
+              as reference: File > Open Sample Diagram > Japanese Kin Terms] go to <emphasis
+                role="bold">Kin Terms</emphasis> menu on top of the page and select <emphasis
+                role="bold">New Kin Term Group</emphasis>. A second tab will open on the right of
+              the page. It is of the same type as the one you already used and the table in it needs
+              to be filled in the same way (choose a different color so that the two kin term groups
+              can be easily distinguished). </para>
+          </listitem>
+          <listitem>
+            <para>Two functions that you may use while working on a kin terms diagram are: a)
+              importing previously created and saved kin terms; b) exporting the ones you have just
+              created. As for the former, go to Kin Terms menu and select <emphasis role="bold"
+                >Import</emphasis>. A window will open asking you to choose a file. Choose the one
+              you need and select <emphasis role="bold">Open</emphasis>. The kin terms will appear
+              both in the table on the right of the page and in the main panel in the form of
+              diagram. Besides, another window popping up will tell you how many kin terms have been
+              imported. As for exporting, select the option<emphasis role="bold">Export</emphasis>
+              from the Kin Terms menu. A window will open asking you to choose a directory where to
+              export the kin terms and a file name; then select <emphasis role="bold"
+                >Save</emphasis>. The kin terms will be exported to the chosen directory. </para>
+          </listitem>
+          <listitem>
+            <para>Finally, there are two more options you can use: 1) <emphasis role="bold">Show on
+                graph</emphasis>. It is checked by default, which implies that you are able to see
+              the actual kin terms. If you unckeck it, the kin terms will be removed from the
+              diagram but kept in the table. 2) <emphasis role="bold">Generate Example
+                Entities</emphasis>. It is checked by default as well, and it allows you to see the
+              diagram developing and growing as you enter new kin terms. If you uncheck it, the
+              whole diagram will go away (but the kin terms, like in the previous case, are kept in
+              the table).</para>
           </listitem>
         </itemizedlist>
       </para>
     </section>
   </chapter>
+  <appendix>
+    <title>Not yet implemented features</title>
+    <para>As you may already have noticed by yourselves, KinOath 1.0 presents some hidden options.
+      These features are not implemented at the moment, but will be in future versions of the
+      application. Here it is a list of such features:</para>
+    <para>
+      <orderedlist>
+        <listitem>
+          <para><emphasis role="bold">Entity Upload</emphasis> (File menu)</para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Add Polyline</emphasis> (Standard Diagram > right click menu >
+            Add Geometry)</para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Search Entity Service</emphasis> (Standard Diagram > right
+            click menu)</para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Propositus Kin Type Strings</emphasis> (File menu > New
+            Diagram of Type > Kin Terms Diagram > table on the right of the page > third
+            column)</para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Archive Data Linker</emphasis> diagram (File menu > New
+            Diagram of Type > Archive Data Linker)</para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Archive Linker</emphasis> menu (top of the page)</para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Line/Dash</emphasis> and <emphasis role="bold">Line
+              Orientation</emphasis> (Panels menu > Diagram Settings > Relation Type
+            Definitions)</para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Export Data</emphasis> (Panels menu)</para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Internal Help</emphasis> (Help menu)</para>
+        </listitem>
+      </orderedlist>
+    </para>
+  </appendix>
 </book>
