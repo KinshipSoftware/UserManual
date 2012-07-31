@@ -106,8 +106,9 @@
           </listitem>
           <listitem>
             <para><emphasis role="bold">Open Diagram</emphasis>: this option allows you to open a
-              new diagram file choosing from the ones present in your computer directories. Once you
-              have selected a file this will open in a new page of KinOath. </para>
+              diagram choosing from the ones present in your computer directories. Once you have
+              selected the file you need and clicked <emphasis role="bold">Open</emphasis> this will
+              open in a new page of KinOath. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Open Recent Diagram</emphasis>: through this option you can
@@ -158,25 +159,7 @@
             <para><emphasis role="bold">Set Default Diagram as</emphasis>: through this option you
               can take a certain type of diagram and some diagram settings, and set them as default,
               so that when you start the application again, this will open showing the specific
-              diagram and settings you preconfigured. Example: open a new standard diagram, open the
-              diagram settings panel, choose the relation type definitions tab, fill in the colomns
-              there (e.g. relation type: sibling, line colour: pink, line width: 5). Set it as
-              default diagram. Open a new default diagram and create two individuals: if you select
-              one of them, it will already show you the sibling relation, represented by a spot of
-              the colour you previously chose for that relation type. See the picture below. </para>
-            <para>
-              <figure>
-                <title>Set Default Diagram</title>
-                <screenshot>
-                  <screeninfo/>
-                  <mediaobject>
-                    <imageobject>
-                      <imagedata fileref="images//defaultDiagram.png"/>
-                    </imageobject>
-                  </mediaobject>
-                </screenshot>
-              </figure>
-            </para>
+              diagram and settings you preconfigured. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Exit</emphasis>: as with "Close", clicking on this option
@@ -196,7 +179,7 @@
                   <emphasis role="bold">Search Entities</emphasis>, <emphasis role="bold">Project
                   Tree</emphasis> and <emphasis role="bold">Diagram Tree</emphasis>. Through the
                 first one you can search for entities which are already present in the database . A
-                complete list of the latter is provided in the second tab. In the third tab, by
+                complete list of such entities is provided in the second tab. In the third tab, by
                 contrast, you are able to see the specific entities you have selected from the
                 database and/or the ones you have created. Speaking about new entities, you can
                 create a completely new diagram from scratch using the several options of the menu
@@ -204,15 +187,12 @@
                   <listitem>
                     <para><emphasis role="bold">Add</emphasis>: you may decide to add an <emphasis
                         role="bold">Individual</emphasis>, a <emphasis role="bold"
-                        >Chromosome_Example</emphasis>, or any other entity type selected in the
-                      profiles settings, to your diagram. In both cases, a new entity will appear,
+                        >Chromosome_Example</emphasis>, a <emphasis role="bold"
+                        >Clan_Example</emphasis>, or any other entity type selected in the profiles
+                      settings, to your diagram. In both cases, a new entity will appear,
                       represented by a small square icon (unless configured otherwise). If you
                       select that entity you will see, at the bottom of the page, a table with
-                      information to fill in: <emphasis role="bold">Name</emphasis>, <emphasis
-                        role="bold">Date of Birth</emphasis>, <emphasis role="bold">Date of
-                        Death</emphasis>, <emphasis role="bold">Gender</emphasis> (in the case of
-                      the chromosome example you will also see the field <emphasis role="bold"
-                        >Chromosome</emphasis>, where chromosome data can be entered). Once the data
+                      information to fill in, such as names, dates, genders, etc. Once the data
                       regarding an entity has been entered you can save it either by clicking on the
                       entity itself, or by choosing - from the right click menu - the option
                         <emphasis role="bold">Save All Data Changes</emphasis>.</para>
@@ -339,9 +319,9 @@
                 smaller panel on the top called <emphasis role="bold">Kin Type Strings</emphasis>.
                 Also here you can create diagrams from scratch but the difference from the previous
                 case is that you need to enter strings in the panel on the top of the page, using
-                precise kin types definitions. Hereinafter there is a list of the principal ones
-                (which can be also found following the path: "Panels" > "Diagram Settings" > "Kin
-                Type Definitions"):</para>
+                precise kin types definitions. Hereinafter there is a list of the main ones (which
+                can be also found following the path: "Panels" > "Diagram Settings" > "Kin Type
+                Definitions"):</para>
               <para>E = ego; Ef = ego female; Em = ego male; x = undefined</para>
               <para>F or Fa = father; M or Mo = mother; P or Pa = parent</para>
               <para>B or Br = brother; Z or Si = sister; Sb = sibling</para>
@@ -421,7 +401,8 @@
                 take the entity needed from the "Project Tree" list on the left, and drag it to the
                 "Kin Type Strings" panel on the top, preceded by the "E" of "ego". The entities you
                 have searched for will appear both in the "Diagram Tree" on the left and in the main
-                panel. </para>
+                panel. [If you want to narrow your query open the 'Panels' menu and select the
+                'Search Entities' panel]</para>
               <para>
                 <figure>
                   <title>Query Diagram </title>
@@ -631,7 +612,7 @@
           </listitem>
           <listitem>
             <para><emphasis role="bold">Export</emphasis>: with this option you can save (export)
-              the kin term group created to a directory outside KinOath. By selecting this option a
+              the kin term group created in a directory outside KinOath. By selecting this option a
               window will open asking you to choose a directory where to place the file, and a file
               name. </para>
           </listitem>
@@ -674,7 +655,7 @@
           </listitem>
           <listitem>
             <para><emphasis role="bold">Diagram Settings</emphasis>: by choosing this option a panel
-              will open on the top of the page with five tabs:</para>
+              will open on the top of the page with some tabs:</para>
             <para>
               <figure>
                 <title>Diagram Settings panel</title>
@@ -691,9 +672,9 @@
               <itemizedlist>
                 <listitem>
                   <para><emphasis role="bold">Entity Profiles</emphasis>: this tab includes a list
-                    of profiles which can be added or removed when creating a diagram ("Individual"
-                    and "Chromosome_Example" seen in section 2.1.1. in the standard diagram
-                    paragraph are two examples of profiles). They just need to be checked and/or
+                    of profiles which can be added or removed when creating a diagram ("Individual",
+                    "Chromosome_Example", and "Clan_Example" seen in section 2.1.1. in the standard
+                    diagram paragraph are examples of profiles). They just need to be checked and/or
                     unchecked.</para>
                   <para>
                     <figure>
@@ -767,45 +748,6 @@
                     </figure></para>
                 </listitem>
                 <listitem>
-                  <para><emphasis role="bold">Relation Type Definitions</emphasis>: when selecting
-                    this tab a sub-table opens. The options of this sub-table displayed are not
-                    mandatory, but if used they may prove useful to simplify and clarify the diagram
-                    layout. These options are: </para>
-                  <para>
-                    <itemizedlist>
-                      <listitem>
-                        <para><emphasis role="bold">Custom Name</emphasis>: in this column you can
-                          enter the name that you want to give to a particular relation.</para>
-                      </listitem>
-                      <listitem>
-                        <para><emphasis role="bold">Data Category</emphasis>: in this column you can
-                          enter an URL pointing to a DCR (Data Category Registry) id, i.e. a page
-                          containing some additional information about the relation types.</para>
-                      </listitem>
-                      <listitem>
-                        <para><emphasis role="bold">Relation Type</emphasis>: as the name says, in
-                          this column you can select a relation type (sibling, union, etc.),
-                          choosing among the various possibilities present in the drop down menu. If
-                          you do not want to do it "manually", you can select <emphasis role="bold"
-                            >Scan For Types</emphasis> under the colour table on the right of the
-                          page. It will automatically find all the relation types of your diagram
-                          and enter them directly in the column "Relation Type". </para>
-                      </listitem>
-                      <listitem>
-                        <para><emphasis role="bold">Line Colour</emphasis>: you can choose a
-                          different colour (from the table on the right) for each one of the
-                          relation types present in your diagram. The sanguine lines connecting the
-                          entities will get coloured accordingly.</para>
-                      </listitem>
-                      <listitem>
-                        <para><emphasis role="bold">Line Width</emphasis>: this option allows you to
-                          change the width of the sanguine lines, which will get thicker or thinner
-                          depending on the millimetres you choose.</para>
-                      </listitem>
-                    </itemizedlist>
-                  </para>
-                </listitem>
-                <listitem>
                   <para><emphasis role="bold">Symbol Fields</emphasis>: according to the features
                     that are attributed to the entities, these get different shapes, for example a
                     female ego is a circle, whereas a male ego is a triangle. Such shapes, however,
@@ -824,10 +766,13 @@
                       </screenshot>
                     </figure>
                   </para>
-                  <para>However, note that not all of the options just explained are available for
-                    all the diagram types. Indeed, the "Standard (database driven)" diagram has the
-                    five of them, but the others have just two or three, because not all of them are
-                    necessary for the diagram purposes. </para>
+                  <para>
+                    <note>
+                      <para>Not all of the options just explained are available for all the diagram
+                        types. They vary according the diagram type and, therefore, according to the
+                        diagram purposes.</para>
+                    </note>
+                  </para>
                 </listitem>
               </itemizedlist>
             </para>
@@ -982,7 +927,7 @@
   <chapter>
     <title>How to...?</title>
     <para>This chapter is aimed at summarizing in a practical way the main content of the manual. To
-      say it differently, here you will find straightforward instructions that will help you become
+      put it differently, here you will find straightforward instructions that will help you become
       a bit more familiar with the application. </para>
     <section>
       <title>...add entities via right click menu</title>
@@ -1021,21 +966,20 @@
       <para>
         <itemizedlist>
           <listitem>
-            <para>Select the two, or more, entities you need (shift button held down); right click;
+            <para>Select the two, or more, entities you need (SHIFT button held down); right click;
               choose the menu item <emphasis role="bold">Add relation</emphasis>, and then select
               the type of relation you want. The entities will be linked accordingly.</para>
           </listitem>
           <listitem>
             <para>As for the relation types <emphasis role="bold">ancestor</emphasis> and <emphasis
                 role="bold">descendant</emphasis>, remember that: if you select first the ancestor,
-              and then the descendant, you have to choose an ancestor relation type. By comparison,
+              and then the descendant, you have to choose a descendant relation type. By comparison,
               if you do it the other way round, i.e. first descendant and then ancestor, you have to
-              choose a descendant relation type. In other words, you have to choose the relation
-              type keeping in mind the family role of the first entity selected. </para>
+              choose an ancestor relation type. </para>
           </listitem>
           <listitem>
             <para>If you decide to remove some of the relations just created, select again how many
-              entities you need (shift button held down) and right click; choose the menu item
+              entities you need (SHIFT button held down) and right click; choose the menu item
                 <emphasis role="bold">Remove Relations</emphasis> and then <emphasis role="bold"
                 >Remove relations between selected</emphasis>. The line linking the entities will go
               away.</para>
@@ -1085,15 +1029,15 @@
           <listitem>
             <para>The option <emphasis role="bold">Graph selection</emphasis> (below the 'Search
               Entity Names' white field) is checked by default; this means that when you select an
-              entity from the list given to you after your query, this will automatically appear in
-              the main panel. If you uncheck this option, you will have to manually drag the
-              selected entity to the main panel. </para>
+              entity from the list given to you after the query is made, this will automatically
+              appear in the main panel. If you uncheck this option, you will have to manually drag
+              the selected entity to the main panel. </para>
           </listitem>
           <listitem>
             <para>Another option that may turn useful is <emphasis role="bold">Expand selection by
                 kin type string</emphasis> (below 'Graph selection'). If you check it, and then
               enter some kin types in the white field below it, you will see the previously selected
-              entity change accordingly. E.g. type 'Albert' and then click 'Search'. Select one of
+              entity changing accordingly. E.g. type 'Albert' and then click 'Search'. Select one of
               the entities that appear in the list: it will appear also in the main panel. Then
               check the field 'Expand selection...' and type '*'. All (if any) first-degree
               relatives related to the entity selected will appear on the diagram as well. </para>
@@ -1110,8 +1054,8 @@
         <itemizedlist>
           <listitem>
             <para>[If you do not already have a project-based diagram open (see section 2.1 above -
-              option 'Open Diagram')] From the File menu select New Diagram of Type and <emphasis
-                role="bold">Freeform Diagram (transient)</emphasis>. </para>
+              option 'Open Diagram')] From the File menu select New Diagram of Type and then
+                <emphasis role="bold">Freeform Diagram (transient)</emphasis>. </para>
           </listitem>
           <listitem>
             <para>In the tab on top of the page - <emphasis role="bold">Kin Type Strings</emphasis>
@@ -1122,9 +1066,9 @@
             <para>To the kin types you can attach some labels, namely names, dates, etc. To do so,
               enter a colon after the kin type, then separate each of the label with a semi-colon,
               and finally enter another colon between the last label and the next kin type. The
-              labels have to be entered with a precise order: (Id) [mind that the Id is normally
-              used when you have two entities with the same name], name, date of birth - date of
-              death. E.g. Ef:Jane;1950-2010:M:Carla;1925-2000:.....</para>
+              labels have to be entered with a precise order: Id [mind that the Id is normally used
+              when you have two entities with the same kin type definition], name, date of birth -
+              date of death. E.g. Ef:Jane;1950-2010:M:Carla;1925-2000:.....</para>
           </listitem>
         </itemizedlist>
       </para>
@@ -1135,9 +1079,10 @@
         <itemizedlist>
           <listitem>
             <para>[If you do not already have a project-based diagram open (see section 2.1 above -
-              option 'Open Diagram')] From the File menu, select New Diagram of Type and <emphasis
-                role="bold">Query Diagram</emphasis>. As the name says, this diagram is mainly used
-              when you want to search for entities within the ones present in the database.</para>
+              option 'Open Diagram')] From the File menu, select New Diagram of Type and then
+                <emphasis role="bold">Query Diagram</emphasis>. As the name says, this diagram is
+              mainly used when you want to search for entities within the ones present in the
+              database.</para>
           </listitem>
           <listitem>
             <para>What you can do here is either type something for yourself, or directly use the
@@ -1146,17 +1091,19 @@
             <para>
               <itemizedlist>
                 <listitem>
-                  <para>In the former case, you can type something like 'x[Albert_I]' in the tab Kin
-                    Type Strings on top of the page: in the main panel you will see all the entities
-                    named Albert_I and/or containing Albert_I in their names. Besides, you can add
-                    futher kin types like 'x[Albert_I]*', in which case you will see all the
+                  <para>In the first case, you can type something like 'x[Albert_I]' in the tab 'Kin
+                    Type Strings' on top of the page: in the main panel you will see all the
+                    entities named Albert_I and/or containing Albert_I in their names. Besides, you
+                    can add futher kin types like 'x[Albert_I]*', in which case you will see all the
                     possibly existing first-degree relatives of all the entities present in the main
                     panel.</para>
                 </listitem>
                 <listitem>
-                  <para>In the latter case, by comparison, you can select an entity in particular
-                    and drag it to the Kin Type Strings tab on top of the page, preceded either by E
-                    or x ( which stand for any, unspecified entity). E.g.
+                  <para>In the second case, by comparison, you can select an entity in particular
+                    from the 'Prohect Tree' tab and drag it to the Kin Type Strings tab on top of
+                    the page, preceded either by E or x, which stand for any, unspecified entity
+                    [note that if you want to narrow the field of search you can always open the
+                    'Search Entities' tab via 'Panels' menu]. E.g.
                     x[Entity.Identifier=7bd7bff7-ff5e-4424-a9c9-d1283e0df145]; in the main panel you
                     will see only that entity in particular. As in the previous case, you can also
                     add further kin types, and the diagram in the main panel will change
@@ -1209,7 +1156,7 @@
               you need and select <emphasis role="bold">Open</emphasis>. The kin terms will appear
               both in the table on the right of the page and in the main panel in the form of
               diagram. Besides, another window popping up will tell you how many kin terms have been
-              imported. As for exporting, select the option<emphasis role="bold">Export</emphasis>
+              imported. As for exporting, select the option <emphasis role="bold">Export</emphasis>
               from the Kin Terms menu. A window will open asking you to choose a directory where to
               export the kin terms and a file name; then select <emphasis role="bold"
                 >Save</emphasis>. The kin terms will be exported to the chosen directory. </para>
@@ -1229,14 +1176,23 @@
     </section>
   </chapter>
   <appendix>
-    <title>Not yet implemented features</title>
-    <para>As you may already have noticed by yourselves, KinOath 1.0 presents some hidden options.
-      These features are not implemented at the moment, but will be in future versions of the
-      application. Here it is a list of such features:</para>
+    <title>Features not available in KinOath 1.0 </title>
+    <para>
+      <note>
+        <para>As you may already have noticed by yourselves, KinOath 1.0 presents some hidden
+          options. These features are not implemented at the moment, but will be available in the
+          next release of the application. However, they are already available in the current
+          testing version.</para>
+      </note>
+    </para>
     <para>
       <orderedlist>
         <listitem>
           <para><emphasis role="bold">Entity Upload</emphasis> (File menu)</para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Export as JPEG/PNG/TIFF</emphasis> (File menu) [PDF format
+            works!]</para>
         </listitem>
         <listitem>
           <para><emphasis role="bold">Add Polyline</emphasis> (Standard Diagram > right click menu >
@@ -1252,6 +1208,10 @@
             column)</para>
         </listitem>
         <listitem>
+          <para><emphasis role="bold">Delete Group</emphasis> ((File menu > New Diagram of Type >
+            Kin Terms Diagram > panel on the right of the page)</para>
+        </listitem>
+        <listitem>
           <para><emphasis role="bold">Archive Data Linker</emphasis> diagram (File menu > New
             Diagram of Type > Archive Data Linker)</para>
         </listitem>
@@ -1259,15 +1219,63 @@
           <para><emphasis role="bold">Archive Linker</emphasis> menu (top of the page)</para>
         </listitem>
         <listitem>
-          <para><emphasis role="bold">Line/Dash</emphasis> and <emphasis role="bold">Line
-              Orientation</emphasis> (Panels menu > Diagram Settings > Relation Type
-            Definitions)</para>
-        </listitem>
-        <listitem>
           <para><emphasis role="bold">Export Data</emphasis> (Panels menu)</para>
         </listitem>
         <listitem>
           <para><emphasis role="bold">Internal Help</emphasis> (Help menu)</para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Relation Type Definitions</emphasis> (Panels menu > Diagram
+            Settings)</para>
+          <para>When selecting this tab a sub-table opens. The options of this sub-table displayed
+            are not mandatory, but if used they may prove useful to simplify and clarify the diagram
+            layout. These options are: </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para><emphasis role="bold">Custom Name</emphasis>: in this column you can enter the
+                  name that you want to give to a particular relation.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Data Category</emphasis>: in this column you can enter
+                  an URL pointing to a DCR (Data Category Registry) Id, i.e. a page containing some
+                  additional information about the relation types.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Relation Type</emphasis>: as the name says, in this
+                  column you can select a relation type (sibling, union, etc.), choosing among the
+                  various possibilities present in the drop down menu. If you do not want to do it
+                  "manually", you can select <emphasis role="bold">Scan For Types</emphasis> under
+                  the colour table on the right of the page. It will automatically find all the
+                  relation types of your diagram and enter them directly in the column "Relation
+                  Type". </para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Line Colour</emphasis>: you can choose a different
+                  colour (from the table on the right) for each one of the relation types present in
+                  your diagram. The sanguine lines connecting the entities will get coloured
+                  accordingly.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Line Width</emphasis>: this option allows you to change
+                  the width of the sanguine lines, which will get thicker or thinner depending on
+                  the millimetres you choose.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Line/Dash</emphasis>: through this option you can have a
+                  solid line or a dashed line. In the latter case, you can also decide how big the
+                  dashes need to be.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Curve Line Orientation</emphasis>: this option applies
+                  to the relation type 'other', and it has to do with, as the name says, the
+                  orientation of the line linking two entities. You can have either a 'horizontal',
+                  or a 'vertical' line orientation [in the first case the line start from a
+                  horizontal position, whereas in the second case it starts from a vertical
+                  position].</para>
+              </listitem>
+            </itemizedlist>
+          </para>
         </listitem>
       </orderedlist>
     </para>
