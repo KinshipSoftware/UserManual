@@ -2,17 +2,22 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 <book>
-  <title>KinOath Kinship Archiver</title>
+  <title>KinOath - Kinship Archiver</title>
   <subtitle>Manual</subtitle>
   <bookinfo>
-    <releaseinfo>June 2012</releaseinfo>
-    <releaseinfo>The latest version can be downloaded from <ulink
-        url="http://tla.mpi.nl/tools/tla-tools/kinoath"
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/KinOath-512.png"/>
+        </imageobject>
+      </mediaobject>
+      
+      <orgname>The Language Archive, MPI for Psycholinguistics, Nijmegen, The Netherlands</orgname>
+    
+      <releaseinfo>The latest version can be downloaded from <ulink url="http://tla.mpi.nl/tools/tla-tools/kinoath"
         >http://tla.mpi.nl/tools/tla-tools/kinoath</ulink></releaseinfo>
-    <author>
-      <surname>F.Bechis (<ulink url="mailto:Francesca.Bechis@mpi.nl"
-        >Francesca.Bechis@mpi.nl</ulink>)</surname>
-    </author>
+      <releaseinfo>This manual was last updated in June 2012</releaseinfo>
+      <releaseinfo>Francesca Bechis</releaseinfo>
+      
   </bookinfo>
   <preface id="Pre_Introduction">
     <title>Introduction</title>
