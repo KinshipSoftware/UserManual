@@ -2,13 +2,13 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 <book>
-  <title>KinOath - Kinship Archiver</title>
+  <title>KinOath Kinship Archiver</title>
   <subtitle>Manual</subtitle>
   <bookinfo>
       <mediaobject>
         <imageobject>
-          <imagedata fileref="images/KinOath-512.png"/>
-        </imageobject>
+        <imagedata fileref="images/KinOath-512.png" contentdepth="100%" scalefit="1" width="100%"/>
+      </imageobject>
       </mediaobject>
       
       <orgname>The Language Archive, MPI for Psycholinguistics, Nijmegen, The Netherlands</orgname>
@@ -25,11 +25,12 @@
       <informaltable id="portal-columns">
         <tbody>
           <tr>
-            <td rowspan="1" colspan="1">KinOath Kinship Archiver is a kinship application designed,
+            <td rowspan="1" colspan="1">KinOath Kinship Archiver is a professional scientific
+              general kinship tool, and also and archive retrieval application. It is designed,
               first of all, to link kinship data with archived data such as, for example, media
               resources (i.e. audio files, video files, etc.). Secondly, being culturally
               nonspecific, this program makes it possible for users to create diagrams based on
-              culturally, and therefore linguistically, different social structures; such diagrams
+              culturally, and therefore linguistically, different social structures. Such diagrams
               can then be compared and contrasted. A series of options are included which aim to
               optimize graphical representation of the data, a key feature within KinOath
               environment. </td>
@@ -45,9 +46,10 @@
         url="http://tla.mpi.nl/tools/tla-tools/kinoath"
         >http://tla.mpi.nl/tools/tla-tools/kinoath</ulink>. You can either start it - with no
       installation needed - through the option <emphasis role="bold">Run via webstart</emphasis>, or
-      you can install it on your computer by selecting one of the installers provided next to "Run
-      via webstart". In both cases you will need Java installed on your machine for the application
-      to run. For more information on Java and how to install it go to <ulink
+      you can install it on your computer by selecting one of the installers provided next to
+        <emphasis role="bold">Run via webstart</emphasis>. Installers are available for Windows,
+      MacOS and Debian. In both cases, however, you will need Java installed on your machine for the
+      application to run. For more information on Java and how to install it go to <ulink
         url="http://java.com/en/">http://java.com/en/</ulink>.</para>
     <para>
       <figure>
@@ -56,7 +58,7 @@
           <screeninfo/>
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/navigatingKinoath.png" contentdepth="100%" scalefit="1"
+              <imagedata fileref="images/StartingKinoath.png" contentdepth="100%" scalefit="1"
                 width="100%"/>
             </imageobject>
           </mediaobject>
@@ -66,9 +68,9 @@
   </chapter>
   <chapter>
     <title>Menus</title>
-    <para>Once KinOath Kinship Archiver has been opened, the several diagrams and the respective
-      options available for each of them can be accessed through a number of menus located on the
-      top of the page. </para>
+    <para>Once KinOath Kinship Archiver has been opened, the several diagrams and the options
+      available for each of them can be accessed through a number of menus located on the top of the
+      page. </para>
     <para>
       <figure>
         <title>KinOath menus</title>
@@ -76,7 +78,7 @@
           <screeninfo/>
           <mediaobject>
             <imageobject>
-              <imagedata contentdepth="" fileref="images/kinoathMenus.png" scalefit="" width=""/>
+              <imagedata contentdepth="100%" fileref="images/Menus.png" scalefit="1" width="100%"/>
             </imageobject>
           </mediaobject>
         </screenshot>
@@ -90,20 +92,21 @@
           <screeninfo/>
           <mediaobject>
             <imageobject>
-              <imagedata contentwidth="" fileref="images/fileMenu.png" scalefit="" width=""/>
+              <imagedata contentwidth="100%" fileref="images/FileMenu2.png" scalefit="1"
+                width="100%"/>
             </imageobject>
           </mediaobject>
         </screenshot>
       </figure>
-      <para>The first menu available is the <emphasis role="bold">File</emphasis> menu, which
-        includes the following options:</para>
+      <para>The first menu available is the <emphasis role="bold">File</emphasis> menu (see figure
+        above), which includes the following options:</para>
       <para>
         <itemizedlist>
           <listitem>
             <para><emphasis role="bold">New (default diagram)</emphasis>: this option allows you to
-              open a new diagram. It says "<emphasis role="italic">default</emphasis> diagram"
-              because when KinOath opens it shows the diagram that was previously set as default
-              through the option "Set Default Diagram as" (see below). </para>
+              open a new diagram. It says <emphasis role="italic">default</emphasis> diagram because
+              when KinOath opens, it shows the diagram that was previously set as default through
+              the option "Set Default Diagram as" (see below). </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">New Diagram of Type</emphasis>: this option allows you to
@@ -112,8 +115,8 @@
           <listitem>
             <para><emphasis role="bold">Open Diagram</emphasis>: this option allows you to open a
               diagram choosing from the ones present in your computer directories. Once you have
-              selected the file you need and clicked <emphasis role="bold">Open</emphasis> this will
-              open in a new page of KinOath. </para>
+              selected the file you need, and clicked <emphasis role="bold">Open</emphasis>, the
+              file will open in a new page of KinOath. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Open Recent Diagram</emphasis>: through this option you can
@@ -123,20 +126,21 @@
           </listitem>
           <listitem>
             <para><emphasis role="bold">Open Sample Diagram</emphasis>: KinOath includes a number of
-              sample diagrams through which you can observe how the application works (see section
-              2.1.2.). You can open and examine these sample diagrams by selecting this option. </para>
+              sample diagrams (especially kin term diagrams) through which you can observe how the
+              application works (see section 2.1.2.). You can open and examine these sample diagrams
+              by selecting this option. </para>
           </listitem>
           <listitem>
-            <para><emphasis role="bold">Import Gedcom / CSV File</emphasis>: this option allows you
-              to import kinship files in either Gedcom or CSV format. Once it is selected a window
-              will open asking you to choose the file to import from a directory; the file selected
-              will then open in a new page of KinOath.</para>
+            <para><emphasis role="bold">Import Gedcom / CSV / TIP File</emphasis>: this option
+              allows you to import kinship files in either Gedcom, CSV, or TIP format. Once it is
+              selected, a window will open asking you to choose the file to import from a directory.
+              The file selected will then open in a new page of KinOath.</para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Import Sample Data</emphasis>: some of the diagrams require
               data to be imported before starting to work on them. A list of sample data is
-              accessible via this option. Once the import is complete a new panel will appear
-              containing all the entities imported (<emphasis role="bold">Imported
+              accessible via this option. Once the import is complete a new panel will appear on the
+              right of the page containing all the entities imported (<emphasis role="bold">Imported
                 Entities</emphasis>). </para>
           </listitem>
           <listitem>
@@ -152,13 +156,13 @@
           </listitem>
           <listitem>
             <para><emphasis role="bold">Export for R / SPSS</emphasis>: this option allows you to
-              export a KinOath diagram to either R or SPSS, two programs you can use mainly to
+              export a KinOath diagram to either R or SPSS, two programs you can mainly use to
               statistically analyse your data. The file format is, by deafult, <emphasis
                 role="italic">.tab</emphasis>. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Close</emphasis>: clicking on this option will close the
-              program.</para>
+              application.</para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Set Default Diagram as</emphasis>: through this option you
@@ -167,14 +171,18 @@
               diagram and settings you preconfigured. </para>
           </listitem>
           <listitem>
-            <para><emphasis role="bold">Exit</emphasis>: as with "Close", clicking on this option
-              will close the program.</para>
+            <para><emphasis role="bold">Exit</emphasis>: as with <emphasis role="bold"
+                >Close</emphasis>, clicking on this option will close the application.</para>
           </listitem>
         </itemizedlist>
       </para>
       <section>
         <title>Diagram Types</title>
-        <para>Through the option "New Diagram of Type" a number of different diagrams can be opened: </para>
+        <para>Through the option <emphasis role="bold">New Diagram of Type</emphasis> a number of
+          different diagrams can be opened. All the diagrams produced are in a scalable vector
+          format of publishing quality and all diagrams can be exported into PDF format. The working
+          files are in SVG (Scalable Vector Graphics) format that can be opened in graphics
+          applications or viewed in modern web browsers. </para>
         <para>
           <itemizedlist>
             <listitem>
@@ -183,18 +191,19 @@
                 central, blank panel and a smaller panel on the left which includes three tabs:
                   <emphasis role="bold">Search Entities</emphasis>, <emphasis role="bold">Project
                   Tree</emphasis> and <emphasis role="bold">Diagram Tree</emphasis>. Through the
-                first one you can search for entities which are already present in the database . A
+                first one you can search for entities which are already present in the database. A
                 complete list of such entities is provided in the second tab. In the third tab, by
                 contrast, you are able to see the specific entities you have selected from the
                 database and/or the ones you have created. Speaking about new entities, you can
                 create a completely new diagram from scratch using the several options of the menu
                 that comes out when right clicking in the main panel:<orderedlist>
                   <listitem>
-                    <para><emphasis role="bold">Add</emphasis>: you may decide to add an <emphasis
-                        role="bold">Individual</emphasis>, a <emphasis role="bold"
-                        >Chromosome_Example</emphasis>, a <emphasis role="bold"
-                        >Clan_Example</emphasis>, or any other entity type selected in the profiles
-                      settings, to your diagram. In both cases, a new entity will appear,
+                    <para><emphasis role="bold">Add</emphasis>: you may decide to add to your
+                      diagram an <emphasis role="bold">Individual</emphasis>, a <emphasis
+                        role="bold">Chromosome_Example</emphasis>, a <emphasis role="bold"
+                        >Clan_Example</emphasis>, a <emphasis role="bold">KinTerm</emphasis>, a
+                        <emphasis role="bold">Social_Event</emphasis>, or any other entity type
+                      selected in the profiles settings. In both cases, a new entity will appear,
                       represented by a small square icon (unless configured otherwise). If you
                       select that entity you will see, at the bottom of the page, a table with
                       information to fill in, such as names, dates, genders, etc. Once the data
