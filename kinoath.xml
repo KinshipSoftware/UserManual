@@ -48,9 +48,9 @@
       installation needed - through the option <emphasis role="bold">Run via webstart</emphasis>, or
       you can install it on your computer by selecting one of the installers provided next to
         <emphasis role="bold">Run via webstart</emphasis>. Installers are available for Windows,
-      MacOS and Debian. In both cases, however, you will need Java installed on your machine for the
-      application to run. For more information on Java and how to install it go to <ulink
-        url="http://java.com/en/">http://java.com/en/</ulink>.</para>
+      MacOS and Debian. In both cases (webstart and installation), however, you will need Java
+      installed on your machine for the application to run. For more information on Java and how to
+      install it go to <ulink url="http://java.com/en/">http://java.com/en/</ulink>.</para>
     <para>
       <figure>
         <title>Navigating KinOath</title>
@@ -106,11 +106,13 @@
             <para><emphasis role="bold">New (default diagram)</emphasis>: this option allows you to
               open a new diagram. It says <emphasis role="italic">default</emphasis> diagram because
               when KinOath opens, it shows the diagram that was previously set as default through
-              the option "Set Default Diagram as" (see below). </para>
+              the option <emphasis role="bold">Set Default Diagram as</emphasis> (see below). </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">New Diagram of Type</emphasis>: this option allows you to
-              open a new diagram, choosing among the different types provided (see section 2.1.1.). </para>
+              open a new diagram, choosing among the different types provided (i.e. Standard Diagram
+              (database driven); Freeform Diagram (transient); Kin Terms Diagram; Query Diagram;
+              Archive Data Linker. See section 2.1.1 below for more detailed information). </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Open Diagram</emphasis>: this option allows you to open a
@@ -126,9 +128,8 @@
           </listitem>
           <listitem>
             <para><emphasis role="bold">Open Sample Diagram</emphasis>: KinOath includes a number of
-              sample diagrams (especially kin term diagrams) through which you can observe how the
-              application works (see section 2.1.2.). You can open and examine these sample diagrams
-              by selecting this option. </para>
+              sample diagrams (see section 2.1.2) through which you can observe how the application
+              works. You can open and examine these sample diagrams by selecting this option. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Import Gedcom / CSV / TIP File</emphasis>: this option
@@ -150,9 +151,9 @@
           <listitem>
             <para><emphasis role="bold">Export as PDF/JPEG/PNG/TIFF</emphasis>: this option allows
               you to export files (in one of the following formats: PDF, JPEG, PNG and TIFF) to a
-              directory in your computer. As in the previous option, "Save as", when selecting
-              "Export as ..." you will be asked to choose a directory and a file name plus, in this
-              case, a file format. </para>
+              directory in your computer. As in the previous option, <emphasis role="bold">Save
+                as</emphasis>, when selecting <emphasis role="bold">Export as</emphasis> ... you
+              will be asked to choose a directory and a file name plus, in this case, a file format. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Export for R / SPSS</emphasis>: this option allows you to
