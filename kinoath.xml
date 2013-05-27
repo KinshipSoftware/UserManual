@@ -192,12 +192,35 @@
                 central, blank panel and a smaller panel on the left which includes three tabs:
                   <emphasis role="bold">Search Entities</emphasis>, <emphasis role="bold">Project
                   Tree</emphasis> and <emphasis role="bold">Diagram Tree</emphasis>. Through the
-                first one you can search for entities which are already present in the database. A
-                complete list of such entities is provided in the second tab. In the third tab, by
-                contrast, you are able to see the specific entities you have selected from the
-                database and/or the ones you have created. Speaking about new entities, you can
-                create a completely new diagram from scratch using the several options of the menu
-                that comes out when right clicking in the main panel:<orderedlist>
+                first one you can search for entities which are already present in the database. </para>
+              <para>
+                <note>
+                  <para>Entities can also be searched with fuzzy matching, and the results can also
+                    be expanded through kin type strings entered in the white field located in the
+                      <emphasis role="bold">Search Entities</emphasis> tab. As you select different
+                    entities, the diagram updates itself accordingly. See the figure below.</para>
+                </note>
+              </para>
+              <para>
+                <figure>
+                  <title>Search Entities tab</title>
+                  <screenshot>
+                    <screeninfo/>
+                    <mediaobject>
+                      <imageobject>
+                        <imagedata fileref="images/FuzzyMatching2.png" contentdepth="100%"
+                          scalefit="1" width="100%"/>
+                      </imageobject>
+                    </mediaobject>
+                  </screenshot>
+                </figure>
+              </para>
+              <para>A complete list of such entities is provided in the second tab (<emphasis
+                  role="bold">Project Tree</emphasis>). In the third tab (<emphasis role="bold"
+                  >Diagram Tree</emphasis>), by contrast, you are able to see the specific entities
+                you have selected from the database and/or the ones you have created. As far as new
+                entities are concerned, you can create a completely new diagram from scratch using
+                the several options of the menu that comes out when right clicking in the main panel:<orderedlist>
                   <listitem>
                     <para><emphasis role="bold">Add</emphasis>: you may decide to add to your
                       diagram an <emphasis role="bold">Individual</emphasis>, a <emphasis
@@ -216,11 +239,13 @@
                     <para><emphasis role="bold">Add Geometry</emphasis>: its sub-options are:
                         <emphasis role="bold">Add Label</emphasis>, <emphasis role="bold">Add
                         Circle</emphasis>, <emphasis role="bold">Add Square</emphasis>, and
-                        <emphasis role="bold">Add Ellipse</emphasis>. The first (label) allows you
-                      to enter a label for your diagram, and you can do it by entering the text into
-                      a small window opening at the bottom of the page when the option is selected.
-                      The other three are graphic options you can use to differentiate kin groups
-                      (circle, square, ellipse).</para>
+                        <emphasis role="bold">Add Ellipse</emphasis>. The first one (<emphasis
+                        role="bold">Add Label</emphasis>) allows you to enter a label for your
+                      diagram, and you can do it by entering the text into a small window opening at
+                      the bottom of the page when the option is selected. The other three (<emphasis
+                        role="bold">Add Circle</emphasis>, <emphasis role="bold">Add
+                        Square</emphasis>, <emphasis role="bold">Add Ellipse</emphasis>) are graphic
+                      options you can use to differentiate kin groups.</para>
                   </listitem>
                   <listitem>
                     <para><emphasis role="bold">Delete</emphasis>: this option allows you to delete
@@ -229,11 +254,11 @@
                   <listitem>
                     <para><emphasis role="bold">Merge Selected Entities</emphasis>: you can use this
                       option when, for example, you have two separate entities carrying different
-                      pieces of information but, at a certain moment, you discover that they are the
-                      same individual, and therefore you want to make them merge into a single
-                      entity. What results from the merger is a single individual carrying the
-                      information of the two merged entities. [Note: at the moment it only merges
-                      the entities but not the kinship data that such entities carry]</para>
+                      pieces of information but you find them to be the same individual, and
+                      therefore you want to make them merge into a single entity. What results from
+                      the merger is a single individual carrying the information of the two merged
+                      entities. [Note: at the moment it only merges the entities but not the kinship
+                      data that such entities carry]</para>
                   </listitem>
                   <listitem>
                     <para><emphasis role="bold">Duplicate Selected Entities</emphasis>: when
@@ -244,7 +269,7 @@
                     <para><emphasis role="bold">Add Relations</emphasis>: once that several, single
                       entities have been created, you may also want to create relations between
                       them. To this purpose, select how many entities you need (by clicking on them
-                      while holding down the SHIFT button on the keyboard) and right click. You can
+                      while holding down the SHIFT key on the keyboard) and right click. You can
                       choose between: <emphasis role="bold">sibling</emphasis>, <emphasis
                         role="bold">ancestor</emphasis>, <emphasis role="bold"
                       >descendant</emphasis>, <emphasis role="bold">union</emphasis>, <emphasis
@@ -271,14 +296,15 @@
                         <emphasis role="bold">Implied</emphasis>. When you create new entities they
                       automatically go under the "Required" list or, depending on the relations that
                       have been created, under the "Implied" list. However, if you want to create an
-                      egocentric diagram you can select one of the entities and - through "Set as
-                      ego (list will be cleared)" - transfer it to the "Ego" list. Such entity will
-                      go black. [You can also create socialcentric diagrams, in which no particular
-                      entity is set as starting point of the diagram.] The option contains the words
-                      "list will be cleared", which means that through this command, only one entity
-                      can be set as the reference-ego in one diagram; to add more egos, because many
-                      diagrams may have been created, you need to use "Add to ego list" (see
-                      below).</para>
+                      egocentric diagram you can select one of the entities and - through the option
+                        <emphasis role="bold">Set as ego (list will be cleared)</emphasis> -
+                      transfer it to the "Ego" list. Such entity will go black. [You can also create
+                      socialcentric diagrams, in which no particular entity is set as starting point
+                      of the diagram.] The option contains the words "list will be cleared", which
+                      means that through this command, only one entity can be set as the
+                      reference-ego in one diagram; to add more egos, because many diagrams may have
+                      been created, you need to use <emphasis role="bold">Add to ego list</emphasis>
+                      (see below).</para>
                   </listitem>
                   <listitem>
                     <para><emphasis role="bold">Add to ego list</emphasis>: this option is similar
@@ -319,7 +345,8 @@
                           <screeninfo/>
                           <mediaobject>
                             <imageobject>
-                              <imagedata fileref="images/standardDiagram.png" width="100%"/>
+                              <imagedata fileref="images/StandardDiagram2.png" width="100%"
+                                contentdepth="100%" scalefit="1"/>
                             </imageobject>
                           </mediaobject>
                         </screenshot>
@@ -330,13 +357,13 @@
             </listitem>
             <listitem>
               <para><emphasis role="bold">Freeform diagram (transient)</emphasis>: when selecting
-                this type, a new page of KinOath will open, with a central, blank panel and a
-                smaller panel on the top called <emphasis role="bold">Kin Type Strings</emphasis>.
-                Also here you can create diagrams from scratch but the difference from the previous
-                case is that you need to enter strings in the panel on the top of the page, using
-                precise kin types definitions. Hereinafter there is a list of the main ones (which
-                can be also found following the path: "Panels" > "Diagram Settings" > "Kin Type
-                Definitions"):</para>
+                this type of diagram, a new page of KinOath will open, with a central, blank panel
+                and a smaller panel on the top called <emphasis role="bold">Kin Type
+                  Strings</emphasis>. Here too you can create diagrams from scratch but the
+                difference from the previous case is that with a freeform diagram you need to enter
+                strings in the panel on the top of the page, using precise kin types definitions.
+                Immediately below you will find a list of the main ones (which can be also found
+                following the path: "Panels" > "Diagram Settings" > "Kin Type Definitions"):</para>
               <para>E = ego; Ef = ego female; Em = ego male; x = undefined</para>
               <para>F or Fa = father; M or Mo = mother; P or Pa = parent</para>
               <para>B or Br = brother; Z or Si = sister; Sb = sibling</para>
@@ -344,7 +371,7 @@
               <para>H or Hu = husband; W or Wi = wife; Sp = spouse</para>
               <para>* = first-degree relatives </para>
               <para>Besides the mere kin type definitions, however, you can also add labels to the
-                entities, such as names and dates. To do so, you have first to enter a colon after
+                entities, such as names and dates. To do so, you first have to enter a colon after
                 the kin type definition and then the label(s). Different labels belonging to the
                 same entity need to be separated by a semi-colon. Another colon goes after the last
                 label and before the (if any) following kin type definition (see figure below). </para>
@@ -355,7 +382,8 @@
                     <screeninfo/>
                     <mediaobject>
                       <imageobject>
-                        <imagedata fileref="images/freeformDiagram.png" width="100%"/>
+                        <imagedata fileref="images/FreeformDiagram2.png" width="100%"
+                          contentdepth="100%" scalefit="1"/>
                       </imageobject>
                     </mediaobject>
                   </screenshot>
@@ -387,7 +415,11 @@
                 is the option <emphasis role="bold">Generate Example Entities</emphasis>; it is
                 checked by default and, if you uncheck it, the diagram will not be created. However,
                 you can still create a diagram through the kin type strings panel from the panel
-                menu. </para>
+                menu. Kin Term diagrams can also be either imported or exported through the options
+                  <emphasis role="bold">Import</emphasis>/<emphasis role="bold">Export</emphasis>
+                from the Kin Terms panel (see section 2.4 below). There are several sample kin term
+                diagrams in the application, reachable via the feature <emphasis role="bold">Open
+                  Sample Diagram</emphasis> (<emphasis role="bold">File</emphasis> menu).</para>
               <para>
                 <figure>
                   <title>Kin Terms Diagram</title>
@@ -395,7 +427,8 @@
                     <screeninfo/>
                     <mediaobject>
                       <imageobject>
-                        <imagedata fileref="images/kinTermsDiagram.png" width="100%"/>
+                        <imagedata fileref="images/KinTermDiagram2.png" width="100%"
+                          contentdepth="100%" scalefit="1"/>
                       </imageobject>
                     </mediaobject>
                   </screenshot>
@@ -454,7 +487,8 @@
           <screeninfo/>
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/editMenu.png"/>
+              <imagedata fileref="images/EditMenu2.png" contentdepth="100%" scalefit="1"
+                width="100%"/>
             </imageobject>
           </mediaobject>
         </screenshot>
@@ -499,7 +533,8 @@
           <screeninfo/>
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/diagramOptionsMenu.png"/>
+              <imagedata fileref="images/DiagramOptions2.png" contentdepth="100%" scalefit="1"
+                width="100%"/>
             </imageobject>
           </mediaobject>
         </screenshot>
@@ -541,8 +576,9 @@
             <para><emphasis role="bold">Show Id Labels</emphasis>: an Id is added when the same kin
               type definition is used for different entities, so that you are able to distinguish
               them; it is represented by a #-sign followed by a number. So, for example, if you have
-              two male egos, one will be simply Em, and the other Em:#1. If this option is
-              unchecked, you are not able to see Ids.</para>
+              two male egos, one will be simply <emphasis role="italic">Em</emphasis>, and the other
+                <emphasis role="italic">Em:#1</emphasis>. If this option is unchecked, you are not
+              able to see Ids.</para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Show Date Labels</emphasis>: when you create individuals you
@@ -580,7 +616,8 @@
         <screenshot>
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/kinTermsMenu.png"/>
+              <imagedata fileref="images/KinTermMenu2.png" contentdepth="100%" scalefit="1"
+                width="100%"/>
             </imageobject>
           </mediaobject>
         </screenshot>
@@ -610,7 +647,8 @@
                   <screeninfo/>
                   <mediaobject>
                     <imageobject>
-                      <imagedata fileref="images/newKinTermGroup.png" width="100%"/>
+                      <imagedata fileref="images/NewKinTermGroup2.png" width="100%"
+                        contentdepth="100%" scalefit="1"/>
                     </imageobject>
                   </mediaobject>
                 </screenshot>
@@ -620,16 +658,16 @@
           <listitem>
             <para><emphasis role="bold">Import</emphasis>: instead of creating a new kin term group
               from scratch you may decide to import one already existent from a file directory in
-              your computer. To do so, click on the "Import" option and choose the file you want to
-              import. The kin terms imported will be added to the ones in the table in the right
-              panel and also in the diagram (if a diagram has already been created, otherwise they
-              will go and create a new one themselves).</para>
+              your computer. To do so, click on <emphasis role="bold">Import</emphasis> and choose
+              the file you want to import. The kin terms imported will be added to the ones in the
+              table in the right panel and also in the diagram (if a diagram has already been
+              created, otherwise they will go and create a new one themselves).</para>
           </listitem>
           <listitem>
-            <para><emphasis role="bold">Export</emphasis>: with this option you can save (export)
-              the kin term group created in a directory outside KinOath. By selecting this option a
-              window will open asking you to choose a directory where to place the file, and a file
-              name. </para>
+            <para><emphasis role="bold">Export</emphasis>: with this option you can save (i.e.
+              export) the kin term group just created to a directory outside KinOath. By selecting
+              this option a window will open asking you to choose a directory where to place the
+              file, and a file name. </para>
           </listitem>
         </itemizedlist>
       </para>
@@ -641,7 +679,8 @@
         <screenshot>
           <mediaobject>
             <imageobject>
-              <imagedata fileref="images/panelsMenu.png"/>
+              <imagedata fileref="images/PanelsMenu2.png" contentdepth="100%" scalefit="1"
+                width="100%"/>
             </imageobject>
           </mediaobject>
         </screenshot>
@@ -661,7 +700,8 @@
                 <screenshot>
                   <mediaobject>
                     <imageobject>
-                      <imagedata fileref="images/archiveLinker.png"/>
+                      <imagedata fileref="images/archiveLinker.png" contentdepth="100%" scalefit="1"
+                        width="100%"/>
                     </imageobject>
                   </mediaobject>
                 </screenshot>
@@ -677,7 +717,8 @@
                 <screenshot>
                   <mediaobject>
                     <imageobject>
-                      <imagedata fileref="images/diagramSettings2.png" width="100%"/>
+                      <imagedata fileref="images/DiagramSettingsPanel2.png" width="100%"
+                        contentdepth="100%" scalefit="1"/>
                     </imageobject>
                   </mediaobject>
                 </screenshot>
@@ -687,29 +728,14 @@
               <itemizedlist>
                 <listitem>
                   <para><emphasis role="bold">Entity Profiles</emphasis>: this tab includes a list
-                    of profiles which can be added or removed when creating a diagram ("Individual",
-                    "Chromosome_Example", and "Clan_Example" seen in section 2.1.1. in the standard
-                    diagram paragraph are examples of profiles). They just need to be checked and/or
-                    unchecked.</para>
-                  <para>
-                    <figure>
-                      <title>Entity Profiles tab</title>
-                      <screenshot>
-                        <screeninfo/>
-                        <mediaobject>
-                          <imageobject>
-                            <imagedata fileref="images/entityProfiles.png" contentdepth="100%"
-                              scalefit="1" width="100%"/>
-                          </imageobject>
-                        </mediaobject>
-                      </screenshot>
-                    </figure>
-                  </para>
+                    of profiles which can be added or removed when creating the individuals going
+                    into a diagram. They just need to be checked and/or unchecked. See figure
+                    above.</para>
                 </listitem>
                 <listitem>
                   <para><emphasis role="bold">Kin Type Definitions</emphasis>: this tab includes a
                     list of the main kin type strings with their corresponding definitions (which
-                    have also been described in this manual in section 2.1.1., "Freeform Diagram"
+                    have also been described in this manual in section 2.1.1, "Freeform Diagram"
                     paragraph). You can delete elements of the list by checking them and then
                     clicking on the option <emphasis role="bold">Delete Selected </emphasis>on the
                     right of the page. </para>
@@ -719,15 +745,16 @@
                       <screenshot>
                         <mediaobject>
                           <imageobject>
-                            <imagedata fileref="images/kinTypeDefinitions2.png" width="100%"/>
+                            <imagedata fileref="images/KinTypeDefinitionsTab.png" width="100%"
+                              contentdepth="100%" scalefit="1"/>
                           </imageobject>
                         </mediaobject>
                       </screenshot>
                     </figure>
                   </para>
-                  <para>Besides, you may want to add new kin types to the list. Mind that a new kin
-                    type added to a standard diagram behaves differently from a new kin type added
-                    to a freeform diagram. Let's make an example: </para>
+                  <para>Besides, you may want to add new kin types to the list. Bear in mind though,
+                    that a new kin type added to a standard diagram behaves differently from a new
+                    kin type added to a freeform diagram. Let's make an example: </para>
                   <para>Kin Type String: Q</para>
                   <para>Relation Type: sibling</para>
                   <para>Symbol Type: triangle, circle</para>
@@ -738,10 +765,11 @@
                     symbol types) carrying a sibling-relation type with it. To put it simply, I will
                     see Albert_Iof_Monaco and his, possibly existing, brother/s and sister/s.</para>
                   <para>By contrast, in the case of a freeform diagram, what the new kin type does
-                    is create new entities from scratch. In other words, if in the Kin Type Strings
-                    panel I type, for example, 'EfQ', in the central panel I will see a female ego
-                    which is the - so to speak - reference point of my diagram, together with a
-                    brother (sibling relation + triangle) and a sister (sibling relation + circle).  </para>
+                    is creating new entities from scratch. In other words, if in the Kin Type
+                    Strings panel I type, for example, 'EfQ', in the central panel I will see a
+                    female ego which is the - so to speak - reference point of my diagram, together
+                    with a brother (sibling relation + triangle) and a sister (sibling relation +
+                    circle). </para>
                 </listitem>
                 <listitem>
                   <para><emphasis role="bold">Label Fields</emphasis>: this tab contains some
@@ -775,7 +803,8 @@
                         <screeninfo/>
                         <mediaobject>
                           <imageobject>
-                            <imagedata fileref="images/symbolFields2.png" width="100%"/>
+                            <imagedata fileref="images/SymbolFieldsTab.png" width="100%"
+                              contentdepth="100%" scalefit="1"/>
                           </imageobject>
                         </mediaobject>
                       </screenshot>
@@ -798,7 +827,7 @@
                 <emphasis role="bold">Required</emphasis>, <emphasis role="bold">Implied</emphasis>.
               When you create new individuals, they automatically go under the "Required" list. If
               you want an egocentric diagram you have to add an ego (or several egos if you want to
-              create several diagrams), to the "Ego" list. The ego added to the list go black and
+              create several diagrams), to the "Ego" list. The ego added to the list goes black and
               represents the reference point of your diagram. Under the "Implied" list, by contrast,
               go all those entities that are automatically linked to the one selected (see figure
               below).</para>
@@ -838,7 +867,7 @@
             <para><emphasis role="bold">Kin Type Strings</emphasis>: this panel opens up
               automatically in case of a freeform or a query diagram. In it you type the strings
               necessary to create new individuals (freeform diagram) or to look for them (query
-              diagram). (see section 2.1.1. above, Freeform Diagram paragraph)</para>
+              diagram). (see section 2.1.1 above, Freeform Diagram paragraph)</para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Search Entities</emphasis>: this option is available for the
