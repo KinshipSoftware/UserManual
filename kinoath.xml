@@ -1110,7 +1110,7 @@
               types is given in section 2.1.1 above. </para>
           </listitem>
           <listitem>
-            <para>To the kin types you can attach some labels, namely names, dates, etc.  To do so,
+            <para>To the kin types you can attach some labels, namely names, dates, etc. To do so,
               enter a colon after the kin type, then separate each of the label with a semi-colon,
               and finally enter another colon between the last label and the next kin type. The
               labels have to be entered with a precise order: Id [mind that the Id is normally used
