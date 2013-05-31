@@ -476,8 +476,7 @@
           functionalities, and that can be opened through the option "Open Sample Diagram" from the
           File menu. These are: Freeform Diagram Syntax, Query Diagram Syntax, Hawaiian Kin Terms,
           Japanese Kin Terms, Swedish Kin Terms, Named Transient Entities, Matrimonial Ring
-          Examples, Charles II of Spain, Imported Data Query Example (ANTONIO DE PAULA PESSOA DE
-          /FIGUEIREDO/) and Haemophilia in European Royalty. </para>
+          Examples, Charles II of Spain, and Haemophilia in European Royalty. </para>
       </section>
     </section>
     <section>
@@ -886,7 +885,7 @@
                   <screeninfo/>
                   <mediaobject>
                     <imageobject>
-                      <imagedata fileref="images//searchEntities.png" contentdepth="100%"
+                      <imagedata fileref="images//SearchEntitiesTab.png" contentdepth="100%"
                         scalefit="1" width="100%"/>
                     </imageobject>
                   </mediaobject>
@@ -906,7 +905,8 @@
             <screeninfo/>
             <mediaobject>
               <imageobject>
-                <imagedata fileref="images/windowMenu.png"/>
+                <imagedata fileref="images/WindowMenu2.png" contentdepth="100%" width="100%"
+                  scalefit="1"/>
               </imageobject>
             </mediaobject>
           </screenshot>
@@ -925,7 +925,8 @@
             <screeninfo/>
             <mediaobject>
               <imageobject>
-                <imagedata fileref="images/helpMenu.jpg"/>
+                <imagedata fileref="images/HelpMenu2.png" contentdepth="100%" scalefit="1"
+                  width="100%"/>
               </imageobject>
             </mediaobject>
           </screenshot>
@@ -1223,10 +1224,10 @@
     </section>
   </chapter>
   <appendix>
-    <title>Features not available in KinOath 1.0 </title>
+    <title>Features not available in KinOath 1.2 </title>
     <para>
       <note>
-        <para>As you may already have noticed, KinOath 1.0 presents some hidden options. These
+        <para>As you may already have noticed, KinOath 1.2 presents some hidden options. These
           features are not implemented at the moment, but will be available in the next release of
           the application. However, they are already available in the current testing
           version.</para>
@@ -1235,19 +1236,12 @@
     <para>
       <orderedlist>
         <listitem>
-          <para><emphasis role="bold">Entity Upload</emphasis> (File menu)</para>
-        </listitem>
-        <listitem>
-          <para><emphasis role="bold">Export as JPEG/PNG/TIFF</emphasis> (File menu) [PDF format
-            works!]</para>
+          <para><emphasis role="bold">Export as JPEG/PNG/TIFF</emphasis> (File menu) [Note: PDF
+            format works!]. It fails on the webstart, but it works if KinOath is installed.</para>
         </listitem>
         <listitem>
           <para><emphasis role="bold">Add Polyline</emphasis> (Standard Diagram > right click menu >
             Add Geometry)</para>
-        </listitem>
-        <listitem>
-          <para><emphasis role="bold">Search Entity Service</emphasis> (Standard Diagram > right
-            click menu)</para>
         </listitem>
         <listitem>
           <para><emphasis role="bold">Propositus Kin Type Strings</emphasis> (File menu > New
@@ -1264,65 +1258,6 @@
         </listitem>
         <listitem>
           <para><emphasis role="bold">Archive Linker</emphasis> menu (top of the page)</para>
-        </listitem>
-        <listitem>
-          <para><emphasis role="bold">Export Data</emphasis> (Panels menu)</para>
-        </listitem>
-        <listitem>
-          <para><emphasis role="bold">Internal Help</emphasis> (Help menu)</para>
-        </listitem>
-        <listitem>
-          <para><emphasis role="bold">Relation Type Definitions</emphasis> (Panels menu > Diagram
-            Settings)</para>
-          <para>When selecting this tab a sub-table opens. The options of this sub-table displayed
-            are not mandatory, but if used they may prove useful to simplify and clarify the diagram
-            layout. These options are: </para>
-          <para>
-            <itemizedlist>
-              <listitem>
-                <para><emphasis role="bold">Custom Name</emphasis>: in this column you can enter the
-                  name that you want to give to a particular relation.</para>
-              </listitem>
-              <listitem>
-                <para><emphasis role="bold">Data Category</emphasis>: in this column you can enter
-                  an URL pointing to a DCR (Data Category Registry) Id, i.e. a page containing some
-                  additional information about the relation types.</para>
-              </listitem>
-              <listitem>
-                <para><emphasis role="bold">Relation Type</emphasis>: as the name says, in this
-                  column you can select a relation type (sibling, union, etc.), choosing among the
-                  various possibilities present in the drop down menu. If you do not want to do it
-                  "manually", you can select <emphasis role="bold">Scan For Types</emphasis> under
-                  the colour table on the right of the page. It will automatically find all the
-                  relation types of your diagram and enter them directly in the column "Relation
-                  Type". </para>
-              </listitem>
-              <listitem>
-                <para><emphasis role="bold">Line Colour</emphasis>: you can choose a different
-                  colour (from the table on the right) for each one of the relation types present in
-                  your diagram. The sanguine lines connecting the entities will get coloured
-                  accordingly.</para>
-              </listitem>
-              <listitem>
-                <para><emphasis role="bold">Line Width</emphasis>: this option allows you to change
-                  the width of the sanguine lines, which will get thicker or thinner depending on
-                  the millimetres you choose.</para>
-              </listitem>
-              <listitem>
-                <para><emphasis role="bold">Line/Dash</emphasis>: through this option you can have a
-                  solid line or a dashed line. In the latter case, you can also decide how big the
-                  dashes need to be.</para>
-              </listitem>
-              <listitem>
-                <para><emphasis role="bold">Curve Line Orientation</emphasis>: this option applies
-                  to the relation type 'other', and it has to do with, as the name says, the
-                  orientation of the line linking two entities. You can have either a 'horizontal',
-                  or a 'vertical' line orientation [in the first case the line start from a
-                  horizontal position, whereas in the second case it starts from a vertical
-                  position].</para>
-              </listitem>
-            </itemizedlist>
-          </para>
         </listitem>
       </orderedlist>
     </para>
