@@ -35,6 +35,8 @@ $(HTMLDIR)index.html: kinoath.xml
 	$(XSLTPROC) -o $(HTMLDIR) $(XSL) kinoath.xml
 	echo "Uploading HTML version:";
 	$(CP) -r $(HTMLDIR)* /data/extweb2/htdocs/world/corpus/html/kinoath
+    chmod a+r /data/extweb2/htdocs/world/corpus/html/kinoath/*.html
+	chmod a+r /data/extweb2/htdocs/world/corpus/html/kinoath/images/*.*
 
 $(PDFDIR)/manual-kinoath.pdf:	kinoath.xml
 	echo; echo "Kinoath manual: Creating PDF version:";
