@@ -227,12 +227,14 @@
                         role="bold">Chromosome_Example</emphasis>, a <emphasis role="bold"
                         >Clan_Example</emphasis>, a <emphasis role="bold">KinTerm</emphasis>, a
                         <emphasis role="bold">Social_Event</emphasis>, or any other entity type
-                      selected in the profiles settings. In both cases, a new entity will appear,
-                      represented by a small square icon (unless configured otherwise). If you
-                      select that entity you will see, at the bottom of the page, a table with
-                      information to fill in, such as names, dates, genders, etc. Once the data
-                      regarding an entity has been entered you can save it either by clicking on the
-                      entity itself, or by choosing - from the right click menu - the option
+                      selected in the profiles settings (Panels > Diagram Settings > Entity
+                      Profiles). In both cases, a new entity will appear, represented by a small
+                      square icon (unless configured otherwise). If you select that entity you will
+                      see, at the bottom of the page, a table with information to fill in, such as
+                      names, dates, genders, etc. Right clicking the table will open a menu with a
+                      list of all the possible fields you can add (in alphabetical order). Once the
+                      data regarding an entity has been entered you can save it either by clicking
+                      on the entity itself, or by choosing - from the right click menu - the option
                         <emphasis role="bold">Save All Data Changes</emphasis>.</para>
                   </listitem>
                   <listitem>
@@ -477,6 +479,14 @@
           File menu. These are: Freeform Diagram Syntax, Query Diagram Syntax, Hawaiian Kin Terms,
           Japanese Kin Terms, Swedish Kin Terms, Named Transient Entities, Matrimonial Ring
           Examples, Charles II of Spain, and Haemophilia in European Royalty. </para>
+        <para>
+          <note>
+            <para>Some hints: press <emphasis role="bold">alt</emphasis> + rotate the mouse wheel to
+              zoom the diagram; press <emphasis role="bold">shift</emphasis> + rotate the mouse
+              wheel to pan the diagram to the right or to the left; just rotate the mouse wheel to
+              scroll the diagram up or down.</para>
+          </note>
+        </para>
       </section>
     </section>
     <section>
@@ -520,7 +530,9 @@
               to partially modify, or totally recreate, a diagram. Once selected you are allowed to
               add: new entities (in the standard diagram), new constraints to new or already
               existing entities (in the freeform and in the query diagrams), new kin terms and kin
-              groups (in the kin terms, but also in the freeform, diagram).</para>
+              groups (in the kin terms, but also in the freeform, diagram). Alternatively, you can
+              simply click on the diagram and the following message will come out: "The diagram
+              needs to be recalculated before it can be interacted with. recalculate now?"</para>
           </listitem>
         </itemizedlist>
       </para>
@@ -691,6 +703,10 @@
       <para>
         <itemizedlist>
           <listitem>
+            <para><emphasis role="bold">Active Plugins</emphasis>: this option becomes visible only
+              whether, and when, there are, effectively, plugins.  </para>
+          </listitem>
+          <listitem>
             <para><emphasis role="bold">Archive Linker</emphasis>: by choosing this option a panel
               will open on the right of the page displaying the entire IMDI corpora. [Note: at the
               moment this panel is not available. See appendix below]</para>
@@ -774,21 +790,44 @@
                 <listitem>
                   <para><emphasis role="bold">Label Fields</emphasis>: this tab contains some
                     information about the entities created by the user (we are referring to the
-                    "Standard Diagram (database driven)" type), i.e. name, date of birth, etc. You
-                    can delete such pieces of information by clicking on the small squares on the
-                    right of the tab [see red arrow]. However, they still remain in the table at the
-                    bottom of the page (the one filled in when cretaing individuals), so if you want
-                    to add them back to the panel on the top you just need to take them, one at a
-                    time, and drag them to the "Label Fields" panel. <figure>
+                    "Standard Diagram (database driven)" type), i.e. name, date of birth, etc. It
+                    may be the case that not all of the fields contained in the table at the bottom
+                    of the page, and related to the entity selected, are also shown at the top of
+                    the page, i.e. they may not be visible on the diagram. In order to make them
+                    appear on the diagram next to the entity, you have to search for them in the
+                    drop down menu and click on <emphasis role="bold">Add</emphasis> (see figure
+                    below). You can delete the labels by clicking on the small squares on the right
+                    of the tab (see red arrow). However, they still remain in the table at the
+                    bottom of the page, so if you want to add them back to the panel on the top you
+                    just need to take them, one at a time, and drag them to the string of the drop
+                    down menu. <figure>
                       <title>Label Fields tab</title>
                       <screenshot>
                         <mediaobject>
                           <imageobject>
-                            <imagedata fileref="images/labelFields.png" width="100%"/>
+                            <imagedata fileref="images/LabelFieldsTab2.png" width="100%"
+                              contentdepth="100%" scalefit="1"/>
                           </imageobject>
                         </mediaobject>
                       </screenshot>
                     </figure></para>
+                </listitem>
+                <listitem>
+                  <para><emphasis role="bold">Relation Type Definitions</emphasis>: through this tab
+                    you can add details to the relations between the entities. It has some sub-tabs:
+                      <emphasis role="bold">Custom Name</emphasis>, <emphasis role="bold">Data
+                      Category</emphasis>, <emphasis role="bold">Relation Type</emphasis> (which, in
+                    turn, lets you choose among <emphasis role="italic">sibling</emphasis>,
+                      <emphasis role="italic">ancestor (descendant)</emphasis>, <emphasis
+                      role="italic">descendant (ancestor)</emphasis>, <emphasis role="italic"
+                      >union</emphasis>, <emphasis role="italic">kinterm</emphasis>, <emphasis
+                      role="italic">other</emphasis>, <emphasis role="italic">undirected</emphasis>,
+                      <emphasis role="italic">directedin (directedout)</emphasis>, <emphasis
+                      role="italic">directedout (directedin)</emphasis>, <emphasis role="italic"
+                      >&lt;any></emphasis>); <emphasis role="bold">Line Colour</emphasis>; <emphasis
+                      role="bold">Line Width</emphasis>, <emphasis role="bold">Line/Dash</emphasis>,
+                      <emphasis role="bold">Curve Line Orientation</emphasis>. Look at the picture
+                    below to see how they work. </para>
                 </listitem>
                 <listitem>
                   <para><emphasis role="bold">Symbol Fields</emphasis>: according to the features
@@ -838,7 +877,7 @@
                   <screeninfo/>
                   <mediaobject>
                     <imageobject>
-                      <imagedata fileref="images/diagramTreePanel.png" contentdepth="100%"
+                      <imagedata fileref="images/DiagramTreeTab.png" contentdepth="100%"
                         scalefit="1" width="100%"/>
                     </imageobject>
                   </mediaobject>
@@ -856,7 +895,8 @@
                   <screeninfo/>
                   <mediaobject>
                     <imageobject>
-                      <imagedata fileref="images/kinTermsPanel.png"/>
+                      <imagedata fileref="images/kinTermsPanel.png" contentdepth="100%" scalefit="1"
+                        width="100%"/>
                     </imageobject>
                   </mediaobject>
                 </screenshot>
@@ -895,6 +935,11 @@
           </listitem>
         </itemizedlist>
       </para>
+    </section>
+    <section>
+      <title>Plugins menu</title>
+      <para>This menu simply shows you which plugins are active on the application in that ongoing
+        session. If no plugins are present, then you will only see: &lt;no plugins found>.</para>
     </section>
     <section>
       <title>Window menu</title>
@@ -940,13 +985,17 @@
               will open, briefly describing the program. </para>
           </listitem>
           <listitem>
+            <para><emphasis role="bold">Internal Help</emphasis>: it opens the instructions manual
+              onto a new page of the application.</para>
+          </listitem>
+          <listitem>
             <para><emphasis role="bold">KinOath Website</emphasis>: it redirects you to the web page
               of the application (<ulink url="http://tla.mpi.nl/tools/tla-tools/kinoath"
                 >http://tla.mpi.nl/tools/tla-tools/kinoath</ulink>).</para>
           </listitem>
           <listitem>
-            <para><emphasis role="bold">KinOath Online Manual</emphasis>:  it links you to the
-              online version of the manual (<ulink
+            <para><emphasis role="bold">KinOath Online Manual</emphasis>: it links you to the online
+              version of the manual, located on the TLA webpage (<ulink
                 url="http://www.mpi.nl/corpus/html/kinoath/index.html"
                 >http://www.mpi.nl/corpus/html/kinoath/index.html</ulink>)</para>
           </listitem>
@@ -1227,37 +1276,38 @@
     <title>Features not available in KinOath 1.2 </title>
     <para>
       <note>
-        <para>As you may already have noticed, KinOath 1.2 presents some hidden options. These
-          features are not implemented at the moment, but will be available in the next release of
-          the application. However, they are already available in the current testing
-          version.</para>
+        <para>As you may have noticed, KinOath 1.2 presents some hidden options. These features are
+          not implemented at the moment, but will be available in the next releases of the
+          application. However, they are already available in the current testing version.</para>
       </note>
     </para>
     <para>
       <orderedlist>
         <listitem>
           <para><emphasis role="bold">Export as JPEG/PNG/TIFF</emphasis> (File menu) [Note: PDF
-            format works!]. It fails on the webstart, but it works if KinOath is installed.</para>
+            format works!]. These feature fails on the webstart, but it works if KinOath is
+            installed;</para>
         </listitem>
         <listitem>
           <para><emphasis role="bold">Add Polyline</emphasis> (Standard Diagram > right click menu >
-            Add Geometry)</para>
+            Add Geometry);</para>
         </listitem>
         <listitem>
           <para><emphasis role="bold">Propositus Kin Type Strings</emphasis> (File menu > New
             Diagram of Type > Kin Terms Diagram > table on the right of the page > third
-            column)</para>
+            column);</para>
         </listitem>
         <listitem>
           <para><emphasis role="bold">Delete Group</emphasis> ((File menu > New Diagram of Type >
-            Kin Terms Diagram > panel on the right of the page)</para>
+            Kin Terms Diagram > panel on the right of the page);</para>
         </listitem>
         <listitem>
           <para><emphasis role="bold">Archive Data Linker</emphasis> diagram (File menu > New
-            Diagram of Type > Archive Data Linker)</para>
+            Diagram of Type > Archive Data Linker);</para>
         </listitem>
         <listitem>
-          <para><emphasis role="bold">Archive Linker</emphasis> menu (top of the page)</para>
+          <para><emphasis role="bold">Archive Linker</emphasis> menu (top of the page).</para>
+          <para/>
         </listitem>
       </orderedlist>
     </para>
