@@ -232,9 +232,14 @@
                       square icon (unless configured otherwise). If you select that entity you will
                       see, at the bottom of the page, a table with information to fill in, such as
                       names, dates, genders, etc. Right clicking the table will open a menu with a
-                      list of all the possible fields you can add (in alphabetical order). Once the
-                      data regarding an entity has been entered you can save it either by clicking
-                      on the entity itself, or by choosing - from the right click menu - the option
+                      list of all the possible fields you can add (in alphabetical order);
+                      alternatively, you can add a new field yourself, buy selecting the item
+                        <emphasis role="bold">Add custom field</emphasis> from the right click menu,
+                      and typing the required string, or delete one of the fields by selecting
+                      firstly the custom field you want to delete and then the item <emphasis
+                        role="bold">Delete ...</emphasis> from the right click menu. Once the data
+                      regarding an entity has been entered you can save it either by clicking on the
+                      entity itself, or by choosing - from the right click menu - the option
                         <emphasis role="bold">Save All Data Changes</emphasis>.</para>
                   </listitem>
                   <listitem>
@@ -340,6 +345,23 @@
                   <listitem>
                     <para><emphasis role="bold">Save All Data Changes</emphasis>: see point 1.
                       above. </para>
+                    <para>When creating new entities, hence new diagrams, you will have to make a
+                      distinction between <emphasis role="underline">permanent</emphasis> and
+                        <emphasis role="underline">temporary</emphasis> entities, i.e. between those
+                      which remain on the diagram when this is saved (the former), and those which,
+                      by contrast, go away once the diagram has been saved (the latter). This
+                      distinction is marked through the COLOUR of the entities: <emphasis
+                        role="bold"><emphasis role="underline">black</emphasis> for the permanent
+                        ones</emphasis>, <emphasis role="bold"><emphasis role="underline"
+                          >grey</emphasis> for the temporary ones</emphasis>. By default, newly
+                      created entities are grey, in order to make them go black you have to choose
+                      the item <emphasis role="bold">Keep on diagram</emphasis> mentioned above. In
+                      addition, the same differentiation will appear in the <emphasis role="bold"
+                        >Diagram Tree</emphasis> tab located on the left of the page (see figure
+                      below): all the <emphasis role="bold">permanent entities </emphasis>will be
+                      shown under <emphasis role="bold">Implied</emphasis>, whereas the <emphasis
+                        role="bold">temporary</emphasis> ones will go under <emphasis role="bold"
+                        >Required</emphasis>. </para>
                     <para>
                       <figure>
                         <title>Standard Diagram</title>
@@ -939,7 +961,9 @@
     <section>
       <title>Plugins menu</title>
       <para>This menu simply shows you which plugins are active on the application in that ongoing
-        session. If no plugins are present, then you will only see: &lt;no plugins found>.</para>
+        session. If no plugins are present, then you will only see: &lt;no plugins found>. This
+        structure provides the application with even more flexibility, and makes it possible for
+        third parties to develop new features.</para>
     </section>
     <section>
       <title>Window menu</title>
@@ -1010,6 +1034,14 @@
             <para><emphasis role="bold">View Error Log</emphasis>: by selecting this option a page
               in NotePad will open, containing the possible errors encountered while using the
               program. </para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="bold">Reindex all files</emphasis>: this option may turn out
+              useful when, for example, you are working with some entity files on one particular
+              version of the application, but you then realize that you need a different version,
+              and you have to transfer all the entity files from one to the other. To put it in
+              other words, this feature enables you to synchronize the entity files on the
+              application with the ones present on the disk. </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Check for Updates</emphasis>: this option allows you to
@@ -1311,5 +1343,16 @@
         </listitem>
       </orderedlist>
     </para>
+    <para>For further information on KinOath Kinship Archiver, please refer to the following
+      links:</para>
+    <para>
+      <ulink url="http://tla.mpi.nl/tools/tla-tools/kinoath/requests/"
+        >http://tla.mpi.nl/tools/tla-tools/kinoath/requests/</ulink>; on this page you will find a
+      list of already known issues about KinOath 1.2, and of some feature requests which will be
+      possibly implemented either in KinOath 1.3 - 1.4 or in other kiship studies related
+      contexts.</para>
+    <para><ulink url="http://tla.mpi.nl/tools/tla-tools/kinoath/changes/"
+        >http://tla.mpi.nl/tools/tla-tools/kinoath/changes/</ulink>; on this page, by contrast, you
+      can see a list showing which changes have been made to which version of the application. </para>
   </appendix>
 </book>
