@@ -345,37 +345,40 @@
                   <listitem>
                     <para><emphasis role="bold">Save All Data Changes</emphasis>: see point 1.
                       above. </para>
-                    <para>When creating new entities, hence new diagrams, you will have to make a
-                      distinction between <emphasis role="underline">permanent</emphasis> and
-                        <emphasis role="underline">temporary</emphasis> entities, i.e. between those
-                      which remain on the diagram when this is saved (the former), and those which,
-                      by contrast, go away once the diagram has been saved (the latter). This
-                      distinction is marked through the COLOUR of the entities: <emphasis
-                        role="bold"><emphasis role="underline">black</emphasis> for the permanent
-                        ones</emphasis>, <emphasis role="bold"><emphasis role="underline"
-                          >grey</emphasis> for the temporary ones</emphasis>. By default, newly
-                      created entities are grey, in order to make them go black you have to choose
-                      the item <emphasis role="bold">Keep on diagram</emphasis> mentioned above. In
-                      addition, the same differentiation will appear in the <emphasis role="bold"
-                        >Diagram Tree</emphasis> tab located on the left of the page (see figure
-                      below): all the <emphasis role="bold">permanent entities </emphasis>will be
-                      shown under <emphasis role="bold">Implied</emphasis>, whereas the <emphasis
-                        role="bold">temporary</emphasis> ones will go under <emphasis role="bold"
-                        >Required</emphasis>. </para>
                     <para>
-                      <figure>
-                        <title>Standard Diagram</title>
-                        <screenshot>
-                          <screeninfo/>
-                          <mediaobject>
-                            <imageobject>
-                              <imagedata fileref="images/StandardDiagram2.png" width="100%"
-                                contentdepth="100%" scalefit="1"/>
-                            </imageobject>
-                          </mediaobject>
-                        </screenshot>
-                      </figure>
+                      <note>
+                        <para>You will have to bear in mind the distinction between <emphasis
+                            role="underline">permanent</emphasis> and <emphasis role="underline"
+                            >temporary</emphasis> entities, i.e. between those which are stored on
+                          the diagram when this is saved (the former), and those which, by contrast,
+                          go away once the diagram has been saved (the latter). This distinction is
+                          marked through the COLOUR of the entities: <emphasis role="bold"><emphasis
+                              role="underline">black</emphasis> for the permanent ones</emphasis>,
+                            <emphasis role="bold"><emphasis role="underline">grey</emphasis> for the
+                            temporary ones</emphasis>. In order to make entitties go black you have
+                          to choose the item <emphasis role="bold">Keep on diagram</emphasis>
+                          mentioned above. In addition, the same differentiation will appear in the
+                            <emphasis role="bold">Diagram Tree</emphasis> tab located on the left of
+                          the page (see figure below): all the <emphasis role="bold">permanent
+                            entities</emphasis> will be shown under <emphasis role="bold"
+                            >Implied</emphasis>, whereas the <emphasis role="bold"
+                            >temporary</emphasis> ones will go under <emphasis role="bold"
+                            >Required</emphasis>. Newly created entities are, by contrast, black by
+                          default.</para>
+                      </note>
                     </para>
+                    <figure>
+                      <title>Standard Diagram</title>
+                      <screenshot>
+                        <screeninfo/>
+                        <mediaobject>
+                          <imageobject>
+                            <imagedata fileref="images/StandardDiagram2.png" width="100%"
+                              contentdepth="100%" scalefit="1"/>
+                          </imageobject>
+                        </mediaobject>
+                      </screenshot>
+                    </figure>
                   </listitem>
                 </orderedlist></para>
             </listitem>
@@ -850,6 +853,24 @@
                       role="bold">Line Width</emphasis>, <emphasis role="bold">Line/Dash</emphasis>,
                       <emphasis role="bold">Curve Line Orientation</emphasis>. Look at the picture
                     below to see how they work. </para>
+                  <para>
+                    <figure>
+                      <title>Relation Type Definition Tab</title>
+                      <screenshot>
+                        <screeninfo/>
+                        <mediaobject>
+                          <imageobject>
+                            <imagedata fileref="images/RelationTypeDefinitionTab.png"
+                              contentdepth="100%" scalefit="1" width="100%"/>
+                          </imageobject>
+                        </mediaobject>
+                      </screenshot>
+                    </figure>
+                    <note>
+                      <para>As far as sibling lines are concerned (Relation Type > sibling), these
+                        won't be rendered if they have common parents.</para>
+                    </note>
+                  </para>
                 </listitem>
                 <listitem>
                   <para><emphasis role="bold">Symbol Fields</emphasis>: according to the features
@@ -885,21 +906,38 @@
           <listitem>
             <para><emphasis role="bold">Diagram Tree</emphasis>: this panel opens up on the left of
               the page. It displays three possible lists: <emphasis role="bold">Ego</emphasis>,
-                <emphasis role="bold">Required</emphasis>, <emphasis role="bold">Implied</emphasis>.
-              When you create new individuals, they automatically go under the "Required" list. If
-              you want an egocentric diagram you have to add an ego (or several egos if you want to
-              create several diagrams), to the "Ego" list. The ego added to the list goes black and
-              represents the reference point of your diagram. Under the "Implied" list, by contrast,
-              go all those entities that are automatically linked to the one selected (see figure
-              below).</para>
+                <emphasis role="bold">Required</emphasis>, <emphasis role="bold">Implied</emphasis>. </para>
+            <para>When you create new individuals, they automatically go under the "Required" list.
+              If you want an egocentric diagram, you have to add an ego (or several egos if you want
+              to create several diagrams), to the "Ego" list (right click on the entity > Set as Ego
+              (list will be cleared)). The ego added to the list goes black and represents the
+              reference point of your diagram. </para>
             <para>
               <figure>
-                <title>Diagram Tree panel</title>
+                <title>Diagram Tree Panel</title>
                 <screenshot>
                   <screeninfo/>
                   <mediaobject>
                     <imageobject>
-                      <imagedata fileref="images/DiagramTreeTab.png" contentdepth="100%"
+                      <imagedata fileref="images/DiagramTreeTab3.png" contentdepth="100%"
+                        scalefit="1" width="100%"/>
+                    </imageobject>
+                  </mediaobject>
+                </screenshot>
+              </figure>
+            </para>
+            <para>By comparison, when you search for an already existing entity, you will see the
+              ego of your diagram under the Ego list and, on the other hand, under the "Implied"
+              list, there will be all those entities that are automatically linked to the one
+              selected. See figure below. </para>
+            <para>
+              <figure>
+                <title>Diagram Tree panel 2</title>
+                <screenshot>
+                  <screeninfo/>
+                  <mediaobject>
+                    <imageobject>
+                      <imagedata fileref="images/DiagramTreeTab2.png" contentdepth="100%"
                         scalefit="1" width="100%"/>
                     </imageobject>
                   </mediaobject>
