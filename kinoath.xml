@@ -20,7 +20,7 @@
       
   </bookinfo>
   <preface id="Pre_Introduction">
-    <title>Introduction</title>
+    <title>Overview </title>
     <para>
       <informaltable id="portal-columns">
         <tbody>
@@ -39,18 +39,34 @@
     </para>
   </preface>
   <chapter id="Ch_Navigating_the_IMDI_Browser_web_version">
-    <title>Navigating KinOath</title>
+    <title>How to run the application</title>
     <para>KinOath Kinship Archiver is part of the Language Archiving Technology suite. You will find
       a link to the program on the TLA web page <ulink
         url="http://tla.mpi.nl/tools/tla-tools/kinoath"
-        >http://tla.mpi.nl/tools/tla-tools/kinoath</ulink>. You can either start it - with no
-      installation needed - through the option <emphasis role="bold">Run via webstart</emphasis>, or
-      you can install it on your computer by selecting one of the installers provided next to
-        <emphasis role="bold">Run via webstart</emphasis>. Installers are available for Windows,
-      MacOS and Debian. In both cases (webstart and installation), however, you will need Java
-      installed on your machine in order for the application to run. For more information on Java
-      and how to install it go to <ulink url="http://java.com/en/"
-      >http://java.com/en/</ulink>.</para>
+        >http://tla.mpi.nl/tools/tla-tools/kinoath</ulink>. </para>
+    <para>You can start the application in two possible ways:</para>
+    <para>
+      <itemizedlist>
+        <listitem>
+          <para>through the option <emphasis role="bold">Run via webstart</emphasis> (see figure
+            below), with no installation needed;</para>
+        </listitem>
+        <listitem>
+          <para>through one of the installers provided. Installers are available for <emphasis
+              role="bold">Windows</emphasis>, <emphasis role="bold">MacOS</emphasis> and <emphasis
+              role="bold">Debian</emphasis>. See sections below for detailed information.</para>
+        </listitem>
+      </itemizedlist>
+    </para>
+    <para>Computer requirements: </para>
+    <para>
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Java</emphasis>. For more information on Java and how to
+            install it go to <ulink url="http://java.com/en/">http://java.com/en/</ulink>. </para>
+        </listitem>
+      </itemizedlist>
+    </para>
     <para>
       <figure>
         <title>Navigating KinOath</title>
@@ -65,9 +81,369 @@
         </screenshot>
       </figure>
     </para>
+    <section>
+      <title>Windows installer </title>
+      <para>To install the application on a computer with Windows as operating system:</para>
+      <para>
+        <orderedlist>
+          <listitem>
+            <para>Select <emphasis role="bold">Download the Windows installer</emphasis> (see figure
+              above);</para>
+          </listitem>
+          <listitem>
+            <para>Choose a directory where to save the .zip file and, after saving, open the file
+              (it may happen, at this point, that a security warning message comes out: choose
+                <emphasis role="bold">Run</emphasis> anyway);</para>
+          </listitem>
+          <listitem>
+            <para>Choose <emphasis role="bold">Yes</emphasis> on the dialogue window which asks you
+              to allow changes to the computer;</para>
+          </listitem>
+          <listitem>
+            <para>A setup wizards appears now: go through the several steps until when it says
+                <emphasis role="bold">Install</emphasis>;</para>
+          </listitem>
+          <listitem>
+            <para>After installing click on <emphasis role="bold">Finish</emphasis>. If you want to
+              run the application immediately after the installation, leave checked the option
+                <emphasis role="bold">Launch KinOath Kinship Archiver</emphasis>.</para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </section>
+    <section>
+      <title>Debian installer</title>
+      <para>To instal the application on a computer with Debian Linux as operating system:</para>
+      <para>
+        <orderedlist>
+          <listitem>
+            <para>Select <emphasis role="bold">Download the Debian Linux package</emphasis>;</para>
+          </listitem>
+          <listitem>
+            <para>Save the .deb file and then open it;</para>
+          </listitem>
+          <listitem>
+            <para>A window called <emphasis role="bold">Ubuntu Software Center</emphasis> will open.
+              Select <emphasis role="bold">Install</emphasis>.</para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </section>
+    <section>
+      <title>Mac installer</title>
+      <para>To instal the application on a computer with Macintosh as operating system:</para>
+      <para>
+        <orderedlist>
+          <listitem>
+            <para>Select <emphasis role="bold">Download the Mac installer</emphasis>;</para>
+          </listitem>
+          <listitem>
+            <para>Save the .tar file and then open it;</para>
+          </listitem>
+          <listitem>
+            <para>Click on the application icon that appears;</para>
+          </listitem>
+          <listitem>
+            <para>A message may open asking you whether you want to open an application downloaded
+              from the Internet. Select <emphasis role="bold">Open</emphasis>.</para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </section>
   </chapter>
   <chapter>
-    <title>Menus</title>
+    <title>Diagram types</title>
+    <para>The aim of this chapter is to explain:</para>
+    <para><itemizedlist>
+        <listitem>
+          <para>how to create a Standard Diagram;</para>
+        </listitem>
+        <listitem>
+          <para>how to create a Freeform Diagram;</para>
+        </listitem>
+        <listitem>
+          <para>how to create a Kin Terms Diagram;</para>
+        </listitem>
+        <listitem>
+          <para>how to create a Query Diagram;</para>
+        </listitem>
+        <listitem>
+          <para>the features related to the above mentioned diagrams.</para>
+        </listitem>
+      </itemizedlist>All the diagrams produced are in a scalable vector format of publishing quality
+      and all diagrams can be exported into PDF format. The working files are in SVG (Scalable
+      Vector Graphics) format, which can be opened in graphics applications or viewed in modern web
+      browsers.</para>
+    <section>
+      <title>Standard Diagram (database driven)</title>
+      <para><emphasis role="underline">To create a standard diagram from scratch:</emphasis></para>
+      <para>
+        <orderedlist>
+          <listitem>
+            <para>Open <emphasis role="bold">File</emphasis> menu > <emphasis role="bold">New
+                Diagram of Type</emphasis> > <emphasis role="bold">Standard Diagram (database
+                driven)</emphasis>; a new page of the application will open.</para>
+          </listitem>
+          <listitem>
+            <para>Right click on the main white panel > <emphasis role="bold">Add</emphasis> >
+              choose an item among the ones displayed (<emphasis role="bold">Individual</emphasis>,
+                <emphasis role="bold">Chromosome_Example</emphasis>, <emphasis role="bold"
+                >Clan_Example</emphasis>, <emphasis role="bold">KinTerm</emphasis>, <emphasis
+                role="bold">Social_Event</emphasis>), or among the ones listed in the profiles
+              settings (<emphasis role="bold">Panels</emphasis> menu > <emphasis role="bold">Diagram
+                Settings</emphasis> > <emphasis role="bold">Entity Profiles</emphasis>).</para>
+            <para>According to what you have chosen, a new entity will appear. Its icon shape
+              depends on how this has been preconfigured in the profile settings (<emphasis
+                role="bold">Panels</emphasis> menu > <emphasis role="bold">Diagram
+                Settings</emphasis> > <emphasis role="bold">Symbol Fields</emphasis>). </para>
+          </listitem>
+          <listitem>
+            <para>Select the entity you have created. At the bottom of the page you will see a table
+              with some information to fill in: name, gender, date of birth, date of death, etc. </para>
+            <para>Once you have entered the required information, either click on the entity or
+              select <emphasis role="bold">Save all data changes</emphasis> from the right click
+              menu. The entity should now show such infomation.</para>
+            <para>
+              <note>
+                <para>As far as kinship data are concerned, you can:</para>
+                <para>
+                  <itemizedlist>
+                    <listitem>
+                      <para>add custom fields. Right click on the table and choose the one(s) you
+                        need from the list. Alternatively, you can type the field by yourself, using
+                        the option <emphasis role="bold">Add &lt;custom field></emphasis> (again,
+                        via right click menu).</para>
+                    </listitem>
+                    <listitem>
+                      <para>delete custom fields. Select the field you want to delete > right click
+                        > <emphasis role="bold">Delete field "..."</emphasis> .</para>
+                    </listitem>
+                    <listitem>
+                      <para>decide which custom fields need to be shown on the diagram next to the
+                        entity. To do so: </para>
+                      <para>
+                        <orderedlist>
+                          <listitem>
+                            <para><emphasis role="bold">Panels</emphasis> menu > <emphasis
+                                role="bold">Diagram settings</emphasis> > <emphasis role="bold"
+                                >Label fields</emphasis> tab;</para>
+                          </listitem>
+                          <listitem>
+                            <para>Select the field you want to be shown on diagram and drag it to
+                              the <emphasis role="bold">Label fields</emphasis> tab on top of the
+                              page. Or choose the field from the drop down menu located into the
+                              mentioned tab, and click on <emphasis role="bold"
+                              >Add</emphasis>.</para>
+                          </listitem>
+                          <listitem>
+                            <para>By contrast, to delete fields, click on the small squares on the
+                              right of the tab (see red arrow in the figure below).</para>
+                          </listitem>
+                        </orderedlist>
+                      </para>
+                    </listitem>
+                  </itemizedlist>
+                </para>
+              </note>
+              <figure>
+                <title>How to customize kinship data</title>
+                <screenshot>
+                  <screeninfo/>
+                  <mediaobject>
+                    <imageobject>
+                      <imagedata fileref="images/LabelFieldsTab2.png" contentdepth="100%"
+                        scalefit="1" width="100%"/>
+                    </imageobject>
+                  </mediaobject>
+                </screenshot>
+              </figure>
+            </para>
+          </listitem>
+          <listitem>
+            <para>Once that several, single entities have been created, you may also want to
+                <emphasis role="underline">create relations</emphasis> between them. To do
+              so:</para>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para>select how many entities you need (click on them while holding down the
+                    SHIFT key on the keyboard) and right click. You can choose between: <emphasis
+                      role="bold">sibling</emphasis>, <emphasis role="bold">ancestor</emphasis>,
+                      <emphasis role="bold">descendant</emphasis>, <emphasis role="bold"
+                      >union</emphasis>, <emphasis role="bold">kinterm</emphasis>, <emphasis
+                      role="bold">other</emphasis> (the latter meaning that the relation connecting
+                    two, or more, entities, is not a sanguine relation, but it has to do with other
+                    kinds of relationships), <emphasis role="bold">undirected</emphasis>, <emphasis
+                      role="bold">directedin</emphasis>, <emphasis role="bold"
+                      >directedout</emphasis>.</para>
+                  <para>
+                    <note>
+                      <para>as far as ancestor and descendant are concerned, the choice of one or
+                        the other depends on which entity you select first. In other words: if you
+                        select the parent first, then you have to use the descendant relation,
+                        whereas if you select the child first, you will have to choose the ancestor
+                        relation.</para>
+                    </note>
+                  </para>
+                  <para>Alternatively, you can simply select one entity, take the little blue circle
+                    you need, and drag it to the other entity (see figure below).</para>
+                  <para>
+                    <figure>
+                      <title>Add relations</title>
+                      <screenshot>
+                        <screeninfo/>
+                        <mediaobject>
+                          <imageobject>
+                            <imagedata fileref="images/AddRelations.png" contentdepth="100%"
+                              scalefit="1" width="100%"/>
+                          </imageobject>
+                        </mediaobject>
+                      </screenshot>
+                    </figure>
+                  </para>
+                </listitem>
+              </itemizedlist>
+            </para>
+            <para>To <emphasis role="underline">remove relations</emphasis> between entities:</para>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para>select the necessary entities (click on them while holding down the SHIFT
+                    key on the keyboard) and right click. From the menu coming out choose <emphasis
+                      role="bold">Remove Relations</emphasis> > <emphasis role="bold">Remove
+                      relations between selected</emphasis>. </para>
+                </listitem>
+              </itemizedlist>
+            </para>
+            <para>To <emphasis role="underline">delete/remove entities</emphasis>:</para>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para>select the necessary entity > right click > <emphasis role="bold"
+                      >Delete</emphasis>. The entity from the database and from all diagrams.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>select the necessary entity > right click > <emphasis role="bold">Release
+                      from diagram</emphasis>. The entity is removed from the diagram, but in this
+                    case it remains in the database, unlike with the option <emphasis role="bold"
+                      >Delete</emphasis>, just described.</para>
+                </listitem>
+              </itemizedlist>
+            </para>
+            <para>Relations between entities can be personalized through a series of visual options.
+              To <emphasis role="underline">customize</emphasis> such <emphasis role="underline"
+                >relations</emphasis>:</para>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para>Panels menu > Diagram settings > <emphasis role="bold">Relation Type
+                      Definitions</emphasis> tab. This tab, in turn, is made up of sub-tabs:</para>
+                  <para><emphasis role="bold">Custom Name</emphasis></para>
+                  <para><emphasis role="bold">Data Category</emphasis></para>
+                  <para><emphasis role="bold">Relation Type</emphasis></para>
+                  <para><emphasis role="bold">Line Colour</emphasis></para>
+                  <para><emphasis role="bold">Line Width</emphasis></para>
+                  <para><emphasis role="bold">Line/Dash</emphasis></para>
+                  <para><emphasis role="bold">Curve Line Orientation</emphasis></para>
+                  <para>Look at the figure below to see how these features work.</para>
+                </listitem>
+              </itemizedlist>
+            </para>
+            <figure>
+              <title>How to customize entities relations</title>
+              <screenshot>
+                <screeninfo/>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/RelationTypeDefinitionTab.png" contentdepth="100%"
+                      scalefit="1" width="100%"/>
+                  </imageobject>
+                </mediaobject>
+              </screenshot>
+            </figure>
+          </listitem>
+          <listitem>
+            <para>To <emphasis role="underline">link some archive data</emphasis> to your kinship
+              data (the main function of KinOath Kinship Archiver):</para>
+            <para>
+              <orderedlist>
+                <listitem>
+                  <para><emphasis role="bold">Panels</emphasis> menu > <emphasis role="bold">Archive
+                      Linker</emphasis>. A panel will open on the right of the page, called
+                      <emphasis role="bold">The TLA Language Archiver</emphasis> (two other tabs may
+                    also open in the same panel: <emphasis role="bold">Arbil Remote
+                      Corpus</emphasis> and <emphasis role="bold">Arbil Local Corpus</emphasis>, but
+                    this depends on ...CHIEDERE PETER...).</para>
+                </listitem>
+                <listitem>
+                  <para>Choose the resource you need from the tree and drag it to the corresponding
+                    entity in the <emphasis role="bold">Diagram Tree</emphasis> tab that you can see
+                    on the left of the page (see point 6 below for more information about this tab).
+                    The archive reference will be shown next to the entity (see figure below. The
+                    numbers point out how many references have been linked).</para>
+                  <para>
+                    <figure>
+                      <title>Archive Linker</title>
+                      <screenshot>
+                        <screeninfo/>
+                        <mediaobject>
+                          <imageobject>
+                            <imagedata fileref="images/archiveLinks.png" contentdepth="100%"
+                              scalefit="1" width="100%"/>
+                          </imageobject>
+                        </mediaobject>
+                      </screenshot>
+                    </figure>
+                  </para>
+                </listitem>
+              </orderedlist>
+            </para>
+          </listitem>
+          <listitem>
+            <para>To <emphasis role="underline">save</emphasis> the diagram you have created: </para>
+            <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold">Save
+                as</emphasis> > choose a directory and a file name.</para>
+            <para>Besides the normal saving process, you have other options you can choose from
+                <emphasis role="bold">File</emphasis> menu:</para>
+            <itemizedlist>
+              <listitem>
+                <para><emphasis role="bold">Export as PDF/JPEG/PNG/TIFF</emphasis>: this option
+                  allows you to export files (in one of the following formats: PDF, JPEG, PNG and
+                  TIFF) to a directory in your computer. As in the previous option, <emphasis
+                    role="bold">Save as</emphasis>, when selecting <emphasis role="bold">Export
+                    as</emphasis> ... you will be asked to choose a directory and a file name plus,
+                  in this case, a file format. </para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Export for R / SPSS</emphasis>: this option allows you
+                  to export a KinOath diagram to either R or SPSS, two programs you can mainly use
+                  to statistically analyse your data. The file format is, by deafult, <emphasis
+                    role="italic">.tab</emphasis>. </para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+          <listitem>
+            <para>To <emphasis role="underline">close</emphasis> the application:</para>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold">Close
+                      (</emphasis><emphasis role="italic">name of the diagram</emphasis><emphasis
+                      role="bold">)</emphasis>.</para>
+                </listitem>
+                <listitem>
+                  <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold"
+                      >Exit</emphasis>.</para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </listitem>
+        </orderedlist>
+      </para>
+      <para><emphasis role="underline">To create a standard diagram starting from already existing
+          entities that need to be searched into the database:</emphasis></para>
+    </section>
     <para>Once KinOath Kinship Archiver has been opened, the several diagrams and the options
       available for each of them can be accessed through a number of menus located on the top of the
       page. </para>
@@ -149,19 +525,6 @@
               asked to choose a directory and enter a file name in order to save the file. </para>
           </listitem>
           <listitem>
-            <para><emphasis role="bold">Export as PDF/JPEG/PNG/TIFF</emphasis>: this option allows
-              you to export files (in one of the following formats: PDF, JPEG, PNG and TIFF) to a
-              directory in your computer. As in the previous option, <emphasis role="bold">Save
-                as</emphasis>, when selecting <emphasis role="bold">Export as</emphasis> ... you
-              will be asked to choose a directory and a file name plus, in this case, a file format. </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Export for R / SPSS</emphasis>: this option allows you to
-              export a KinOath diagram to either R or SPSS, two programs you can mainly use to
-              statistically analyse your data. The file format is, by deafult, <emphasis
-                role="italic">.tab</emphasis>. </para>
-          </listitem>
-          <listitem>
             <para><emphasis role="bold">Close</emphasis>: clicking on this option will close the
               application.</para>
           </listitem>
@@ -180,10 +543,7 @@
       <section>
         <title>Diagram Types</title>
         <para>Through the option <emphasis role="bold">New Diagram of Type</emphasis> a number of
-          different diagrams can be opened. All the diagrams produced are in a scalable vector
-          format of publishing quality and all diagrams can be exported into PDF format. The working
-          files are in SVG (Scalable Vector Graphics) format, which can be opened in graphics
-          applications or viewed in modern web browsers. </para>
+          different diagrams can be opened.  </para>
         <para>
           <itemizedlist>
             <listitem>
@@ -222,15 +582,8 @@
                 are concerned, you can create a completely new diagram from scratch using the
                 several options of the menu that comes out when right clicking in the main panel:<orderedlist>
                   <listitem>
-                    <para><emphasis role="bold">Add</emphasis>: you may decide to add to your
-                      diagram an <emphasis role="bold">Individual</emphasis>, a <emphasis
-                        role="bold">Chromosome_Example</emphasis>, a <emphasis role="bold"
-                        >Clan_Example</emphasis>, a <emphasis role="bold">KinTerm</emphasis>, a
-                        <emphasis role="bold">Social_Event</emphasis>, or any other entity type
-                      selected in the profiles settings (Panels > Diagram Settings > Entity
-                      Profiles). Regardless of which of the types has been selected, a new entity
-                      will appear (its icon shape depends on how this has been preconfigured in the
-                      profile settings). If you select that entity you will see, at the bottom of
+                    <para><emphasis role="bold">Add</emphasis>:  Regardless of which of the types
+                      has been selected,  If you select that entity you will see, at the bottom of
                       the page, a table with information to fill in, such as names, dates, genders,
                       etc. Right clicking the table will open a menu with a list of all the possible
                       fields you can add (in alphabetical order); alternatively, you can add a new
@@ -256,8 +609,7 @@
                       options you can use to differentiate kin groups.</para>
                   </listitem>
                   <listitem>
-                    <para><emphasis role="bold">Delete</emphasis>: this option allows you to delete
-                      the selected entity from the database and from all diagrams. </para>
+                    <para/>
                   </listitem>
                   <listitem>
                     <para><emphasis role="bold">Merge Selected Entities</emphasis>: you can use this
@@ -274,44 +626,11 @@
                     </para>
                   </listitem>
                   <listitem>
-                    <para><emphasis role="bold">Add Relations</emphasis>: once that several, single
-                      entities have been created, you may also want to create relations between
-                      them. To this purpose, select how many entities you need (by clicking on them
-                      while holding down the SHIFT key on the keyboard) and right click. You can
-                      choose between: <emphasis role="bold">sibling</emphasis>, <emphasis
-                        role="bold">ancestor</emphasis>, <emphasis role="bold"
-                      >descendant</emphasis>, <emphasis role="bold">union</emphasis>, <emphasis
-                        role="bold">kinterm</emphasis>, <emphasis role="bold">other</emphasis> (the
-                      latter meaning that the relation connecting two, or more, entities, is not a
-                      sanguine relation, but it has to do with other kinds of relationships) [Note:
-                      as far as ancestor and descendant are concerned, the choice of one or the
-                      other depends on which entity you select first. In other words: if you select
-                      the parent first, then you have to use the descendant relation, whereas if you
-                      select the child first, you will have to choose the ancestor relation.],
-                        <emphasis role="bold">undirected</emphasis>, <emphasis role="bold"
-                        >directedin</emphasis>, <emphasis role="bold">directedout</emphasis>. </para>
-                    <para>Alternatively, you can simply select one entity, take the circle you need,
-                      and drag it to the other entity (see figure below). </para>
-                    <para>
-                      <figure>
-                        <title>Add relations</title>
-                        <screenshot>
-                          <screeninfo/>
-                          <mediaobject>
-                            <imageobject>
-                              <imagedata fileref="images/AddRelations.png" contentdepth="100%"
-                                scalefit="1" width="100%"/>
-                            </imageobject>
-                          </mediaobject>
-                        </screenshot>
-                      </figure>
-                    </para>
-                  </listitem>
-                  <listitem>
-                    <para><emphasis role="bold">Remove Relations</emphasis>: you may also want to
-                      change some of the relations created. To do so, select the necessary entities,
-                      right click, and choose <emphasis role="bold">Remove Relations</emphasis> >
-                        <emphasis role="bold">Remove relations between selected</emphasis>.</para>
+                    <para><emphasis role="bold">Add Relations</emphasis>:  </para>
+                    <para>move Relations: you may also want to change some of the relations created.
+                      To do so, select the necessary entities, right click, and choose <emphasis
+                        role="bold">Remove Relations</emphasis> > <emphasis role="bold">Remove
+                        relations between selected</emphasis>.</para>
                   </listitem>
                   <listitem>
                     <para><emphasis role="bold">Set as ego (list will be cleared)</emphasis>: in the
@@ -345,10 +664,7 @@
                       it/them permanent diagram entities (see the note below).</para>
                   </listitem>
                   <listitem>
-                    <para><emphasis role="bold">Release from the diagram</emphasis>: with this
-                      option you remove the selected entity/ies from the diagram, but in this case
-                      it/they remain(s) in the database, unlike with the option "Delete" described
-                      above.</para>
+                    <para/>
                   </listitem>
                   <listitem>
                     <para><emphasis role="bold">Reset Zoom</emphasis>: when selecting this option
@@ -844,17 +1160,7 @@
                     of the tab (see red arrow). However, they still remain in the table at the
                     bottom of the page, so if you want to add them back to the panel on the top you
                     just need to take them, one at a time, and drag them to the string of the drop
-                    down menu. <figure>
-                      <title>Label Fields tab</title>
-                      <screenshot>
-                        <mediaobject>
-                          <imageobject>
-                            <imagedata fileref="images/LabelFieldsTab2.png" width="100%"
-                              contentdepth="100%" scalefit="1"/>
-                          </imageobject>
-                        </mediaobject>
-                      </screenshot>
-                    </figure></para>
+                    down menu. </para>
                 </listitem>
                 <listitem>
                   <para><emphasis role="bold">Relation Type Definitions</emphasis>: through this tab
