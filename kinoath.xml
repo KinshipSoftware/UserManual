@@ -31,7 +31,7 @@
               (i.e. audio files, video files, etc.). Secondly, being culturally nonspecific, this
               program makes it possible for users to create diagrams based on culturally, and
               therefore linguistically, different social structures. Such diagrams can then be
-              compared and contrasted. A series of options are included which aim to optimize
+              compared and contrasted. A series of options are included which aim at optimizing
               graphical representation of the data, a key feature within KinOath environment. </td>
           </tr>
         </tbody>
@@ -54,7 +54,8 @@
         <listitem>
           <para>through one of the installers provided. Installers are available for <emphasis
               role="bold">Windows</emphasis>, <emphasis role="bold">MacOS</emphasis> and <emphasis
-              role="bold">Debian</emphasis>. See sections below for detailed information.</para>
+              role="bold">Debian</emphasis>. See sections below for more detailed
+            information.</para>
         </listitem>
       </itemizedlist>
     </para>
@@ -91,9 +92,9 @@
               above);</para>
           </listitem>
           <listitem>
-            <para>Choose a directory where to save the .zip file and, after saving, open the file
-              (it may happen, at this point, that a security warning message comes out: choose
-                <emphasis role="bold">Run</emphasis> anyway);</para>
+            <para>Choose a directory where to save the <emphasis role="italic">.zip</emphasis> file
+              and, after saving, open the file (it may happen, at this point, that a security
+              warning message comes out: choose <emphasis role="bold">Run</emphasis> anyway);</para>
           </listitem>
           <listitem>
             <para>Choose <emphasis role="bold">Yes</emphasis> on the dialogue window which asks you
@@ -120,7 +121,7 @@
             <para>Select <emphasis role="bold">Download the Debian Linux package</emphasis>;</para>
           </listitem>
           <listitem>
-            <para>Save the .deb file and then open it;</para>
+            <para>Save the <emphasis role="italic">.deb</emphasis> file and then open it;</para>
           </listitem>
           <listitem>
             <para>A window called <emphasis role="bold">Ubuntu Software Center</emphasis> will open.
@@ -138,10 +139,10 @@
             <para>Select <emphasis role="bold">Download the Mac installer</emphasis>;</para>
           </listitem>
           <listitem>
-            <para>Save the .tar file and then open it;</para>
+            <para>Save the <emphasis role="italic">.tar</emphasis> file and then open it;</para>
           </listitem>
           <listitem>
-            <para>Click on the application icon that appears;</para>
+            <para>Click on the application icon that subsiquently appears;</para>
           </listitem>
           <listitem>
             <para>A message may open asking you whether you want to open an application downloaded
@@ -149,6 +150,9 @@
           </listitem>
         </orderedlist>
       </para>
+      <para>After you have selected the webstart, or installed the application, this is what you
+        will see when opening KinOath Kinship Archiver:</para>
+      <para/>
     </section>
   </chapter>
   <chapter>
@@ -168,7 +172,8 @@
           <para>how to create a Query Diagram;</para>
         </listitem>
         <listitem>
-          <para>the features related to the above mentioned diagrams.</para>
+          <para>how to deal with the several features related to the above mentioned
+            diagrams.</para>
         </listitem>
       </itemizedlist>All the diagrams produced are in a scalable vector format of publishing quality
       and all diagrams can be exported into PDF format. The working files are in SVG (Scalable
@@ -204,6 +209,20 @@
               select <emphasis role="bold">Save all data changes</emphasis> from the right click
               menu. The entity should now show such infomation.</para>
             <para>
+              <figure>
+                <title>How to create entities</title>
+                <screenshot>
+                  <screeninfo/>
+                  <mediaobject>
+                    <imageobject>
+                      <imagedata fileref="images/CreateIndividual.png" contentdepth="100%"
+                        scalefit="1" width="100%"/>
+                    </imageobject>
+                  </mediaobject>
+                </screenshot>
+              </figure>
+            </para>
+            <para>
               <note>
                 <para>As far as kinship data are concerned, you can:</para>
                 <para>
@@ -216,7 +235,21 @@
                     </listitem>
                     <listitem>
                       <para>delete custom fields. Select the field you want to delete > right click
-                        > <emphasis role="bold">Delete field "..."</emphasis> .</para>
+                        > <emphasis role="bold">Delete field "..."</emphasis>.</para>
+                      <para>
+                        <figure>
+                          <title>Add Custom Fields</title>
+                          <screenshot>
+                            <screeninfo/>
+                            <mediaobject>
+                              <imageobject>
+                                <imagedata fileref="images/AddCustomFields.png" contentdepth="100%"
+                                  scalefit="1" width="100%"/>
+                              </imageobject>
+                            </mediaobject>
+                          </screenshot>
+                        </figure>
+                      </para>
                     </listitem>
                     <listitem>
                       <para>decide which custom fields need to be shown on the diagram next to the
@@ -273,9 +306,11 @@
                       >union</emphasis>, <emphasis role="bold">kinterm</emphasis>, <emphasis
                       role="bold">other</emphasis> (the latter meaning that the relation connecting
                     two, or more, entities, is not a sanguine relation, but it has to do with other
-                    kinds of relationships), <emphasis role="bold">undirected</emphasis>, <emphasis
-                      role="bold">directedin</emphasis>, <emphasis role="bold"
-                      >directedout</emphasis>.</para>
+                    kinds of relationships), <emphasis role="bold">directedin</emphasis> (a relation
+                      <emphasis role="underline">from</emphasis> one specific entity), <emphasis
+                      role="bold">directedout</emphasis> (a relation <emphasis role="underline"
+                      >to</emphasis> one specific entity), <emphasis role="bold"
+                      >undirected</emphasis> (a bidirectional relation). </para>
                   <para>
                     <note>
                       <para>as far as ancestor and descendant are concerned, the choice of one or
@@ -301,6 +336,24 @@
                       </screenshot>
                     </figure>
                   </para>
+                  <para>When you create an egocentric diagram, you may want to set one of the
+                    entities present on it as the its "starting point". To do so: </para>
+                  <para>
+                    <itemizedlist>
+                      <listitem>
+                        <para>select the entity you want to set as ego > right click > choose
+                            <emphasis role="bold">Set as Ego (list will be cleared)</emphasis>. That
+                          entity will go black.</para>
+                        <para>The text into brackets (<emphasis role="bold">list will be
+                            cleared</emphasis>) means that a diagram can only have one ego. The
+                          moment you try to set a second ego, the other oen will return a normal
+                          entity again. One excludes the other.</para>
+                        <para>However, if you have several diagrams, you can set different egos:
+                          select the entity > right click > <emphasis role="bold">Add to ego
+                            list</emphasis>. </para>
+                      </listitem>
+                    </itemizedlist>
+                  </para>
                 </listitem>
               </itemizedlist>
             </para>
@@ -320,8 +373,8 @@
               <itemizedlist>
                 <listitem>
                   <para>select the necessary entity > right click > <emphasis role="bold"
-                      >Delete</emphasis>. The entity from the database and from all diagrams.
-                  </para>
+                      >Delete</emphasis>. The entity is deleted from the database and from all
+                    diagrams. </para>
                 </listitem>
                 <listitem>
                   <para>select the necessary entity > right click > <emphasis role="bold">Release
@@ -331,21 +384,31 @@
                 </listitem>
               </itemizedlist>
             </para>
-            <para>Relations between entities can be personalized through a series of visual options.
-              To <emphasis role="underline">customize</emphasis> such <emphasis role="underline"
-                >relations</emphasis>:</para>
+            <para>Relations between entities can be personalized through a series of graphical
+              options. To <emphasis role="underline">customize</emphasis> such <emphasis
+                role="underline">relations</emphasis>:</para>
             <para>
               <itemizedlist>
                 <listitem>
-                  <para>Panels menu > Diagram settings > <emphasis role="bold">Relation Type
+                  <para><emphasis role="bold">Panels</emphasis> menu > <emphasis role="bold">Diagram
+                      settings</emphasis> > <emphasis role="bold">Relation Type
                       Definitions</emphasis> tab. This tab, in turn, is made up of sub-tabs:</para>
-                  <para><emphasis role="bold">Custom Name</emphasis></para>
-                  <para><emphasis role="bold">Data Category</emphasis></para>
-                  <para><emphasis role="bold">Relation Type</emphasis></para>
-                  <para><emphasis role="bold">Line Colour</emphasis></para>
-                  <para><emphasis role="bold">Line Width</emphasis></para>
-                  <para><emphasis role="bold">Line/Dash</emphasis></para>
-                  <para><emphasis role="bold">Curve Line Orientation</emphasis></para>
+                  <para><emphasis role="bold">Custom Name</emphasis>: a free text field to make the
+                    relation more specific;</para>
+                  <para><emphasis role="bold">Data Category</emphasis>: the data can have an ISOcat
+                    link;</para>
+                  <para><emphasis role="bold">Relation Type</emphasis>: you can choose among the
+                    types seen above (sibling, union, etc.);</para>
+                  <para><emphasis role="bold">Line Colour</emphasis>: you can set a different colour
+                    for each one of the different relation lines;</para>
+                  <para><emphasis role="bold">Line Width</emphasis>: the relation lines can be
+                    thicker or thinner;</para>
+                  <para><emphasis role="bold">Line/Dash</emphasis>: the relations line can be either
+                    continuous lines or dashed lines, with the dashes being thicker or
+                    thinner;</para>
+                  <para><emphasis role="bold">Curve Line Orientation</emphasis>: you can choose
+                    between horizontal and vertical orientation. This option, however, is not valid
+                    for sanguine relations lines.</para>
                   <para>Look at the figure below to see how these features work.</para>
                 </listitem>
               </itemizedlist>
@@ -356,8 +419,7 @@
                 <screeninfo/>
                 <mediaobject>
                   <imageobject>
-                    <imagedata fileref="images/RelationTypeDefinitionTab.png" contentdepth="100%"
-                      scalefit="1" width="100%"/>
+                    <imagedata/>
                   </imageobject>
                 </mediaobject>
               </screenshot>
@@ -371,17 +433,17 @@
                 <listitem>
                   <para><emphasis role="bold">Panels</emphasis> menu > <emphasis role="bold">Archive
                       Linker</emphasis>. A panel will open on the right of the page, called
-                      <emphasis role="bold">The TLA Language Archiver</emphasis> (two other tabs may
-                    also open in the same panel: <emphasis role="bold">Arbil Remote
-                      Corpus</emphasis> and <emphasis role="bold">Arbil Local Corpus</emphasis>, but
-                    this depends on ...CHIEDERE PETER...).</para>
+                      <emphasis role="bold">The TLA Language Archiver</emphasis> (if you have been
+                    using <emphasis role="bold">Arbil</emphasis>, then two other tabs may also open
+                    in the same panel: <emphasis role="bold">Arbil Remote Corpus</emphasis> and
+                      <emphasis role="bold">Arbil Local Corpus</emphasis>).</para>
                 </listitem>
                 <listitem>
                   <para>Choose the resource you need from the tree and drag it to the corresponding
                     entity in the <emphasis role="bold">Diagram Tree</emphasis> tab that you can see
-                    on the left of the page (see point 6 below for more information about this tab).
-                    The archive reference will be shown next to the entity (see figure below. The
-                    numbers point out how many references have been linked).</para>
+                    on the left of the page. The archive reference will be shown next to the entity.
+                    See figure below. The numbers point out how many references have been
+                    linked.</para>
                   <para>
                     <figure>
                       <title>Archive Linker</title>
@@ -404,7 +466,7 @@
             <para>To <emphasis role="underline">save</emphasis> the diagram you have created: </para>
             <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold">Save
                 as</emphasis> > choose a directory and a file name.</para>
-            <para>Besides the normal saving process, you have other options you can choose from
+            <para>Besides the normal saving process, you have other options you can choose from in
                 <emphasis role="bold">File</emphasis> menu:</para>
             <itemizedlist>
               <listitem>
@@ -420,6 +482,16 @@
                   to export a KinOath diagram to either R or SPSS, two programs you can mainly use
                   to statistically analyse your data. The file format is, by deafult, <emphasis
                     role="italic">.tab</emphasis>. </para>
+                <para>
+                  <note>
+                    <para>The file you have saved, or exported, is also <emphasis role="underline"
+                        >visible on a web page</emphasis>. You only have to take it from the
+                      directory and drag it into a web browser.</para>
+                    <para>Once the diagram is open on a web page, the archive links possibly
+                      existing become hyperlinks. If you select them you will be redirected to their
+                      corresponding location on the IMDI Browser tree.</para>
+                  </note>
+                </para>
               </listitem>
             </itemizedlist>
           </listitem>
@@ -442,7 +514,107 @@
         </orderedlist>
       </para>
       <para><emphasis role="underline">To create a standard diagram starting from already existing
-          entities that need to be searched into the database:</emphasis></para>
+          entities that need to be searched for into the database:</emphasis></para>
+      <para>
+        <orderedlist>
+          <listitem>
+            <para>First of all, you have to <emphasis role="underline">import data</emphasis>. To do
+              so:</para>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para>if you have data of your own: <emphasis role="bold">File</emphasis> menu >
+                      <emphasis role="bold">Import Gedcom/CSV/TIP file</emphasis> > choose the
+                    necessary file > <emphasis role="bold">Open</emphasis>;</para>
+                </listitem>
+                <listitem>
+                  <para>otherwise, if you want to become more familiar with the application, you can
+                    use the sample data contained into the application itself: <emphasis role="bold"
+                      >File</emphasis> menu > <emphasis role="bold">Import Sample Data</emphasis> >
+                    choose the data you want to import. </para>
+                </listitem>
+                <listitem>
+                  <para>when you start the import, a window like the one below appears. Select
+                      <emphasis role="bold">Start Import</emphasis>. Once the process has finished,
+                    select <emphasis role="bold">Close</emphasis>. The entities will be now listed
+                    in the <emphasis role="bold">Project Tree</emphasis> tab on the left of the
+                    page.</para>
+                  <para>
+                    <figure>
+                      <title>Import process</title>
+                      <screenshot>
+                        <screeninfo/>
+                        <mediaobject>
+                          <imageobject>
+                            <imagedata fileref="images/ImportProcess.png" contentdepth="100%"
+                              scalefit="1" width="100%"/>
+                          </imageobject>
+                        </mediaobject>
+                      </screenshot>
+                    </figure>
+                  </para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </listitem>
+          <listitem>
+            <para>Now open the <emphasis role="bold">Search Entities</emphasis> tab on the left of
+              the page and enter the name of the entity you want to search for. Press <emphasis
+                role="bold">Enter</emphasis>, or click on <emphasis role="bold">Search</emphasis>.
+              All the entities somehow related to your search will be listed in the same tab.</para>
+            <para>Entities can also be searched with <emphasis role="underline">fuzzy
+                matching</emphasis>, so that possible spelling mistakes will not interfere with the
+              search.</para>
+          </listitem>
+          <listitem>
+            <para>The results can also be expanded through kin type strings. To do so:</para>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para>check the option <emphasis role="bold">Expand selection by kin type
+                      string</emphasis>. You can find a list of the main kin type strings in section
+                    2.2 below.</para>
+                </listitem>
+                <listitem>
+                  <para>in the white field located below the just mentioned option enter the
+                    necessary kin type strings. As you enter different strings, the diagram updates
+                    itself accordingly.</para>
+                  <para>
+                    <figure>
+                      <title>Search Entities tab</title>
+                      <screenshot>
+                        <screeninfo/>
+                        <mediaobject>
+                          <imageobject>
+                            <imagedata fileref="images/SearchEntitiesTab2.png" contentdepth="100%"
+                              scalefit="1" width="100%"/>
+                          </imageobject>
+                        </mediaobject>
+                      </screenshot>
+                    </figure>
+                  </para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </section>
+    <section>
+      <title>Freeform Diagram (transient)</title>
+      <para>To <emphasis role="underline">create</emphasis> a freeform diagram: </para>
+      <para>
+        <orderedlist>
+          <listitem>
+            <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold">New Diagram of
+                Type</emphasis> > <emphasis role="bold">Freeform Diagram (transient)</emphasis>; a
+              new page of the application will open.</para>
+          </listitem>
+          <listitem>
+            <para/>
+          </listitem>
+        </orderedlist>
+      </para>
     </section>
     <para>Once KinOath Kinship Archiver has been opened, the several diagrams and the options
       available for each of them can be accessed through a number of menus located on the top of the
@@ -555,10 +727,7 @@
                 first one you can search for entities which are already present in the database. </para>
               <para>
                 <note>
-                  <para>Entities can also be searched with fuzzy matching, and the results can also
-                    be expanded through kin type strings entered in the white field located in the
-                      <emphasis role="bold">Search Entities</emphasis> tab. As you select different
-                    entities, the diagram updates itself accordingly. See the figure below.</para>
+                  <para>, and  See the figure below.</para>
                 </note>
               </para>
               <para>
@@ -638,16 +807,7 @@
                         role="bold">Ego</emphasis>, <emphasis role="bold">Required</emphasis>, and
                         <emphasis role="bold">Implied</emphasis>. When you create new entities they
                       automatically go under the "Required" list or, depending on the relations that
-                      have been created, under the "Implied" list. However, if you want to create an
-                      egocentric diagram you can select one of the entities and - through the option
-                        <emphasis role="bold">Set as ego (list will be cleared)</emphasis> -
-                      transfer it to the "Ego" list. Such entity will go black. [You can also create
-                      socialcentric diagrams, in which no particular entity is set as starting point
-                      of the diagram.] The option contains the words "list will be cleared", which
-                      means that through this command, only one entity can be set as the
-                      reference-ego in one diagram; to add more egos, because many diagrams may have
-                      been created, you need to use <emphasis role="bold">Add to ego list</emphasis>
-                      (see below).</para>
+                      have been created, under the "Implied" list. </para>
                   </listitem>
                   <listitem>
                     <para><emphasis role="bold">Add to ego list</emphasis>: this option is similar
