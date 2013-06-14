@@ -94,7 +94,9 @@
           <listitem>
             <para>Choose a directory where to save the <emphasis role="italic">.zip</emphasis> file
               and, after saving, open the file (it may happen, at this point, that a security
-              warning message comes out: choose <emphasis role="bold">Run</emphasis> anyway);</para>
+              warning message comes out. After making sure that the program has been downloaded from
+              the correct website and that it is virus free, choose <emphasis role="bold"
+                >Run</emphasis>);</para>
           </listitem>
           <listitem>
             <para>Choose <emphasis role="bold">Yes</emphasis> on the dialogue window which asks you
@@ -146,13 +148,12 @@
           </listitem>
           <listitem>
             <para>A message may open asking you whether you want to open an application downloaded
-              from the Internet. Select <emphasis role="bold">Open</emphasis>.</para>
+              from the Internet. After making sure that the program has been downloaded from the
+              correct website and that it is virus free, choose <emphasis role="bold"
+                >Open</emphasis>.</para>
           </listitem>
         </orderedlist>
       </para>
-      <para>After you have selected the webstart, or installed the application, this is what you
-        will see when opening KinOath Kinship Archiver:</para>
-      <para/>
     </section>
   </chapter>
   <chapter>
@@ -201,6 +202,10 @@
               depends on how this has been preconfigured in the profile settings (<emphasis
                 role="bold">Panels</emphasis> menu > <emphasis role="bold">Diagram
                 Settings</emphasis> > <emphasis role="bold">Symbol Fields</emphasis>). </para>
+            <para><emphasis role="italic">Tip</emphasis>. If your diagram is going to have a big
+              amount of entities, instead of creating all of them one by one: create some > select
+              them > right click > <emphasis role="bold">Duplicate Selected
+              Entities</emphasis>.</para>
           </listitem>
           <listitem>
             <para>Select the entity you have created. At the bottom of the page you will see a table
@@ -222,75 +227,80 @@
                 </screenshot>
               </figure>
             </para>
+            <para>As far as kinship data are concerned, you can:</para>
             <para>
-              <note>
-                <para>As far as kinship data are concerned, you can:</para>
-                <para>
-                  <itemizedlist>
-                    <listitem>
-                      <para><emphasis role="underline">add custom fields</emphasis>. Right click on
-                        the table and choose the one(s) you need from the list. Alternatively, you
-                        can type the field by yourself, using the option <emphasis role="bold">Add
-                          &lt;custom field></emphasis> (again, via right click menu).</para>
-                    </listitem>
-                    <listitem>
-                      <para><emphasis role="underline">delete custom fields</emphasis>. Select the
-                        field you want to delete > right click > <emphasis role="bold">Delete field
-                          "..."</emphasis>.</para>
-                      <para>
-                        <figure>
-                          <title>Add Custom Fields</title>
-                          <screenshot>
-                            <screeninfo/>
-                            <mediaobject>
-                              <imageobject>
-                                <imagedata fileref="images/AddCustomFields.png" contentdepth="100%"
-                                  scalefit="1" width="100%"/>
-                              </imageobject>
-                            </mediaobject>
-                          </screenshot>
-                        </figure>
-                      </para>
-                    </listitem>
-                    <listitem>
-                      <para>decide <emphasis role="underline">which custom fields need to be
-                          shown</emphasis> on the diagram next to the entity. To do so: </para>
-                      <para>
-                        <orderedlist>
-                          <listitem>
-                            <para><emphasis role="bold">Panels</emphasis> menu > <emphasis
-                                role="bold">Diagram settings</emphasis> > <emphasis role="bold"
-                                >Label fields</emphasis> tab;</para>
-                          </listitem>
-                          <listitem>
-                            <para>Select the field you want to be shown on diagram and drag it to
-                              the <emphasis role="bold">Label fields</emphasis> tab on top of the
-                              page. Or choose the field from the drop down menu located into the
-                              mentioned tab, and click on <emphasis role="bold"
-                              >Add</emphasis>.</para>
-                          </listitem>
-                          <listitem>
-                            <para>By contrast, to delete fields, click on the small squares on the
-                              right of the tab (see red arrow in the figure below).</para>
-                          </listitem>
-                        </orderedlist>
-                      </para>
-                    </listitem>
-                  </itemizedlist>
-                </para>
-              </note>
-              <figure>
-                <title>How to customize kinship data</title>
-                <screenshot>
-                  <screeninfo/>
-                  <mediaobject>
-                    <imageobject>
-                      <imagedata fileref="images/LabelFieldsTab2.png" contentdepth="100%"
-                        scalefit="1" width="100%"/>
-                    </imageobject>
-                  </mediaobject>
-                </screenshot>
-              </figure>
+              <itemizedlist>
+                <listitem>
+                  <para><emphasis role="underline">add custom fields</emphasis>. Right click on the
+                    table and choose the one(s) you need from the list. Alternatively, you can type
+                    the field by yourself, using the option <emphasis role="bold">Add &lt;custom
+                      field></emphasis> (again, via right click menu).</para>
+                </listitem>
+                <listitem>
+                  <para><emphasis role="underline">add the same custom field to several
+                      entities</emphasis>. Select all the entities you need > from the table at the
+                    bottom of the page select again all the entities (hold down <emphasis
+                      role="bold">Shift</emphasis> or <emphasis role="bold">Ctrl</emphasis> keys) >
+                    right click > <emphasis role="bold">Add</emphasis>. All the entities in the
+                    table will now carry the same new custom field.</para>
+                </listitem>
+                <listitem>
+                  <para><emphasis role="underline">delete custom fields</emphasis>. Select the field
+                    you want to delete > right click > <emphasis role="bold">Delete field
+                      "..."</emphasis>.</para>
+                  <para>
+                    <figure>
+                      <title>Add Custom Fields</title>
+                      <screenshot>
+                        <screeninfo/>
+                        <mediaobject>
+                          <imageobject>
+                            <imagedata fileref="images/AddCustomFields.png" contentdepth="100%"
+                              scalefit="1" width="100%"/>
+                          </imageobject>
+                        </mediaobject>
+                      </screenshot>
+                    </figure>
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>decide <emphasis role="underline">which custom fields need to be
+                      shown</emphasis> on the diagram next to the entity. To do so: </para>
+                  <para>
+                    <orderedlist>
+                      <listitem>
+                        <para><emphasis role="bold">Panels</emphasis> menu > <emphasis role="bold"
+                            >Diagram settings</emphasis> > <emphasis role="bold">Label
+                            fields</emphasis> tab;</para>
+                      </listitem>
+                      <listitem>
+                        <para>Select the field you want to be shown on diagram and drag it to the
+                            <emphasis role="bold">Label fields</emphasis> tab on top of the page. Or
+                          choose the field from the drop down menu located into the mentioned tab,
+                          and click on <emphasis role="bold">Add</emphasis>.</para>
+                      </listitem>
+                      <listitem>
+                        <para>By contrast, to delete fields, click on the small squares on the right
+                          of the tab (see red arrow in the figure below).</para>
+                        <para>
+                          <figure>
+                            <title>How to customize kinship data</title>
+                            <screenshot>
+                              <screeninfo/>
+                              <mediaobject>
+                                <imageobject>
+                                  <imagedata fileref="images/LabelFieldsTab.png" contentdepth="100%"
+                                    scalefit="1" width="100%"/>
+                                </imageobject>
+                              </mediaobject>
+                            </screenshot>
+                          </figure>
+                        </para>
+                      </listitem>
+                    </orderedlist>
+                  </para>
+                </listitem>
+              </itemizedlist>
             </para>
           </listitem>
           <listitem>
@@ -966,17 +976,32 @@
       </para>
     </section>
     <section>
-      <para>The first menu available is the <emphasis role="bold">File</emphasis> menu (see figure
-        above), which includes the following options:</para>
+      <title>Template Documents</title>
+      <para>The page of the application with the diagram you are working on can become the template
+        document for KinOath Kinship Archiver. To do so:</para>
       <para>
         <itemizedlist>
           <listitem>
-            <para><emphasis role="bold">New (default diagram)</emphasis>: this option allows you to
-              open a new diagram. It says <emphasis role="italic">default</emphasis> diagram because
-              when KinOath opens, it shows the diagram that was previously set as default through
-              the option <emphasis role="bold">Set Default Diagram as</emphasis> (see below).
-            </para>
+            <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold">Set Default
+                Diagram as (</emphasis><emphasis role="italic">name of the
+                diagram</emphasis><emphasis role="bold">)</emphasis>. </para>
           </listitem>
+          <listitem>
+            <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold">New (default
+                diagram)</emphasis> > the application will open showing the diagram you set as
+              default.</para>
+            <para>The same thing happens when you close and re-open the application.</para>
+          </listitem>
+          <listitem>
+            <para>To continue working on that diagram you need to recalculate it (see Section 2.2,
+              point 4).</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <para>
+        <itemizedlist>
           <listitem>
             <para><emphasis role="bold">Open Diagram</emphasis>: this option allows you to open a
               diagram choosing from the ones present in your computer directories. Once you have
@@ -994,12 +1019,6 @@
               allows you to import kinship files in either Gedcom, CSV, or TIP format. Once it is
               selected, a window will open asking you to choose the file to import from a directory.
               The file selected will then open in a new page of KinOath.</para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Set Default Diagram as</emphasis>: through this option you
-              can take a certain type of diagram and some diagram settings, and set them as default,
-              so that when you start the application again, this will open showing the specific
-              diagram and settings you preconfigured. </para>
           </listitem>
         </itemizedlist>
         <orderedlist>
@@ -1089,167 +1108,6 @@
       </section>
     </section>
     <section>
-      <title>Edit menu</title>
-      <figure>
-        <title>Edit menu</title>
-        <screenshot>
-          <screeninfo/>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/EditMenu2.png" contentdepth="100%" scalefit="1"
-                width="100%"/>
-            </imageobject>
-          </mediaobject>
-        </screenshot>
-      </figure>
-      <para>This menu contains options related to the modification of a diagram: </para>
-      <para>
-        <itemizedlist>
-          <listitem>
-            <para><emphasis role="bold">Select All</emphasis>: by clicking on this option all the
-              entities of all the diagrams present in the central panel will be highlighted (i.e.
-              they will be sorrounded by a blue, dotted line).</para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Select Related</emphasis>: if you select one entity and then
-              choose this option, all the entities somehow related to the one selected will be
-              hightlighted.</para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Expand Selection</emphasis>: if you select one entity and
-              then choose this option, only the entities immediately related to the one selected
-              will be highlighted. </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Deselect All</emphasis>: this option is for deselecting the
-              entities, or the relations between entities, which were previously selected. </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Recalculate the Diagram</emphasis>: this option allows you
-              to partially modify, or totally recreate, a diagram. Once selected you are allowed to
-              add: new entities (in the standard diagram), new constraints to new or already
-              existing entities (in the freeform and in the query diagrams), new kin terms and kin
-              groups (in the kin terms, but also in the freeform, diagram). Alternatively, you can
-              simply click on the diagram and the following message will come out: "The diagram
-              needs to be recalculated before it can be interacted with. recalculate now?"</para>
-          </listitem>
-        </itemizedlist>
-      </para>
-    </section>
-    <section>
-      <title>Diagram Options menu</title>
-      <figure>
-        <title>Diagram Options menu</title>
-        <screenshot>
-          <screeninfo/>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/DiagramOptions2.png" contentdepth="100%" scalefit="1"
-                width="100%"/>
-            </imageobject>
-          </mediaobject>
-        </screenshot>
-      </figure>
-      <para>This menu contains options related to the layout of a diagram. They only have to be
-        checked or unchecked according to the needs. </para>
-      <para>
-        <itemizedlist>
-          <listitem>
-            <para><emphasis role="bold">Snap To Grid</emphasis>: this option is checked by default,
-              and it allows you to move the entities only in certain ways, as if an imaginary grid
-              was there, and the sanguine lines could be placed only on the grid. If unchecked, you
-              can move the entities as you want, with no "grid restriction". </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Highlight Selected Relations</emphasis>: if this option is
-              checked, when you select one entity, the relations that this one has with other,
-              immediately close, entities will be highlighted in blue. </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Show Diagram Border</emphasis>: if this option is checked,
-              you can see the border of the diagram (a grey line).</para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Show Sanguin Lines</emphasis>: if this option is unchecked,
-              the lines connecting one entity to the other disappear.</para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Show Labels</emphasis>: if this option is unchecked, the
-              labels (names for example) added to the individuals when creating the diagram
-              disappear. </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Show Kin Type Labels</emphasis>: if this option is
-              unchecked, the kin type definitions next to the labels ("EfM" for example)
-              disappear.</para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Show Id Labels</emphasis>: </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Show Date Labels</emphasis>: when you create individuals you
-              can also enter, besides name and gender, a date of birth and of death. You may decide
-              not to show such dates; if you want them hidden you have to leave this option
-              unchecked. </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Show Archive Links</emphasis>: this option is valid for the
-              diagram type "Archive Data Linker" and for the Gedcom imports that have resources. In
-              both cases, the entities that are placed into the diagram will carry a label of the
-              type: "archive ref.: 1, 2, etc." (see figure below). Such label disappears if this
-              option is unchecked. </para>
-            <para>
-              <figure>
-                <title>Archive Links</title>
-                <screenshot>
-                  <screeninfo/>
-                  <mediaobject>
-                    <imageobject>
-                      <imagedata fileref="images//archiveLinks.png"/>
-                    </imageobject>
-                  </mediaobject>
-                </screenshot>
-              </figure>
-            </para>
-          </listitem>
-        </itemizedlist>
-      </para>
-    </section>
-    <section>
-      <title>Kin Terms menu</title>
-      <figure>
-        <title>Kin Terms menu</title>
-        <screenshot>
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="images/KinTermMenu2.png" contentdepth="100%" scalefit="1"
-                width="100%"/>
-            </imageobject>
-          </mediaobject>
-        </screenshot>
-      </figure>
-      <para>The whole menu is available only for the Kin Terms Diagram, whereas in the other cases
-        only the option <emphasis role="bold">New Kin Term Group</emphasis> can be accessed. This
-        menu includes the following options:</para>
-      <para>
-        <itemizedlist>
-          <listitem>
-            <para><emphasis role="bold">Show</emphasis>: this option allows you to see the kin terms
-              panel on the right of the page. If you uncheck it, the panel disappears and all the
-              other menu options are not available anymore. </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Import</emphasis>: instead of creating a new kin term group
-              from scratch you may decide to import an already existing one from a file directory in
-              your computer. To do so, click on <emphasis role="bold">Import</emphasis> and choose
-              the file you want to import. The kin terms imported will be added to the ones in the
-              table in the right panel and also in the diagram (if a diagram has already been
-              created, otherwise they will go and create a new one themselves).</para>
-          </listitem>
-        </itemizedlist>
-      </para>
-    </section>
-    <section>
       <title>Panels menu</title>
       <figure>
         <title>Panels menu</title>
@@ -1268,8 +1126,7 @@
       <para>
         <itemizedlist>
           <listitem>
-            <para><emphasis role="bold">Active Plugins</emphasis>: this option becomes visible only
-              whether, and when, there are, effectively, plugins.  </para>
+            <para><emphasis role="bold">Active Plugins</emphasis>:  </para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">Archive Linker</emphasis>: by choosing this option a panel
@@ -1353,52 +1210,6 @@
                     circle). </para>
                 </listitem>
                 <listitem>
-                  <para><emphasis role="bold">Label Fields</emphasis>: this tab contains some
-                    information about the entities created by the user (we are referring to the
-                    "Standard Diagram (database driven)" type), i.e. name, date of birth, etc. It
-                    may be the case that not all of the fields contained in the table at the bottom
-                    of the page, and related to the entity selected, are also shown at the top of
-                    the page, i.e. they may not be visible on the diagram. In order to make them
-                    appear on the diagram next to the entity, you have to search for them in the
-                    drop down menu and click on <emphasis role="bold">Add</emphasis> (see figure
-                    below). You can delete the labels by clicking on the small squares on the right
-                    of the tab (see red arrow). However, they still remain in the table at the
-                    bottom of the page, so if you want to add them back to the panel on the top you
-                    just need to take them, one at a time, and drag them to the string of the drop
-                    down menu. </para>
-                </listitem>
-                <listitem>
-                  <para><emphasis role="bold">Relation Type Definitions</emphasis>: through this tab
-                    you can add details to the relations between the entities. It has some sub-tabs:
-                      <emphasis role="bold">Custom Name</emphasis>, <emphasis role="bold">Data
-                      Category</emphasis>, <emphasis role="bold">Relation Type</emphasis> (which, in
-                    turn, lets you choose among <emphasis role="italic">sibling</emphasis>,
-                      <emphasis role="italic">ancestor (descendant)</emphasis>, <emphasis
-                      role="italic">descendant (ancestor)</emphasis>, <emphasis role="italic"
-                      >union</emphasis>, <emphasis role="italic">kinterm</emphasis>, <emphasis
-                      role="italic">other</emphasis>, <emphasis role="italic">undirected</emphasis>,
-                      <emphasis role="italic">directedin (directedout)</emphasis>, <emphasis
-                      role="italic">directedout (directedin)</emphasis>, <emphasis role="italic"
-                      >&lt;any></emphasis>); <emphasis role="bold">Line Colour</emphasis>; <emphasis
-                      role="bold">Line Width</emphasis>, <emphasis role="bold">Line/Dash</emphasis>,
-                      <emphasis role="bold">Curve Line Orientation</emphasis>. Look at the picture
-                    below to see how they work. </para>
-                  <para>
-                    <figure>
-                      <title>Relation Type Definition Tab</title>
-                      <screenshot>
-                        <screeninfo/>
-                        <mediaobject>
-                          <imageobject>
-                            <imagedata fileref="images/RelationTypeDefinitionTab.png"
-                              contentdepth="100%" scalefit="1" width="100%"/>
-                          </imageobject>
-                        </mediaobject>
-                      </screenshot>
-                    </figure>
-                  </para>
-                </listitem>
-                <listitem>
                   <para><emphasis role="bold">Symbol Fields</emphasis>: according to the features
                     that are attributed to the entities, these get different shapes, for example a
                     female ego is a circle, whereas a male ego is a triangle. Such shapes, however,
@@ -1428,187 +1239,6 @@
                 </listitem>
               </itemizedlist>
             </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Diagram Tree</emphasis>: this panel opens up on the left of
-              the page. It displays three possible lists: <emphasis role="bold">Ego</emphasis>,
-                <emphasis role="bold">Required</emphasis>, <emphasis role="bold">Implied</emphasis>. </para>
-            <para>When you create new individuals, they automatically go under the "Required" list.
-              If you want an egocentric diagram, you have to add an ego (or several egos if you want
-              to create several diagrams), to the "Ego" list (right click on the entity > Set as Ego
-              (list will be cleared)). The ego added to the list goes black and represents the
-              reference point of your diagram. </para>
-            <para>
-              <figure>
-                <title>Diagram Tree Panel</title>
-                <screenshot>
-                  <screeninfo/>
-                  <mediaobject>
-                    <imageobject>
-                      <imagedata fileref="images/DiagramTreeTab3.png" contentdepth="100%"
-                        scalefit="1" width="100%"/>
-                    </imageobject>
-                  </mediaobject>
-                </screenshot>
-              </figure>
-            </para>
-            <para>By comparison, when you search for an already existing entity, you will see the
-              ego of your diagram under the Ego list and, on the other hand, under the "Implied"
-              list, there will be all those entities that are automatically linked to the one
-              selected. See figure below. </para>
-            <para>
-              <figure>
-                <title>Diagram Tree panel 2</title>
-                <screenshot>
-                  <screeninfo/>
-                  <mediaobject>
-                    <imageobject>
-                      <imagedata fileref="images/DiagramTreeTab2.png" contentdepth="100%"
-                        scalefit="1" width="100%"/>
-                    </imageobject>
-                  </mediaobject>
-                </screenshot>
-              </figure>
-            </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Kin Terms</emphasis>: this panel opens up automatically when
-              working on a "Kin Terms" diagram (see section 2.4).</para>
-            <para>
-              <figure>
-                <title>Kin Terms panel</title>
-                <screenshot>
-                  <screeninfo/>
-                  <mediaobject>
-                    <imageobject>
-                      <imagedata fileref="images/kinTermsPanel.png" contentdepth="100%" scalefit="1"
-                        width="100%"/>
-                    </imageobject>
-                  </mediaobject>
-                </screenshot>
-              </figure>
-            </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Kin Type Strings</emphasis>: this panel opens up
-              automatically in case of a freeform or a query diagram. In it you type the strings
-              necessary to create new individuals (freeform diagram) or to look for them (query
-              diagram). (see section 2.1.1 above, Freeform Diagram paragraph)</para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Search Entities</emphasis>: this option is available for the
-              standard and the query diagram, which are both database driven. Indeed, its function
-              is to search for specific entities in the database. To do so, you have to type the
-              name of the entity in the white string included in this tab and press "Enter", or
-              click on <emphasis role="bold">Search</emphasis>. You can also search for related
-              entities by checking the option <emphasis role="bold">Expand Selection by Kin Type
-                String</emphasis> and by entering a kin type definition of the type seen before.
-              (see figure below)</para>
-            <para>
-              <figure>
-                <title>Search Entities</title>
-                <screenshot>
-                  <screeninfo/>
-                  <mediaobject>
-                    <imageobject>
-                      <imagedata fileref="images//SearchEntitiesTab.png" contentdepth="100%"
-                        scalefit="1" width="100%"/>
-                    </imageobject>
-                  </mediaobject>
-                </screenshot>
-              </figure>
-            </para>
-          </listitem>
-        </itemizedlist>
-      </para>
-    </section>
-    <section>
-      <title>Plugins menu</title>
-      <para>This menu simply shows you which plugins are active on the application in that ongoing
-        session. If no plugins are present, then you will only see: &lt;no plugins found>. This
-        structure provides KinOath Kinship Archiver with even more flexibility, and makes it
-        possible for third parties to develop new application features.</para>
-    </section>
-    <section>
-      <title>Window menu</title>
-      <para>
-        <figure>
-          <title>Window menu</title>
-          <screenshot>
-            <screeninfo/>
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/WindowMenu2.png" contentdepth="100%" width="100%"
-                  scalefit="1"/>
-              </imageobject>
-            </mediaobject>
-          </screenshot>
-        </figure>
-      </para>
-      <para>The options of this menu vary according to how many windows of KinOath have been opened.
-        Indeed, it simply consists of a list of the options that have been selected and opened:
-        sample diagrams, new diagrams, etc. Each window has its corresponding menu option checked. </para>
-    </section>
-    <section>
-      <title>Help menu</title>
-      <para>
-        <figure>
-          <title>Help menu</title>
-          <screenshot>
-            <screeninfo/>
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="images/HelpMenu2.png" contentdepth="100%" scalefit="1"
-                  width="100%"/>
-              </imageobject>
-            </mediaobject>
-          </screenshot>
-        </figure>
-      </para>
-      <para>This menu includes some additional information about the program:</para>
-      <para>
-        <itemizedlist>
-          <listitem>
-            <para><emphasis role="bold">About</emphasis>: by selecting this option a dialog window
-              will open, briefly describing the program. </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Internal Help</emphasis>: it opens the instructions manual
-              onto a new page of the application.</para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">KinOath Website</emphasis>: it redirects you to the web page
-              of the application (<ulink url="http://tla.mpi.nl/tools/tla-tools/kinoath"
-                >http://tla.mpi.nl/tools/tla-tools/kinoath</ulink>).</para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">KinOath Online Manual</emphasis>: it links you to the online
-              version of the manual, located on the TLA webpage (<ulink
-                url="http://www.mpi.nl/corpus/html/kinoath/index.html"
-                >http://www.mpi.nl/corpus/html/kinoath/index.html</ulink>)</para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">KinOath Forum (Website)</emphasis>: by selecting this option
-              you will be redirected to the following page: <ulink
-                url="http://tla.mpi.nl/forums/software/kinoath"
-                >http://tla.mpi.nl/forums/software/kinoath</ulink>, a discussion board page where
-              you can start discussions about topics relevant to KinOath Kinship Archiver. </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">View Error Log</emphasis>: by selecting this option a page
-              in NotePad will open, containing the possible errors encountered while using the
-              program. </para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Reindex all files</emphasis>: this option may turn out
-              useful when, for example, somebody has modified your data on a file hosting service
-              (such as Dropbox) and you have to synchronize these modified files with the ones
-              present on the disk. It may not be necessary, though, to manually select this option,
-              because the files will be reindexed automatically.</para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">Check for Updates</emphasis>: this option allows you to
-              search for more recent versions of KinOath Kinship Archiver.</para>
           </listitem>
         </itemizedlist>
       </para>
@@ -1867,6 +1497,256 @@
       </para>
     </section>
   </chapter>
+  <appendix>
+    <title>Menu options</title>
+    <para>Here is a comprehensive list of all the options that you can find located under the
+      several menus of the application.</para>
+    <para>
+      <orderedlist>
+        <listitem>
+          <para><emphasis role="bold">File</emphasis>:</para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para><emphasis role="bold">New (default diagram)</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">New Diagram of Type</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Open Diagram</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Open Recent Diagram</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Open Sample Diagram</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Import Gedcom / CSV / TIP file</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Import Sample Data</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Save as (name of the diagram)</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Export for R / SPSS</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Close (name of the diagram)</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Set Default diagram as (name of the
+                  diagram)</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Exit</emphasis></para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Edit</emphasis>:</para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para><emphasis role="bold">Select All</emphasis>: by clicking on this option all
+                  the entities of all the diagrams present in the central panel will be highlighted
+                  (i.e. they will be sorrounded by a blue, dotted line).</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Select Related</emphasis>: if you select one entity and
+                  then choose this option, all the entities somehow related to the one selected will
+                  be hightlighted.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Expand Selection</emphasis>: if you select one entity
+                  and then choose this option, only the entities immediately related to the one
+                  selected will be highlighted.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Deselect All</emphasis>: this option is for deselecting
+                  the entities, or the relations between entities, which were previously
+                  selected.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Recalculate the Diagram</emphasis></para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Diagram Options</emphasis>:</para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para><emphasis role="bold">Snap To Grid</emphasis>: this option is checked by
+                  default. It allows you to move the entities only to certain directions, as if an
+                  imaginary grid was there, and the sanguine lines could be placed only on the grid.
+                  If unchecked, you can move the entities as you want, with no "grid
+                  restriction".</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Highlight Selected Relations</emphasis>: if this option
+                  is checked, when you select one entity, the relations that this one has with
+                  other, immediately close, entities will be highlighted in blue.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Show Diagram Border</emphasis>:  if this option is
+                  checked, you can see the border of the diagram (a grey line).</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Show Sanguin Lines</emphasis>: if this option is
+                  unchecked, the lines connecting one entity to the other disappear.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Show Labels</emphasis>: if this option is unchecked, the
+                  labels (names, for example) added to the individuals when creating the diagram
+                  disappear. </para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Show Kin Type Labels</emphasis>:  if this option is
+                  unchecked, the kin type definitions next to the labels ("EfM" for example)
+                  disappear.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Show Id Labels</emphasis>
+                </para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Show Date Labels</emphasis>: when you create individuals
+                  you can also enter, besides name and gender, a date of birth and of death. You may
+                  decide not to show such dates; if you want them hidden you have to leave this
+                  option unchecked. </para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Show Archive Links</emphasis>:  this option is valid for
+                  the Gedcom imports that have resources (and for the diagram type <emphasis
+                    role="bold">Archive Data Linker</emphasis> which, however, is not yet
+                  functional). In both cases, the entities that are placed into the diagram will
+                  carry a label of the type: "archive ref.: 1, 2, etc.". Such label disappears if
+                  this option is unchecked.</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Kin Terms</emphasis>:</para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para><emphasis role="bold">Show</emphasis>: by checking or unchecking this item,
+                  you will respectively shown or hide the whole menu.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">New Kin Term Group</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Import</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Export</emphasis></para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Panels</emphasis>:</para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para><emphasis role="bold">Active Plugins</emphasis>: this option becomes visible
+                  only whether, and when, there are, effectively, plugins.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Archive Linker</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Diagram Settings</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Diagram Tree</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Kin Terms</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Kin Type Strings</emphasis></para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Search Entities</emphasis></para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Plugins</emphasis>: This menu simply shows you which plugins
+            are active on the application in that ongoing session. If no plugins are present, then
+            you will only see: <emphasis role="bold">&lt;no plugins found></emphasis>. This
+            structure provides KinOath Kinship Archiver with even more flexibility, and makes it
+            possible for third parties to develop new application features. </para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Window</emphasis>: The options of this menu vary according to
+            how many windows of KinOath have been opened. Indeed, it simply consists of a list of
+            the options that have been selected and opened: sample diagrams, new diagrams, etc. Each
+            window has its corresponding menu option checked. </para>
+        </listitem>
+        <listitem>
+          <para><emphasis role="bold">Help</emphasis>:</para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para><emphasis role="bold">About</emphasis>: by selecting this option a dialog
+                  window will open, briefly describing the program.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Internal Help</emphasis>: it opens the instructions
+                  manual onto a new page of the application.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">KinOath Website</emphasis>: it redirects you to the web
+                  page of the application (<ulink url="http://tla.mpi.nl/tools/tla-tools/kinoath"
+                    >http://tla.mpi.nl/tools/tla-tools/kinoath</ulink>).</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">KinOath Online Manual</emphasis>: it links you to the
+                  online version of the manual, located on the TLA webpage (<ulink
+                    url="http://www.mpi.nl/corpus/html/kinoath/index.html"
+                    >http://www.mpi.nl/corpus/html/kinoath/index.html</ulink>).</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">KinOath Forum (Website)</emphasis>: by selecting this
+                  option you will be redirected to the following page: <ulink
+                    url="http://tla.mpi.nl/forums/software/kinoath"
+                    >http://tla.mpi.nl/forums/software/kinoath</ulink>, a discussion board page
+                  where you can start discussions about topics relevant to KinOath Kinship Archiver.
+                </para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">View Error Log</emphasis>: by selecting this option a
+                  page in NotePad will open, containing the possible errors encountered while using
+                  the program.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Reindex all files</emphasis>: this option may turn out
+                  useful when, for example, somebody has modified your data on a file hosting
+                  service (such as Dropbox) and you have to synchronize these modified files with
+                  the ones present on the disk. It may not be necessary, though, to manually select
+                  this option, because the files will be reindexed automatically.</para>
+              </listitem>
+              <listitem>
+                <para><emphasis role="bold">Check for Updates</emphasis>: this option allows you to
+                  search for more recent versions of KinOath Kinship Archiver.</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem>
+      </orderedlist>
+    </para>
+  </appendix>
   <appendix>
     <title>Features not available in KinOath 1.2 </title>
     <para>
