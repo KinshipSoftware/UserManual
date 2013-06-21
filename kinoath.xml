@@ -181,14 +181,54 @@
       Vector Graphics) format, which can be opened in graphics applications or viewed in modern web
       browsers.</para>
     <section>
-      <title>Standard Diagram (database driven)</title>
+      <title>Standard Diagram (current project)</title>
+      <para>A standard diagram is a type of diagram through which you create a <emphasis
+          role="underline">project database</emphasis>. A standard diagram is created through the
+        adding of individuals (or other kind of entities such as social events or kin terms) and of
+        relations between them. </para>
+      <para>First of all, you should <emphasis role="underline">create a project</emphasis>. To do
+        so:</para>
+      <para>
+        <orderedlist>
+          <listitem>
+            <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold">New
+                Project</emphasis> > choose a directory and a name for your project > <emphasis
+                role="bold">Save</emphasis> > a dialog window appears: <emphasis role="bold"
+                >Creating database for project '</emphasis><emphasis role="italic">name of the
+                project</emphasis><emphasis role="bold">'</emphasis>. Now on top of the page you
+              will see the name of your project.</para>
+          </listitem>
+          <listitem>
+            <para><emphasis role="underline">If you already have a project saved</emphasis> on your
+              machine: <emphasis role="bold">File</emphasis> menu > <emphasis role="bold">Open
+                Project</emphasis> > choose the project (if you click on the project some
+              information related to it will come out: <emphasis role="bold">Project
+                Title</emphasis>, <emphasis role="bold">Project Description</emphasis>, etc.) >
+                <emphasis role="bold">Open</emphasis>.</para>
+          </listitem>
+          <listitem>
+            <para>You may also want to <emphasis role="underline">re-open a recently closed
+                project</emphasis>. To do so:</para>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold">Open
+                      Recent Project</emphasis> > choose from the list provided. If you want to
+                    delete such list select <emphasis role="bold">Clear List</emphasis> (it is
+                    located at the end of the list).</para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </listitem>
+        </orderedlist>
+      </para>
       <para><emphasis role="underline">To create a standard diagram from scratch:</emphasis></para>
       <para>
         <orderedlist>
           <listitem>
             <para>Open <emphasis role="bold">File</emphasis> menu > <emphasis role="bold">New
-                Diagram of Type</emphasis> > <emphasis role="bold">Standard Diagram (database
-                driven)</emphasis>; a new page of the application will open.</para>
+                Diagram of Type</emphasis> > <emphasis role="bold">Standard Diagram (current
+                project)</emphasis>; a new page of the application will open.</para>
           </listitem>
           <listitem>
             <para>Right click on the main white panel > <emphasis role="bold">Add</emphasis> >
@@ -221,9 +261,24 @@
               </itemizedlist>
             </para>
             <para>According to what you have chosen, a new entity will appear. Its icon shape
-              depends on how this has been preconfigured in the profile settings (<emphasis
-                role="bold">Panels</emphasis> menu > <emphasis role="bold">Diagram
-                Settings</emphasis> > <emphasis role="bold">Symbol Fields</emphasis>). </para>
+              depends on how this has been preconfigured in the profile settings. To modify profile
+              settings: <emphasis role="bold">Diagram Options</emphasis> menu > <emphasis
+                role="bold">Settings</emphasis> > <emphasis role="bold">Symbol Fields</emphasis>
+              tab. </para>
+            <para>
+              <figure>
+                <title>How to modify profile settings</title>
+                <screenshot>
+                  <screeninfo/>
+                  <mediaobject>
+                    <imageobject>
+                      <imagedata fileref="images/SymbolFieldsTab.png" contentdepth="100%"
+                        scalefit="1" width="100%"/>
+                    </imageobject>
+                  </mediaobject>
+                </screenshot>
+              </figure>
+            </para>
             <para><emphasis role="italic">Tip</emphasis>. If your diagram is going to have a big
               amount of entities, instead of creating all of them one by one: create some > select
               them > right click > <emphasis role="bold">Duplicate Selected
@@ -298,15 +353,13 @@
                   <para>
                     <orderedlist>
                       <listitem>
-                        <para><emphasis role="bold">Panels</emphasis> menu > <emphasis role="bold"
-                            >Diagram settings</emphasis> > <emphasis role="bold">Label
+                        <para><emphasis role="bold">Diagram Options</emphasis> menu > <emphasis
+                            role="bold">Settings</emphasis> > <emphasis role="bold">Label
                             fields</emphasis> tab;</para>
                       </listitem>
                       <listitem>
-                        <para>Select the field you want to be shown on diagram and drag it to the
-                            <emphasis role="bold">Label fields</emphasis> tab on top of the page. Or
-                          choose the field from the drop down menu located into the mentioned tab,
-                          and click on <emphasis role="bold">Add</emphasis>.</para>
+                        <para>Choose the field from the drop down menu located into the mentioned
+                          tab, and click on <emphasis role="bold">Add</emphasis>.</para>
                       </listitem>
                       <listitem>
                         <para>By contrast, to delete fields, click on the small squares on the right
@@ -430,8 +483,8 @@
             <para>
               <itemizedlist>
                 <listitem>
-                  <para><emphasis role="bold">Panels</emphasis> menu > <emphasis role="bold">Diagram
-                      settings</emphasis> > <emphasis role="bold">Relation Type
+                  <para><emphasis role="bold">Diagram Options</emphasis> menu > <emphasis
+                      role="bold">Settings</emphasis> > <emphasis role="bold">Relation Type
                       Definitions</emphasis> tab. This tab, in turn, is made up of sub-tabs:</para>
                   <para><emphasis role="bold">Custom Name</emphasis>: a free text field to make the
                     relation more specific;</para>
@@ -459,7 +512,11 @@
                 <screeninfo/>
                 <mediaobject>
                   <imageobject>
-                    <imagedata fileref="images/CustomizeRelations.png" contentdepth="100%"
+                    <imagedata fileref="images/RelationTypeDefinitionTab.png" contentdepth="100%"
+                      scalefit="1" width="100%"/>
+                  </imageobject>
+                  <imageobject>
+                    <imagedata fileref="images/CustomizeRelations2.png" contentdepth="100%"
                       scalefit="1" width="100%"/>
                   </imageobject>
                 </mediaobject>
@@ -505,8 +562,9 @@
           </listitem>
           <listitem>
             <para>To <emphasis role="underline">save</emphasis> the diagram you have created: </para>
-            <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold">Save
-                as</emphasis> > choose a directory and a file name.</para>
+            <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold">Save as
+                (</emphasis><emphasis role="italic">name of the diagram</emphasis><emphasis
+                role="bold">)</emphasis> > choose a directory and a file name.</para>
             <para>Besides the normal saving process, you have other options you can choose from in
                 <emphasis role="bold">File</emphasis> menu:</para>
             <itemizedlist>
@@ -554,8 +612,7 @@
           </listitem>
         </orderedlist>
       </para>
-      <para><emphasis role="underline">To create/modify a standard diagram starting from already
-          existing entities that need to be searched for into the database:</emphasis></para>
+      <para><emphasis role="underline">To work on already existing database:</emphasis></para>
       <para>
         <orderedlist>
           <listitem>
@@ -668,6 +725,8 @@
     </section>
     <section>
       <title>Freeform Diagram (transient)</title>
+      <para>A freeform diagram is a type of diagram created through the use of kin type strings
+        (i.e. letters indicating kin terms) and of labels (i.e. names, dates, Ids, etc.).</para>
       <para>To <emphasis role="underline">create</emphasis> a freeform diagram: </para>
       <para>
         <orderedlist>
@@ -680,9 +739,9 @@
           </listitem>
           <listitem>
             <para>Here is a list of the main kyn type strings. A more detailed list can be found
-              through the path: <emphasis role="bold">Panels</emphasis> menu > <emphasis role="bold"
-                >Diagram Settings</emphasis> > <emphasis role="bold">Kin Type
-              Definitions</emphasis>:</para>
+              through the path: <emphasis role="bold">Diagram Options</emphasis> menu > <emphasis
+                role="bold">Settings</emphasis> > <emphasis role="bold">Kin Type
+                Definitions</emphasis> tab:</para>
             <para><emphasis role="bold">E</emphasis> = ego; <emphasis role="bold">Ef</emphasis>=
               female ego; <emphasis role="bold">Em</emphasis> = male ego; <emphasis role="bold"
                 >x</emphasis> = undefined</para>
@@ -706,9 +765,9 @@
             <para>
               <itemizedlist>
                 <listitem>
-                  <para><emphasis role="bold">Panels</emphasis> menu > <emphasis role="bold">Diagram
-                      Settings</emphasis> > <emphasis role="bold">Kin Type
-                    Definitions</emphasis>:</para>
+                  <para><emphasis role="bold">Diagram Options</emphasis> menu > <emphasis
+                      role="bold">Settings</emphasis> > <emphasis role="bold">Kin Type
+                      Definitions</emphasis> tab:</para>
                 </listitem>
                 <listitem>
                   <para>fill in the required information: </para>
@@ -876,7 +935,10 @@
       </para>
     </section>
     <section>
-      <title>Kin Terms Diagram</title>
+      <title>Kin Terms Diagram (transient)</title>
+      <para>A kin terms diagram is a type of diagram created from the use of kin terms, defined, in
+        turn, through kin type strings. Kin terms can be grouped, and each group can be given a
+        different name and colour.</para>
       <para>To <emphasis role="underline">create</emphasis> a kin terms diagram:</para>
       <para>
         <orderedlist>
@@ -1005,7 +1067,10 @@
       </para>
     </section>
     <section>
-      <title>Query Diagram</title>
+      <title>Query Diagram (current project)</title>
+      <para>A query diagram is a project-based diagram whose entities can be searched for through
+        the kin type strings. As for the standard diagram, here as well you can create a project
+        before creating the actual diagram (see Section 2.1). </para>
       <para>To <emphasis role="underline">create</emphasis> a query diagram:</para>
       <para>
         <orderedlist>
@@ -1102,14 +1167,19 @@
     </section>
     <section>
       <title>Template Documents</title>
-      <para>The page of the application with the diagram you are working on can become the template
-        document for KinOath Kinship Archiver. To do so:</para>
+      <para>The initial page of the application, or the one with the diagram you are working on can
+        become the template document for KinOath Kinship Archiver. To do so:</para>
       <para>
         <itemizedlist>
           <listitem>
-            <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold">Set Default
-                Diagram as (</emphasis><emphasis role="italic">name of the
-                diagram</emphasis><emphasis role="bold">)</emphasis>. </para>
+            <para>as for the <emphasis role="underline">initial page of the
+                application</emphasis>:<emphasis role="bold">File</emphasis> menu > <emphasis
+                role="bold">Set Global Default Diagram as (</emphasis><emphasis role="italic">name
+                of the diagram</emphasis><emphasis role="bold">)</emphasis>;</para>
+            <para>as for the <emphasis role="underline">page with your project open</emphasis>:
+                <emphasis role="bold">File</emphasis> menu > <emphasis role="bold">Set Project
+                Default Diagram as (</emphasis><emphasis role="italic">name of the
+                diagram</emphasis><emphasis role="bold">)</emphasis>;</para>
           </listitem>
           <listitem>
             <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold">New (default
