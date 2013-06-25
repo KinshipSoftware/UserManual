@@ -180,6 +180,33 @@
       and all diagrams can be exported into PDF format. The working files are in SVG (Scalable
       Vector Graphics) format, which can be opened in graphics applications or viewed in modern web
       browsers.</para>
+    <para><emphasis role="bold"><emphasis role="underline">Layout
+      options</emphasis></emphasis>:</para>
+    <para>
+      <itemizedlist>
+        <listitem>
+          <para>right click onto the main panel > <emphasis role="bold">Reset zoom</emphasis>: if
+            the diagram has been zoomed in or out, it will return to its default size;</para>
+        </listitem>
+        <listitem>
+          <para>right click onto the main panel > <emphasis role="bold">Reset Layout</emphasis>: use
+            this option when the diagram is not neatly displayed (e.g. when lines and/or labels
+            overlap).</para>
+        </listitem>
+        <listitem>
+          <para>to <emphasis role="underline">zoom the diagram in/out</emphasis>: press <emphasis
+              role="bold">Alt</emphasis> + rotate the mouse wheel</para>
+        </listitem>
+        <listitem>
+          <para>to <emphasis role="underline">move the diagram to the left/right</emphasis>: press
+              <emphasis role="bold">Shift</emphasis> + rotate the mouse wheel</para>
+        </listitem>
+        <listitem>
+          <para>to <emphasis role="underline">scroll the diagram up/down</emphasis>: rotate the
+            mouse wheel. </para>
+        </listitem>
+      </itemizedlist>
+    </para>
     <section id="Sec_Standard_Diagram">
       <title>Standard Diagram (current project)</title>
       <para>A standard diagram is a type of diagram through which you create (and/or work on) a
@@ -433,20 +460,23 @@
                       </screenshot>
                     </figure>
                   </para>
-                  <para>When you create an egocentric diagram, you may want to set one of the
-                    entities present on it as its "starting point". To do so: </para>
-                  <para>Select the entity you want to set as ego > right click > choose <emphasis
-                      role="bold">Set as Ego (list will be cleared)</emphasis>. That entity will go
-                    black.</para>
-                  <para>The text into brackets (<emphasis role="bold">list will be
-                      cleared</emphasis>) means that a diagram can only have one ego. The moment you
-                    try to set a second ego, the other one will return a normal entity again. One
-                    excludes the other.</para>
-                  <para>However, if you have several diagrams, you can set several egos: select the
-                    entity > right click > <emphasis role="bold">Add to ego list</emphasis>. </para>
                 </listitem>
               </itemizedlist>
             </para>
+            <para>When you create an <emphasis role="bold">egocentric diagram</emphasis>, you may
+              want to set one of the entities present on it as its "starting point". To do so: </para>
+            <para>Select the entity you want to set as ego > right click > choose <emphasis
+                role="bold">Set as Ego (list will be cleared)</emphasis>. That entity will go
+              black.</para>
+            <para>The text into brackets (<emphasis role="bold">list will be cleared</emphasis>)
+              means that a diagram can only have one ego. The moment you try to set a second ego,
+              the other one will return a normal entity again. One excludes the other.</para>
+            <para>However, if you have <emphasis role="underline">several diagrams</emphasis>, you
+              can set <emphasis role="underline">several egos</emphasis>: select the entity > right
+              click > <emphasis role="bold">Add to ego list</emphasis>.</para>
+            <para>By contrast, if you want your ego to turn back to a normal entity: select the
+              entity > right click > <emphasis role="bold">Remove from ego list</emphasis>.</para>
+            <para/>
             <para id="para_remove_relations">To <emphasis role="underline">remove
                 relations</emphasis> between entities:</para>
             <para>
@@ -514,6 +544,14 @@
                     <imagedata fileref="images/RelationTypeDefinitionTab.png" contentdepth="100%"
                       scalefit="1" width="100%"/>
                   </imageobject>
+                </mediaobject>
+              </screenshot>
+            </figure>
+            <figure>
+              <title>Example </title>
+              <screenshot>
+                <screeninfo/>
+                <mediaobject>
                   <imageobject>
                     <imagedata fileref="images/CustomizeRelations2.png" contentdepth="100%"
                       scalefit="1" width="100%"/>
@@ -626,8 +664,8 @@
             <para>
               <itemizedlist>
                 <listitem>
-                  <para id="para_open_diagram">if you have data of your own, you can import data in
-                    two different ways: </para>
+                  <para id="para_open_import_diagram">if you have data of your own, you can import
+                    data in two different ways: </para>
                   <para>
                     <itemizedlist>
                       <listitem>
@@ -1199,86 +1237,79 @@
     <title>How to...?</title>
     <para>This chapter is aimed at giving brief and straightforward instructions about how to create
       and to work with the different kinds of diagrams.</para>
-    <para>
-      <itemizedlist>
-        <listitem>
-          <para>How to create a <emphasis role="bold">project</emphasis>: see paragraph <xref
-              linkend="para_create_a_project"/>.</para>
-        </listitem>
-      </itemizedlist>
-    </para>
-    <itemizedlist>
-      <listitem>
-        <para>How to <emphasis role="bold">create a standard diagram</emphasis>: see <xref
-            linkend="Sec_Standard_Diagram"/>.</para>
-        <para>
-          <itemizedlist>
-            <listitem>
-              <para>How to <emphasis role="bold">add entities</emphasis> through the <emphasis
-                  role="bold">right click menu</emphasis>: see paragraph <xref
-                  linkend="para_add_entities_right_click_menu"/>;</para>
-            </listitem>
-            <listitem>
-              <para>How to <emphasis role="bold">add</emphasis> and/or <emphasis role="bold">remove
-                  relations</emphasis>: see respectively paragraph <xref
-                  linkend="para_add-relations"/> and <xref linkend="para_remove_relations"/>;
-              </para>
-            </listitem>
-            <listitem>
-              <para>How to <emphasis role="bold">release</emphasis> and/or <emphasis role="bold"
-                  >delete entities</emphasis>: see paragraph <xref
-                  linkend="para_remove_delete_entities"/>;</para>
-            </listitem>
-            <listitem>
-              <para>How to <emphasis role="bold">add entities</emphasis> to the diagram through the
-                  <emphasis role="bold">search tab</emphasis>: see paragraph <xref
-                  linkend="para_add_entities_search_tab"/>.</para>
-            </listitem>
-          </itemizedlist>
-        </para>
-      </listitem>
-      <listitem>
-        <para>How to <emphasis role="bold">create a freeform diagram</emphasis>: see <xref
-            linkend="Sec_Freeform_Diagram"/></para>
-        <para>
-          <itemizedlist>
-            <listitem>
-              <para>How to use <emphasis role="bold">kin type strings</emphasis>: see paragraphs
-                  <xref linkend="para_kin_type_strings"/> and <xref linkend="para_add_labels"
-                />;</para>
-            </listitem>
-            <listitem>
-              <para>How to <emphasis role="bold">add new kin types</emphasis>: see paragraph <xref
-                  linkend="para_add_new_kin_types"/>.</para>
-            </listitem>
-          </itemizedlist>
-        </para>
-      </listitem>
-      <listitem>
-        <para>How to <emphasis role="bold">create a kin terms diagram</emphasis>: see <xref
-            linkend="Sec_Kin_Terms_Diagram"/></para>
-        <para>
-          <itemizedlist>
-            <listitem>
-              <para>How to fill in the <emphasis role="bold">kin term group table</emphasis>: see
-                paragraph <xref linkend="para_kin_term_group_table"/>. </para>
-            </listitem>
-          </itemizedlist>
-        </para>
-      </listitem>
-      <listitem>
-        <para>How to <emphasis role="bold">create a query diagram</emphasis>: see <xref
-            linkend="Sec_Query_Diagram"/></para>
-        <para>
-          <itemizedlist>
-            <listitem>
-              <para>How to <emphasis role="bold">search for entities into the database</emphasis>:
-                see paragraph <xref linkend="para_search_database"/>.</para>
-            </listitem>
-          </itemizedlist>
-        </para>
-      </listitem>
-    </itemizedlist>
+    <section>
+      <title>How to create a project</title>
+      <para>To create a new project or open an existing one see paragraph <xref
+          linkend="para_create_a_project"/>.</para>
+    </section>
+    <section>
+      <title>How to create a standard diagram</title>
+      <para>To create a standard diagram see <xref linkend="Sec_Standard_Diagram"/>.</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>How to <emphasis role="bold">add entities</emphasis> through the <emphasis
+                role="bold">right click menu</emphasis>: see paragraph <xref
+                linkend="para_add_entities_right_click_menu"/>;</para>
+          </listitem>
+          <listitem>
+            <para>How to <emphasis role="bold">add</emphasis> and/or <emphasis role="bold">remove
+                relations</emphasis>: see respectively paragraph <xref linkend="para_add-relations"
+              /> and <xref linkend="para_remove_relations"/>; </para>
+          </listitem>
+          <listitem>
+            <para>How to <emphasis role="bold">release</emphasis> and/or <emphasis role="bold"
+                >delete entities</emphasis>: see paragraph <xref
+                linkend="para_remove_delete_entities"/>;</para>
+          </listitem>
+          <listitem>
+            <para>How to <emphasis role="bold">add entities</emphasis> to the diagram through the
+                <emphasis role="bold">search tab</emphasis>: see paragraph <xref
+                linkend="para_add_entities_search_tab"/>.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <title>How to create a freeform diagram </title>
+      <para>To create a freeform diagram see <xref linkend="Sec_Freeform_Diagram"/></para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>How to use <emphasis role="bold">kin type strings</emphasis>: see paragraphs <xref
+                linkend="para_kin_type_strings"/> and <xref linkend="para_add_labels"/>;</para>
+          </listitem>
+          <listitem>
+            <para>How to <emphasis role="bold">add new kin types</emphasis>: see paragraph <xref
+                linkend="para_add_new_kin_types"/>.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <title>How to create a kin terms diagram</title>
+      <para>To create a kin terms diagram see <xref linkend="Sec_Kin_Terms_Diagram"/></para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>How to fill in the <emphasis role="bold">kin term group table</emphasis>: see
+              paragraph <xref linkend="para_kin_term_group_table"/>. </para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
+    <section>
+      <title>How to create a query diagram</title>
+      <para>To create a query diagram see <xref linkend="Sec_Query_Diagram"/></para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>How to <emphasis role="bold">search for entities into the database</emphasis>: see
+              paragraph <xref linkend="para_search_database"/>.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </section>
   </chapter>
   <appendix id="app_Menu_options">
     <title>Menu options</title>
@@ -1301,11 +1332,11 @@
               </listitem>
               <listitem>
                 <para><emphasis role="bold">Open Diagram</emphasis>: see paragraph <xref
-                    linkend="para_open_diagram"/>;</para>
+                    linkend="para_open_import_diagram"/>;</para>
               </listitem>
               <listitem>
                 <para><emphasis role="bold">Open Recent Diagram</emphasis>: see paragraph <xref
-                    linkend="para_open_diagram"/>;</para>
+                    linkend="para_open_import_diagram"/>;</para>
               </listitem>
               <listitem>
                 <para><emphasis role="bold">Open Sample Diagram</emphasis>: see paragraph <xref
@@ -1325,11 +1356,11 @@
               </listitem>
               <listitem>
                 <para><emphasis role="bold">Import Gedcom / CSV / TIP file</emphasis>: see paragraph
-                    <xref linkend="para_open_diagram"/>;</para>
+                    <xref linkend="para_open_import_diagram"/>;</para>
               </listitem>
               <listitem>
                 <para><emphasis role="bold">Import Sample Data</emphasis>: see paragraph <xref
-                    linkend="para_open_diagram"/>;</para>
+                    linkend="para_open_import_diagram"/>;</para>
               </listitem>
               <listitem>
                 <para><emphasis role="bold">Save as (<emphasis role="italic">name of the
@@ -1533,6 +1564,10 @@
                         temporary entities of the diagram, i.e. the ones that are released from the
                         diagram when this is saved, and which come out when searched for in a
                         query.</para>
+                      <para>However, the temporary entities under Search Results, can be made
+                        permanent. To do so: select the entity you want to attach to the diagram >
+                        right click > <emphasis role="bold">Attach to diagram</emphasis>. The entity
+                        will go under Attached.</para>
                     </listitem>
                   </itemizedlist>
                 </para>
@@ -1625,7 +1660,7 @@
     <title>Features not available in KinOath 1.3 </title>
     <para>
       <note>
-        <para>As you may have noticed, KinOath 1.2 presents some hidden options. These features are
+        <para>As you may have noticed, KinOath 1.3 presents some hidden options. These features are
           not implemented at the moment, but will be available in the next releases of the
           application. However, they are already available in the current testing version.</para>
       </note>
