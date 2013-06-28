@@ -1685,18 +1685,10 @@
           <para><emphasis role="bold">Delete Group</emphasis> ((File menu > New Diagram of Type >
             Kin Terms Diagram > panel on the right of the page);</para>
         </listitem>
-        <listitem>
-          <para><emphasis role="bold">Archive Data Linker</emphasis> diagram (File menu > New
-            Diagram of Type > Archive Data Linker);</para>
-        </listitem>
-        <listitem>
-          <para><emphasis role="bold">Archive Linker</emphasis> menu (top of the page).</para>
-          <para/>
-        </listitem>
       </orderedlist>
     </para>
-    <para>For further information on KinOath Kinship Archiver, please refer to the following
-      links:</para>
+    <para>For <emphasis role="underline">further information</emphasis> on KinOath Kinship Archiver,
+      please refer to the following links:</para>
     <para>
       <itemizedlist>
         <listitem>
@@ -1705,10 +1697,6 @@
             find a list of already known issues about KinOath 1.2, and of some feature requests
             which will be possibly implemented in the future versions of the application.</para>
         </listitem>
-      </itemizedlist>
-    </para>
-    <para>
-      <itemizedlist>
         <listitem>
           <para><ulink url="http://tla.mpi.nl/tools/tla-tools/kinoath/changes/"
               >http://tla.mpi.nl/tools/tla-tools/kinoath/changes/</ulink>; on this page, by
