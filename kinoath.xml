@@ -5,19 +5,17 @@
   <title>KinOath Kinship Archiver</title>
   <subtitle>Manual</subtitle>
   <bookinfo>
-      <mediaobject>
-        <imageobject>
+    <mediaobject>
+      <imageobject>
         <imagedata fileref="images/KinOath-512.png" contentdepth="100%" scalefit="1" width="100%"/>
       </imageobject>
-      </mediaobject>
-      
-      <orgname>The Language Archive, MPI for Psycholinguistics, Nijmegen, The Netherlands</orgname>
-    
-      <releaseinfo>The latest version can be downloaded from <ulink url="http://tla.mpi.nl/tools/tla-tools/kinoath"
+    </mediaobject>
+    <orgname>The Language Archive, MPI for Psycholinguistics, Nijmegen, The Netherlands</orgname>
+    <releaseinfo>The latest version can be downloaded from <ulink
+        url="http://tla.mpi.nl/tools/tla-tools/kinoath"
         >http://tla.mpi.nl/tools/tla-tools/kinoath</ulink></releaseinfo>
-      <releaseinfo>This manual was last updated in June 2013</releaseinfo>
-      <releaseinfo>Francesca Bechis</releaseinfo>
-      
+    <releaseinfo>This manual was last updated in July 2013</releaseinfo>
+    <releaseinfo>Francesca Bechis</releaseinfo>
   </bookinfo>
   <preface id="Pre_Introduction">
     <title id="Overview">Overview </title>
@@ -37,9 +35,28 @@
         </tbody>
       </informaltable>
     </para>
+    <para/>
+    <para>For <emphasis role="underline">further information</emphasis> on KinOath Kinship Archiver,
+      please refer to the following links:</para>
+    <para>
+      <itemizedlist>
+        <listitem>
+          <para><ulink url="http://tla.mpi.nl/tools/tla-tools/kinoath/requests/"
+              >http://tla.mpi.nl/tools/tla-tools/kinoath/requests/</ulink>; on this page you will
+            find a list of already known issues about KinOath 1.2, and of some feature requests
+            which will be possibly implemented in the future versions of the application.</para>
+        </listitem>
+        <listitem>
+          <para><ulink url="http://tla.mpi.nl/tools/tla-tools/kinoath/changes/"
+              >http://tla.mpi.nl/tools/tla-tools/kinoath/changes/</ulink>; on this page, by
+            contrast, you will see a list showing which changes have been made to which version of
+            the application. </para>
+        </listitem>
+      </itemizedlist>
+    </para>
   </preface>
   <chapter id="Ch_How_to_run_the_application" label="">
-    <title>How to run the application</title>
+    <title>How to run the application: webstart and installation</title>
     <para>KinOath Kinship Archiver is part of the Language Archiving Technology suite. You will find
       a link to the program on the TLA web page <ulink
         url="http://tla.mpi.nl/tools/tla-tools/kinoath"
@@ -103,8 +120,8 @@
               to allow changes to the computer;</para>
           </listitem>
           <listitem>
-            <para>A setup wizards will appear: go through the several steps until when it says
-                <emphasis role="bold">Install</emphasis>;</para>
+            <para>A setup wizards will appear: go through the several steps till it says <emphasis
+                role="bold">Install</emphasis>;</para>
           </listitem>
           <listitem>
             <para>After installing click on <emphasis role="bold">Finish</emphasis>. If you want to
@@ -272,9 +289,9 @@
             <para>
               <itemizedlist>
                 <listitem>
-                  <para><emphasis role="bold">Add Label</emphasis> allows you to enter a label for
-                    your diagram, and you can do it by entering the text into a small window opening
-                    at the bottom of the page when the option is selected.</para>
+                  <para><emphasis role="bold">Add Label</emphasis>, which allows you to enter a
+                    label for your diagram, and you can do it by entering the text into a small
+                    window opening at the bottom of the page when the option is selected.</para>
                 </listitem>
                 <listitem>
                   <para><emphasis role="bold">Add Circle</emphasis>
@@ -423,7 +440,7 @@
             <para>
               <itemizedlist>
                 <listitem>
-                  <para>select how many entities you need (click on them while holding down the ntrl
+                  <para>select how many entities you need (click on them while holding down the Ctrl
                     or Shift key on the keyboard) and right click. You can choose between: <emphasis
                       role="bold">sibling</emphasis>, <emphasis role="bold">ancestor</emphasis>,
                       <emphasis role="bold">descendant</emphasis>, <emphasis role="bold"
@@ -437,7 +454,8 @@
                       >undirected</emphasis> (a bidirectional relation). </para>
                   <para>
                     <note>
-                      <para>as far as ancestor and descendant are concerned, the choice of one or
+                      <para>as far as <emphasis role="underline">ancestor</emphasis> and <emphasis
+                          role="underline">descendant</emphasis> are concerned, the choice of one or
                         the other depends on which entity you select first. In other words: if you
                         select the parent first, then you have to use the descendant relation,
                         whereas if you select the child first, you will have to choose the ancestor
@@ -469,8 +487,9 @@
                 role="bold">Set as Ego (list will be cleared)</emphasis>. That entity will go
               black.</para>
             <para>The text into brackets (<emphasis role="bold">list will be cleared</emphasis>)
-              means that a diagram can only have one ego. The moment you try to set a second ego,
-              the other one will return a normal entity again. One excludes the other.</para>
+              means that a diagram can only have one ego. The moment you try to set a second ego on
+              the same diagram, the other one will return a normal entity again. One excludes the
+              other.</para>
             <para>However, if you have <emphasis role="underline">several diagrams</emphasis>, you
               can set <emphasis role="underline">several egos</emphasis>: select the entity > right
               click > <emphasis role="bold">Add to ego list</emphasis>.</para>
@@ -500,9 +519,9 @@
                 </listitem>
                 <listitem>
                   <para>select the necessary entity > right click > <emphasis role="bold">Release
-                      from diagram</emphasis>. The entity will be removed from the diagram, but in
-                    this case it will remain in the database, unlike with the option <emphasis
-                      role="bold">Delete</emphasis>, just described.</para>
+                      from diagram</emphasis>. The entity will be removed from the diagram you are
+                    working on, but in this case it will remain in the database, unlike with the
+                    option <emphasis role="bold">Delete</emphasis>, just described.</para>
                 </listitem>
               </itemizedlist>
             </para>
@@ -517,7 +536,7 @@
                       Definitions</emphasis> tab. This tab, in turn, is made up of sub-tabs:</para>
                   <para><emphasis role="bold">Custom Name</emphasis>: a free text field to make the
                     relation more specific;</para>
-                  <para><emphasis role="bold">Data Category</emphasis>: the data can have an ISOcat
+                  <para><emphasis role="bold">Data Category</emphasis>: the data can carry an ISOcat
                     link;</para>
                   <para><emphasis role="bold">Relation Type</emphasis>: you can choose among the
                     types seen above (sibling, union, etc.);</para>
@@ -529,8 +548,9 @@
                     continuous lines or dashed lines, with the dashes being thicker or
                     thinner;</para>
                   <para><emphasis role="bold">Curve Line Orientation</emphasis>: you can choose
-                    between horizontal and vertical orientation. This option, however, is not valid
-                    for sanguine relations lines.</para>
+                    between horizontal and vertical orientation. This option, however, is <emphasis
+                      role="underline"><emphasis role="bold">not</emphasis> valid for sanguine
+                      relations lines</emphasis>.</para>
                   <para>Look at the figure below to see how these features work.</para>
                 </listitem>
               </itemizedlist>
@@ -706,6 +726,14 @@
                     in the <emphasis role="bold">Project Tree</emphasis> tab on the left of the
                     page.</para>
                   <para>
+                    <note>
+                      <para>In the project tree you will see only the <emphasis role="underline"
+                          >top-level ancestors</emphasis> of the genealogical tree, so that very big
+                        database, with a big amount of entities, will not result too
+                        confusing.</para>
+                    </note>
+                  </para>
+                  <para>
                     <figure>
                       <title>Import process</title>
                       <screenshot>
@@ -744,8 +772,9 @@
                 <listitem>
                   <para>in the white field located below the just mentioned option enter the
                     necessary kin type strings (you can find a list of the main kin type strings
-                    below in Section 2.2 <xref linkend="para_kin_type_strings"/>). As you enter
-                    different strings, the diagram updates itself accordingly.</para>
+                    below in <xref linkend="Sec_Freeform_Diagram"/>
+                    <xref linkend="para_kin_type_strings"/>). As you enter different strings, the
+                    diagram updates itself accordingly.</para>
                   <para>
                     <figure>
                       <title>Search Entities tab</title>
@@ -1450,8 +1479,7 @@
               </listitem>
               <listitem>
                 <para><emphasis role="bold">Show Sanguin Lines</emphasis>: if this option is
-                  unchecked, the sanguine lines connecting one entity to the other
-                  disappear.</para>
+                  unchecked, the sanguine lines connecting one entity to the other disappear.</para>
               </listitem>
               <listitem>
                 <para><emphasis role="bold">Show Labels</emphasis>: if this option is unchecked, the
@@ -1654,56 +1682,6 @@
           </para>
         </listitem>
       </orderedlist>
-    </para>
-  </appendix>
-  <appendix id="app_Features_not_available">
-    <title>Features not available in KinOath 1.3 </title>
-    <para>
-      <note>
-        <para>As you may have noticed, KinOath 1.3 presents some hidden options. These features are
-          not implemented at the moment, but will be available in the next releases of the
-          application. However, they are already available in the current testing version.</para>
-      </note>
-    </para>
-    <para>
-      <orderedlist>
-        <listitem>
-          <para><emphasis role="bold">Export as JPEG/PNG/TIFF</emphasis> (File menu) [<emphasis
-              role="underline">Note: PDF format works!</emphasis>]. These feature fails on the
-            webstart, but it works if KinOath is installed;</para>
-        </listitem>
-        <listitem>
-          <para><emphasis role="bold">Add Polyline</emphasis> (Standard Diagram > right click menu >
-            Add Geometry);</para>
-        </listitem>
-        <listitem>
-          <para><emphasis role="bold">Propositus Kin Type Strings</emphasis> (File menu > New
-            Diagram of Type > Kin Terms Diagram > table on the right of the page > third
-            column);</para>
-        </listitem>
-        <listitem>
-          <para><emphasis role="bold">Delete Group</emphasis> ((File menu > New Diagram of Type >
-            Kin Terms Diagram > panel on the right of the page);</para>
-        </listitem>
-      </orderedlist>
-    </para>
-    <para>For <emphasis role="underline">further information</emphasis> on KinOath Kinship Archiver,
-      please refer to the following links:</para>
-    <para>
-      <itemizedlist>
-        <listitem>
-          <para><ulink url="http://tla.mpi.nl/tools/tla-tools/kinoath/requests/"
-              >http://tla.mpi.nl/tools/tla-tools/kinoath/requests/</ulink>; on this page you will
-            find a list of already known issues about KinOath 1.2, and of some feature requests
-            which will be possibly implemented in the future versions of the application.</para>
-        </listitem>
-        <listitem>
-          <para><ulink url="http://tla.mpi.nl/tools/tla-tools/kinoath/changes/"
-              >http://tla.mpi.nl/tools/tla-tools/kinoath/changes/</ulink>; on this page, by
-            contrast, you will see a list showing which changes have been made to which version of
-            the application. </para>
-        </listitem>
-      </itemizedlist>
     </para>
   </appendix>
 </book>
