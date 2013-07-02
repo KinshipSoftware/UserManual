@@ -359,8 +359,8 @@
                 </screenshot>
               </figure>
             </para>
-            <para>As far as <emphasis role="bold">kinship data</emphasis> are concerned, you
-              can:</para>
+            <para id="para_custom_fields">As far as <emphasis role="bold">kinship data</emphasis>
+              are concerned, you can:</para>
             <para>
               <itemizedlist>
                 <listitem>
@@ -397,9 +397,8 @@
                   </para>
                 </listitem>
                 <listitem>
-                  <para id="para_custom_fields">decide <emphasis role="underline">which custom
-                      fields need to be shown</emphasis> on the diagram next to the entity. To do
-                    so: </para>
+                  <para>decide <emphasis role="underline">which custom fields need to be
+                      shown</emphasis> on the diagram next to the entity. To do so: </para>
                   <para>
                     <orderedlist>
                       <listitem>
@@ -680,13 +679,12 @@
       <para>
         <orderedlist>
           <listitem>
-            <para>First of all, you have to <emphasis role="underline">import data</emphasis>. To do
-              so:</para>
+            <para id="para_open_import_diagram">First of all, you have to <emphasis role="underline"
+                >import data</emphasis>. To do so:</para>
             <para>
               <itemizedlist>
                 <listitem>
-                  <para id="para_open_import_diagram">if you have data of your own, you can import
-                    data in two different ways: </para>
+                  <para>if you have data of your own, you can import data in two different ways: </para>
                   <para>
                     <itemizedlist>
                       <listitem>
@@ -921,12 +919,12 @@
                   <para>
                     <itemizedlist>
                       <listitem>
-                        <para id="para_Id_labels"><emphasis role="italic">Id</emphasis>: an Id is
-                          added when the same kin type definition is used for different entities, so
-                          that you are able to distinguish them; it is represented by a #-sign
-                          followed by a number. So, for example, if you have two male egos, one will
-                          be simply <emphasis role="italic">Em</emphasis>, and the other <emphasis
-                            role="italic">Em:#1</emphasis>. </para>
+                        <para><emphasis role="italic">Id</emphasis>: an Id is added when the same
+                          kin type definition is used for different entities, so that you are able
+                          to distinguish them; it is represented by a #-sign followed by a number.
+                          So, for example, if you have two male egos, one will be simply <emphasis
+                            role="italic">Em</emphasis>, and the other <emphasis role="italic"
+                            >Em:#1</emphasis>. </para>
                         <para>You can decide whether to show or hide the Ids. To show them:
                             <emphasis role="bold">Diagram Options</emphasis> > check the item
                             <emphasis role="bold">Show Id Labels</emphasis>. Leave it unchecked to
@@ -979,8 +977,7 @@
                       diagram</emphasis>.</para>
                 </listitem>
                 <listitem>
-                  <para id="para_recalculate_diagram">If you want to modify such diagram, you
-                    can:</para>
+                  <para>If you want to modify such diagram, you can:</para>
                   <para>
                     <itemizedlist>
                       <listitem>
@@ -1124,8 +1121,8 @@
             </para>
           </listitem>
           <listitem id="para_export_import">
-            <para>To <emphasis role="underline">save</emphasis> the diagram: see Section 2.1, point
-              6.</para>
+            <para>To <emphasis role="underline">save</emphasis> the diagram: see <xref
+                linkend="Sec_Standard_Diagram"/>, point 6.</para>
             <para>You can also save/export the kin terms diagram you have created via <emphasis
                 role="bold">Kin Terms</emphasis> menu > <emphasis role="bold">Export</emphasis> >
               choose a file name and a directory > <emphasis role="bold">Save</emphasis>.</para>
@@ -1286,24 +1283,23 @@
       <para>
         <itemizedlist>
           <listitem>
-            <para>as for the <emphasis role="underline">initial page of the
-                application</emphasis>:<emphasis role="bold">File</emphasis> menu > <emphasis
-                role="bold">Set Global Default Diagram as (</emphasis><emphasis role="italic">name
-                of the diagram</emphasis><emphasis role="bold">)</emphasis>;</para>
+            <para>as for the <emphasis role="underline">initial page of the application</emphasis>:
+              decide which page (standard diagram, freeform diagram, etc.) you want to be your
+              template document > <emphasis role="bold">File</emphasis> menu > <emphasis role="bold"
+                >Set Global Default Diagram as (</emphasis><emphasis role="italic">name of the
+                diagram</emphasis><emphasis role="bold">)</emphasis>; next time you open the
+              application or a new default diagram, you will see that particular page.</para>
+          </listitem>
+          <listitem>
             <para>as for the <emphasis role="underline">page with your project open</emphasis>:
                 <emphasis role="bold">File</emphasis> menu > <emphasis role="bold">Set Project
                 Default Diagram as (</emphasis><emphasis role="italic">name of the
-                diagram</emphasis><emphasis role="bold">)</emphasis>;</para>
-          </listitem>
-          <listitem>
-            <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold">New (default
-                diagram)</emphasis> > the application will open showing the page/diagram you set as
-              default.</para>
-            <para>The same thing happens when you close and re-open the application.</para>
-          </listitem>
-          <listitem>
-            <para>To continue working on that diagram you need to recalculate it (see paragraph
-                <xref linkend="para_recalculate_diagram"/>).</para>
+                diagram</emphasis><emphasis role="bold">)</emphasis>; next time you open this
+              project you will see the diagram previously created in the main panel. Otherwise, if
+              you open a project which was not set as default, you will only see the list of
+              entities making up the diagram in the project tree on the left of the page.</para>
+            <para>To continue working on that diagram you need to recalculate it first (see
+              paragraph <xref linkend="para_sample_diagram"/>).</para>
           </listitem>
         </itemizedlist>
       </para>
@@ -1315,7 +1311,7 @@
       and to work with the different kinds of diagrams.</para>
     <section>
       <title>How to create a project</title>
-      <para>To create a new project or open an existing one see paragraph <xref
+      <para>To create a new project or open an existing one see <xref
           linkend="para_create_a_project"/>.</para>
     </section>
     <section>
@@ -1340,7 +1336,7 @@
           </listitem>
           <listitem>
             <para>How to <emphasis role="bold">add entities</emphasis> to the diagram through the
-                <emphasis role="bold">search tab</emphasis>: see paragraph <xref
+                <emphasis role="bold">search tab</emphasis>: see <xref
                 linkend="para_add_entities_search_tab"/>.</para>
           </listitem>
         </itemizedlist>
@@ -1403,7 +1399,7 @@
                     linkend="Sec_Template_Documents"/>;</para>
               </listitem>
               <listitem>
-                <para><emphasis role="bold">New Diagram of Type</emphasis>: see paragraph <xref
+                <para><emphasis role="bold">New Diagram of Type</emphasis>: see <xref
                     linkend="para_new_diagram"/>;</para>
               </listitem>
               <listitem>
@@ -1419,15 +1415,15 @@
                     linkend="para_sample_diagram"/></para>
               </listitem>
               <listitem>
-                <para><emphasis role="bold">New Project</emphasis>: see paragraph <xref
+                <para><emphasis role="bold">New Project</emphasis>: see <xref
                     linkend="para_create_a_project"/>;</para>
               </listitem>
               <listitem>
-                <para><emphasis role="bold">Open Project</emphasis>: see paragraph <xref
+                <para><emphasis role="bold">Open Project</emphasis>: see <xref
                     linkend="para_create_a_project"/>;</para>
               </listitem>
               <listitem>
-                <para><emphasis role="bold">Open Recent Project</emphasis>: see paragraph <xref
+                <para><emphasis role="bold">Open Recent Project</emphasis>: see <xref
                     linkend="para_create_a_project"/>;</para>
               </listitem>
               <listitem>
@@ -1458,12 +1454,12 @@
               </listitem>
               <listitem>
                 <para><emphasis role="bold">Set Global Default Diagram as (<emphasis role="italic"
-                      >name of the diagram</emphasis>)</emphasis>: see paragraph <xref
+                      >name of the diagram</emphasis>)</emphasis>: see <xref
                     linkend="Sec_Template_Documents"/>;</para>
               </listitem>
               <listitem>
                 <para><emphasis role="bold">Set Project Default Diagram as (<emphasis role="italic"
-                      >name of the diagram</emphasis>)</emphasis>: see paragraph <xref
+                      >name of the diagram</emphasis>)</emphasis>: see <xref
                     linkend="Sec_Template_Documents"/>;</para>
               </listitem>
               <listitem>
@@ -1499,7 +1495,7 @@
               </listitem>
               <listitem>
                 <para><emphasis role="bold">Recalculate the Diagram</emphasis>: see paragraph <xref
-                    linkend="para_recalculate_diagram"/>.</para>
+                    linkend="para_sample_diagram"/>.</para>
               </listitem>
             </itemizedlist>
           </para>
@@ -1540,7 +1536,7 @@
               </listitem>
               <listitem>
                 <para><emphasis role="bold">Show Id Labels</emphasis>: see paragraph <xref
-                    linkend="para_Id_labels"/>.</para>
+                    linkend="para_add_labels"/>.</para>
               </listitem>
               <listitem>
                 <para><emphasis role="bold">Show Date Labels</emphasis>: when you create individuals
@@ -1657,7 +1653,7 @@
                   Diagram <xref linkend="Sec_Query_Diagram"/>).</para>
               </listitem>
               <listitem>
-                <para><emphasis role="bold">Search Entities</emphasis>: see paragraph <xref
+                <para><emphasis role="bold">Search Entities</emphasis>: see <xref
                     linkend="para_add_entities_search_tab"/>.</para>
               </listitem>
             </itemizedlist>
