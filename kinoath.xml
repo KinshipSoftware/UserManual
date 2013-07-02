@@ -2,8 +2,7 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 <book>
-  <title>KinOath Kinship Archiver</title>
-  <subtitle>Manual</subtitle>
+  <title>KinOath Kinship Archiver 1.3</title>
   <bookinfo>
     <mediaobject>
       <imageobject>
@@ -55,7 +54,7 @@
       </itemizedlist>
     </para>
   </preface>
-  <chapter id="Ch_How_to_run_the_application" label="">
+  <chapter id="Ch_How_to_run_the_application">
     <title>How to run the application: webstart and installation</title>
     <para>KinOath Kinship Archiver is part of the Language Archiving Technology suite. You will find
       a link to the program on the TLA web page <ulink
@@ -188,6 +187,9 @@
         </listitem>
         <listitem>
           <para>how to create a Query Diagram;</para>
+        </listitem>
+        <listitem>
+          <para>how to create an Archive Data Linker Diagram;</para>
         </listitem>
         <listitem>
           <para>how to deal with the several features related to the above mentioned
@@ -630,8 +632,7 @@
               <listitem>
                 <para><emphasis role="bold">Export as PDF/JPEG/PNG/TIFF</emphasis>: this option
                   allows you to export files (in one of the following formats: PDF, JPEG, PNG and
-                  TIFF) to a directory in your computer (see <xref
-                    linkend="app_Features_not_available"/>). As in the previous option, <emphasis
+                  TIFF) to a directory in your computer. As in the previous option, <emphasis
                     role="bold">Save as</emphasis>, when selecting <emphasis role="bold">Export
                     as</emphasis> you will be asked to choose a directory and a file name plus, in
                   this case, a file format. </para>
@@ -936,6 +937,9 @@
                         </para>
                       </listitem>
                       <listitem>
+                        <para><emphasis role="italic">surname</emphasis></para>
+                      </listitem>
+                      <listitem>
                         <para><emphasis role="italic">date of birth</emphasis></para>
                       </listitem>
                       <listitem>
@@ -1036,8 +1040,8 @@
                     the letters listed in <xref linkend="Sec_Freeform_Diagram"/>, point 2;</para>
                 </listitem>
                 <listitem>
-                  <para><emphasis role="bold">Propositus Kin Type Strings</emphasis>
-                  </para>
+                  <para><emphasis role="bold">Propositus Kin Type Strings</emphasis>: <emphasis
+                      role="italic">this option is not yet functional</emphasis>;</para>
                 </listitem>
                 <listitem>
                   <para><emphasis role="bold">Description</emphasis>: here you explain your kin
@@ -1112,7 +1116,9 @@
                   <para><emphasis role="underline">to delete some of the kin terms</emphasis> >
                     check the corresponding little squares on the right of the column <emphasis
                       role="bold">Description</emphasis> and click on <emphasis role="bold">Delete
-                      Selected</emphasis>; </para>
+                      Selected</emphasis>. The option to <emphasis role="underline">delete the whole
+                      kin terms group</emphasis> (<emphasis role="bold">Delete Group</emphasis>) is
+                      <emphasis role="italic">not yet functional</emphasis>. </para>
                 </listitem>
               </itemizedlist>
             </para>
@@ -1134,7 +1140,7 @@
     <section id="Sec_Query_Diagram">
       <title>Query Diagram (current project)</title>
       <para>A query diagram is a project-based diagram whose entities can be searched for through
-        the kin type strings. As for the standard diagram, here as well you can create a project
+        the kin type strings. Like with the standard diagram, here as well you can create a project
         before creating the actual diagram (see paragraph <xref linkend="para_create_a_project"/> ). </para>
       <para>To <emphasis role="underline">create</emphasis> a query diagram:</para>
       <para>
@@ -1192,9 +1198,9 @@
                       </listitem>
                       <listitem>
                         <para>Take the specific entity you are looking for and drag it to the
-                            <emphasis role="bold">Kin Type Strings</emphasis> panel, preceded by the
-                          E of ego. This will appear on the main panel. Add other kin strings if you
-                          want to modify your query.</para>
+                            <emphasis role="bold">Kin Type Strings</emphasis> panel, preceded by 'E'
+                          or 'x', which stand for 'undefined ego'. This will appear on the main
+                          panel. Add other kin strings if you want to modify your query.</para>
                         <para>
                           <figure>
                             <title>Query Diagram example 2</title>
@@ -1217,8 +1223,8 @@
             </para>
           </listitem>
           <listitem>
-            <para>To <emphasis role="underline">save</emphasis> the diagram: see Section 2.1, point
-              6.</para>
+            <para>To <emphasis role="underline">save</emphasis> the diagram: see <xref
+                linkend="Sec_Standard_Diagram"/>, point 6.</para>
             <para>
               <note>
                 <para>The application contains a couple of sample query diagrams, named <emphasis
@@ -1227,6 +1233,47 @@
                     >File</emphasis> menu > <emphasis role="bold">Open Sample Diagram</emphasis>.
                 </para>
               </note>
+            </para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </section>
+    <section>
+      <title>Archive Data Linker (current project)</title>
+      <para>An archive data linker diagram works, broadly speaking, in the same way as the archive
+        linker panel does (see paragraph <xref linkend="para_link_archive_data"/>). Like the
+        standard and the query diagram, the archive data linker diagram is project-based. To see how
+        to create a project see <xref linkend="para_create_a_project"/> above. </para>
+      <para>To <emphasis role="underline">create</emphasis> an archive data linker diagram:</para>
+      <para>
+        <orderedlist>
+          <listitem>
+            <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold">New Diagram of
+                Type</emphasis> > <emphasis role="bold">Archive Data Linker (current
+                project)</emphasis>; a new page of the application will open, with a tab on the
+              right called <emphasis role="bold">Archive Linker</emphasis> and showing the whole
+              IMDI Browser tree (according to whether you have been using Arbil, you may see three
+              tabs instead of one, all of them called <emphasis role="bold">Archive
+                Linker</emphasis>, but containing different trees).</para>
+          </listitem>
+          <listitem>
+            <para>Once you have your diagram ready, select the required archive link from the
+              archive linker tree on the right of the page and drag it to the specific entity under
+              the diagram tree on the left. The entity on the diagram will now carry the archive
+              reference. See figure below.</para>
+            <para>
+              <figure>
+                <title>Archive Data Linker diagram</title>
+                <screenshot>
+                  <screeninfo/>
+                  <mediaobject>
+                    <imageobject>
+                      <imagedata fileref="images/ArchiveDataLinkerDiagram.png" contentdepth="100%"
+                        scalefit="1" width="100%"/>
+                    </imageobject>
+                  </mediaobject>
+                </screenshot>
+              </figure>
             </para>
           </listitem>
         </orderedlist>
@@ -1250,7 +1297,7 @@
           </listitem>
           <listitem>
             <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold">New (default
-                diagram)</emphasis> > the application will open showing the diagram you set as
+                diagram)</emphasis> > the application will open showing the page/diagram you set as
               default.</para>
             <para>The same thing happens when you close and re-open the application.</para>
           </listitem>
@@ -1342,9 +1389,9 @@
   </chapter>
   <appendix id="app_Menu_options">
     <title>Menu options</title>
-    <para>Here is a comprehensive list of all the options that you can find located under the
-      several menus of the application. Those which have already been explained only report a link
-      to the relevant part of the manual. The others, by contrast, carry a brief explanation.</para>
+    <para>Here is a comprehensive list of all the options that you can find under the several menus
+      of the application. Those which have already been explained only report a link to the relevant
+      part of the manual. The others, by contrast, carry a brief explanation.</para>
     <para>
       <orderedlist>
         <listitem>
@@ -1504,10 +1551,9 @@
               <listitem>
                 <para><emphasis role="bold">Show Archive Links</emphasis>: this option is valid for
                   the Gedcom imports that have resources (and for the diagram type <emphasis
-                    role="bold">Archive Data Linker</emphasis> which, however, is not yet
-                  functional). In both cases, the entities that are placed into the diagram will
-                  carry a label of the type: "archive ref.: 1, 2, etc.". Such label disappears if
-                  this option is unchecked.</para>
+                    role="bold">Archive Data Linker</emphasis>). In both cases, the entities that
+                  are placed into the diagram will carry a label of the type: "archive ref.: 1, 2,
+                  etc.". Such label disappears if this option is unchecked.</para>
               </listitem>
               <listitem>
                 <para><emphasis role="bold">Settings</emphasis>: by selecting this option a dialog
