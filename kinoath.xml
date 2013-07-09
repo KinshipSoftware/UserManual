@@ -42,8 +42,9 @@
         <listitem>
           <para><ulink url="http://tla.mpi.nl/tools/tla-tools/kinoath/requests/"
               >http://tla.mpi.nl/tools/tla-tools/kinoath/requests/</ulink>; on this page you will
-            find a list of already known issues about KinOath 1.2, and of some feature requests
-            which will be possibly implemented in the future versions of the application.</para>
+            find a list of already known issues about the current version, and of some feature
+            requests which will be possibly implemented in the future versions of the
+            application.</para>
         </listitem>
         <listitem>
           <para><ulink url="http://tla.mpi.nl/tools/tla-tools/kinoath/changes/"
@@ -69,9 +70,9 @@
         </listitem>
         <listitem>
           <para>through one of the installers provided. Installers are available for <emphasis
-              role="bold">Windows</emphasis>, <emphasis role="bold">MacOS</emphasis> and <emphasis
-              role="bold">Debian</emphasis>. See sections below for more detailed
-            information.</para>
+              role="bold">Windows</emphasis>, <emphasis role="bold">Debian</emphasis>, and <emphasis
+              role="bold">MacOS</emphasis>. See sections below for more detailed information about
+            the installation process.</para>
         </listitem>
       </itemizedlist>
     </para>
@@ -209,8 +210,7 @@
         </listitem>
         <listitem>
           <para>right click onto the main panel > <emphasis role="bold">Reset Layout</emphasis>: use
-            this option when the diagram is not neatly displayed (e.g. when lines and/or labels
-            overlap).</para>
+            this option when you want the entities of the diagram to be differently displayed; </para>
         </listitem>
         <listitem>
           <para>to <emphasis role="underline">zoom the diagram in/out</emphasis>: press <emphasis
@@ -232,8 +232,8 @@
           <emphasis role="underline">project database</emphasis>. A standard diagram is created
         through the adding of individuals (or other kind of entities such as social events or kin
         terms) and of relations between them. </para>
-      <para id="para_create_a_project">First of all, you should <emphasis role="underline">create a
-          project</emphasis>. To do so:</para>
+      <para id="para_create_a_project">First of all, you may want to <emphasis role="underline"
+          >create a project</emphasis>. To do so:</para>
       <para>
         <orderedlist>
           <listitem>
@@ -335,9 +335,7 @@
                 Entities</emphasis> when, for example, you have two separate entities carrying
               different pieces of information, and you find them to be the same individual.
               Therefore, you want to make them merge into a single entity. What results from the
-              merger is a single individual carrying the information of the two merged entities.
-              [NOTE: at the moment it only merges the entities but not the kinship data that such
-              entities carry] </para>
+              merger is a single entity carrying the data of both entities which have been merged . </para>
           </listitem>
           <listitem>
             <para>Select the entity you have created. At the bottom of the page you will see a table
@@ -514,15 +512,16 @@
             <para>
               <itemizedlist>
                 <listitem>
-                  <para>select the necessary entity > right click > <emphasis role="bold"
-                      >Delete</emphasis>. The entity will be deleted from the database and from all
-                    diagrams. </para>
+                  <para>select the necessary entity > right click > <emphasis role="bold">Delete
+                      selected from project</emphasis>. The entity will be deleted from the database
+                    and from all diagrams. </para>
                 </listitem>
                 <listitem>
                   <para>select the necessary entity > right click > <emphasis role="bold">Release
                       from diagram</emphasis>. The entity will be removed from the diagram you are
                     working on, but in this case it will remain in the database, unlike with the
-                    option <emphasis role="bold">Delete</emphasis>, just described.</para>
+                    option <emphasis role="bold">Delete selected form project</emphasis>, just
+                    described.</para>
                 </listitem>
               </itemizedlist>
             </para>
@@ -694,8 +693,8 @@
                       </listitem>
                       <listitem>
                         <para><emphasis role="bold">File</emphasis> menu > <emphasis role="bold"
-                            >Import Gedcom/CSV/TIP file</emphasis> > choose the necessary file >
-                            <emphasis role="bold">Open</emphasis>;</para>
+                            >Import Gedcom/CSV/TIP file (into current project)</emphasis> > choose
+                          the necessary file > <emphasis role="bold">Open</emphasis>;</para>
                       </listitem>
                     </itemizedlist>
                   </para>
@@ -715,8 +714,8 @@
                 <listitem>
                   <para>otherwise, if you want to become more familiar with the application, you can
                     use the sample data contained into the application itself: <emphasis role="bold"
-                      >File</emphasis> menu > <emphasis role="bold">Import Sample Data</emphasis> >
-                    choose the data you want to import. </para>
+                      >File</emphasis> menu > <emphasis role="bold">Import Sample Data (into current
+                      project)</emphasis> > choose the data you want to import. </para>
                 </listitem>
                 <listitem>
                   <para>when you start the import, a window like the one below appears. Select
@@ -1427,12 +1426,13 @@
                     linkend="para_create_a_project"/>;</para>
               </listitem>
               <listitem>
-                <para><emphasis role="bold">Import Gedcom / CSV / TIP file</emphasis>: see paragraph
-                    <xref linkend="para_open_import_diagram"/>;</para>
+                <para><emphasis role="bold">Import Gedcom / CSV / TIP file (into current
+                    project)</emphasis>: see paragraph <xref linkend="para_open_import_diagram"
+                  />;</para>
               </listitem>
               <listitem>
-                <para><emphasis role="bold">Import Sample Data</emphasis>: see paragraph <xref
-                    linkend="para_open_import_diagram"/>;</para>
+                <para><emphasis role="bold">Import Sample Data (into current project)</emphasis>:
+                  see paragraph <xref linkend="para_open_import_diagram"/>;</para>
               </listitem>
               <listitem>
                 <para><emphasis role="bold">Save as (<emphasis role="italic">name of the
